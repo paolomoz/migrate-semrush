@@ -131,6 +131,47 @@ Surfaced when authoring `stardust/target/_brand-extraction.json`:
 - **`data-items` semantics ambiguous.** The format spec doesn't distinguish "cards" from "content units" — when a section is a 4-card grid where each card has 3 content slots, is `data-items=4` or `data-items=12`? Author guessed; should be defined.
 - **Token contract `--max-width` is dual-mapped.** Maps to both `DESIGN.json.frontmatter.layout.max-content-width` and `extensions.tokenContract.mapping['--max-width']` with potentially different values. Spec should say which is canonical.
 
+### G21. Anti-toolbox audit / `audit_hits[]` schema needs a `deliberateViolation` flag
+
+- **What we hit:** v2 verbatim render trips ~10 P1 audit warnings (uppercase headings, 3-CTA hero density, multi-clause taglines, banner-with-no-slot) that would block `prototyped` status. But every one of these violations is **user-directed** — the whole point of v2 is to preserve semrush copy verbatim, including the structural moves Adobe DS forbids. The audit schema today treats all violations as fix-or-block.
+- **Why it's a gap:** Audit needs to distinguish "system violation we should fix" from "system violation user directed us to commit and accept the consequence." Without that distinction, an adopt-mode prototype that intentionally breaks rules (e.g., a verbatim-copy variant for A/B comparison) can never clear the gate.
+- **Proposed fix:** Add to `audit_hits[]` schema:
+  ```
+  { rule, hit_count, justification, deliberateViolation: true|false, directedBy?: "user"|"direction.md"|null, basis?: "..." }
+  ```
+  When `deliberateViolation: true`, the gate skips the block and records the hit as advisory in `_provenance.deliberateViolations[]`. Same shape works for the F-002 contract's `unsourcedContent[]` if/when a content rule is intentionally relaxed.
+
+### G22. Adopt-mode needs a "voice-coupled component" flag in DESIGN.json
+
+- **What we hit:** v2 made the visual + voice mismatch concrete — Adobe visuals + semrush verbatim copy degrades cleanly in most sections (footer, sticky CTA, dark-band, gnav, mosaic hero ground are unaffected) but visibly breaks in three: hero CTA cluster, hub-router tagline shape, eyebrow-with-count parentheticals. These are components whose visual integrity *depends* on the target register being adopted; verbatim source copy breaks them.
+- **Why it's a gap:** A future `/stardust:adopt` skill (or a v2-aware prototype skill) should know which components are register-coupled vs register-agnostic, so the agent can flag those three component classes up-front when verbatim mode is requested. Currently the agent has no signal — it discovers the breakage by rendering and reading the result.
+- **Proposed fix:** Add to `DESIGN.json.extensions.componentStyle.<name>`:
+  ```
+  voiceCoupling: "high"|"medium"|"low",
+  voiceCouplingNotes: "..." (e.g., "Hero designed for 1+1 CTA pair; 3+ CTAs collapses negative space")
+  ```
+  At adopt time, components with `voiceCoupling: high` get a render-time warning if verbatim mode would force a violation. Surface in the shape brief's "voice-coupling risks" section.
+
+### G22a (related). DESIGN schema needs an "eyebrow with count" token
+
+- **What we hit:** semrush's `SOLUTIONS ( 9 )`, `RESOURCES ( 7 )` are taxonomy-bleed at first glance but are load-bearing UX cues — they tell the reader "this is a curated set of N, not an open list." Adobe DS has no eyebrow-with-count slot, so the parenthetical reads as cruft visually.
+- **Proposed fix:** Add `t-eyebrow-with-count` to `DESIGN.json.extensions.componentStyle.text` as a first-class affordance with appropriate styling for the parenthetical (smaller weight, tabular figures, opacity step).
+
+### G23. Source-mining mode should be a first-class extraction concept
+
+- **What we hit:** v2 lifted ~50 placeholders from v1 by mining `home.json#main.innerText` and `home.json#footer.innerText` — strings that are *captured* but not in discrete `headings[]` / `links[]` / `ctas[]` arrays. v1 left these on the table because the prototype skill's content-sourcing hierarchy reads from structured fields. The strings exist; they're just behind a less-structured key.
+- **Why it's a gap:** Two consecutive prototypes from the same `home.json` produced 111 vs 75 placeholders (32% reduction) just from mining innerText. The first-pass placeholder count is therefore not a real signal of source data depth — it reflects only the structured-extract surface.
+- **Proposed fix:** Either
+  - (a) Extract should normalize innerText into structured slots at capture time (e.g., `home.json#sections[].body.text` arrays). More work upfront, cleaner downstream.
+  - (b) Prototype should add a `mineInnerText: true` content-sourcing tier between structured-fields and PLACEHOLDER, with a `_provenance.sourceMining[]` audit field recording which strings came from regex-on-innerText vs structured fields.
+  Recommend (a) — keeps the data structure honest at extract time. (b) is the workaround until then.
+
+### G24. Pattern-fitting can erase semantic information that the source ranks
+
+- **What we hit:** semrush's 9 pillars ship in two strata — 5 headline pillars (Semrush One, SEO, AI Visibility, Traffic & Market, Content) and 4 demoted (Local at slide 6, Advertising at 7, AI PR at 8, Social at 9). Adobe's perks 4-up renders the demoted four as coequal cards, erasing the source's ranking. v1 and v2 both lost it.
+- **Why it's a gap:** Component-fitting (cf. G18) doesn't preserve semantic ordering when the source's ranking is structural (DOM order or explicit slide-of-N) rather than visually obvious. Adopt-mode shape-authoring should flag rank-bearing source structures whose target component lacks a rank affordance.
+- **Proposed fix:** In adopt shape brief, add `## Rank-bearing structures` — for each source structure with implicit ranking, document whether the target DS preserves or erases it, and whether the brief authoring intends to preserve it via positioning, ordering, or visual weight (e.g., first card emphasized).
+
 ### G20. Phase 3 viewer's action buttons have no listener in the file:// agent context
 
 - **What we hit:** `before-after-shell.md` describes Approve/Stash buttons that "postMessage to `window.parent`" or "copy a command to clipboard" — but the viewer opens as a `file://` page with no parent window and no agent-side listener. Subagent implemented a graceful fallback (postMessage attempt → toast with the literal user-prompt fallback if no parent), but the spec assumes a runtime hook that doesn't exist in the CLI/agent-loop flow.
