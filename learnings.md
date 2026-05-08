@@ -131,6 +131,43 @@ Surfaced when authoring `stardust/target/_brand-extraction.json`:
 - **`data-items` semantics ambiguous.** The format spec doesn't distinguish "cards" from "content units" — when a section is a 4-card grid where each card has 3 content slots, is `data-items=4` or `data-items=12`? Author guessed; should be defined.
 - **Token contract `--max-width` is dual-mapped.** Maps to both `DESIGN.json.frontmatter.layout.max-content-width` and `extensions.tokenContract.mapping['--max-width']` with potentially different values. Spec should say which is canonical.
 
+### G25. DESIGN.json gradient + blend-mode catalogs missing — major content-extraction gap
+
+- **What we hit:** v3 needed gradients for hero ground, headline fill, light-leak conic, multiply-tint photo overlay. The Adobe DS source (bizpro-hub.html, hub/styles/) ships at least 5 distinct gradient declarations and uses `mix-blend-mode` in 3 places. None of these surface in `DESIGN.json#extensions.motifs.gradients[]` (empty) or any `mixBlendModes[]` field (doesn't exist). The inverse-extract pass at stage 1b captured palette stops in `colorMeta` but not the gradient *recipes* (stops + angles + blend modes) that ARE the visual signature.
+- **Why it's a gap:** Adopting a motion-led, gradient-rich DS without capturing its gradient catalog forces every prototype to re-discover gradients from the source files. It's also a measurable accuracy loss (G2b flagged "gradient stops invisible to extract"; G25 confirms that's still true even after manual stage-1b adoption).
+- **Proposed fix:** Add to `DESIGN.json#extensions.motifs`:
+  - `gradients[]` — `{ id, type: "linear"|"radial"|"conic", stops[], angle?, position?, animation?: keyframes-spec, _source }`
+  - `blendModes[]` — `{ surface, mode: "multiply"|"screen"|"overlay"|"soft-light"|..., _source }`
+  - `lightEffects[]` — film-grain noise, light-leak rotations, ambient blurs as named patterns.
+  These are first-class for cinematic adopt mode. A future `/stardust:adopt` should grep CSS for `linear-gradient(`, `radial-gradient(`, `conic-gradient(`, and `mix-blend-mode:` and emit them automatically.
+
+### G26. Motion catalog needs an `interaction` primitive enum
+
+- **What we hit:** `extensions.motion[]` describes timing/geometry but not what triggers a pattern. v3's stories-carousel-horizontal pattern is a NEW kind of motion — sticky-pinned section + scrubbed `translateX` of the card track — that doesn't fit the existing entries. The bizpro source has a click-driven tutorial carousel; v3's lateral-scroll stories pattern is scroll-pinned + scroll-scrubbed. Same shape (horizontal motion), different driver.
+- **Why it's a gap:** Without an interaction primitive, a renderer can't pick the right driver for a pattern. Click-driven and scroll-driven horizontal motion need fundamentally different code paths.
+- **Proposed fix:** Add `motion[].interaction: "click"|"hover"|"scroll-pinned"|"scroll-scrubbed"|"timeline-loop"|"viewport-enter"`. Mandatory field. v1/v2/v3 prototypes get this populated as a backfill PR.
+
+### G27. CDN exception for cinematic prototypes — stardust self-contained contract amendment
+
+- **What we hit:** `prototype/SKILL.md` § before-after-shell.md § Required structure says "self-contained: no external CSS, no external JS." But v3 needs GSAP + ScrollTrigger + Lenis (~80KB minified). Inlining is technically possible but bloats every prototype to 200KB+ and duplicates a vendored library across files. v3 took a documented exception and loaded from CDN.
+- **Why it's a gap:** The "self-contained" rule was written for static layout-only prototypes. Cinematic prototypes need vendor libraries. Without an explicit amendment, agents either silently break the rule (silent failure) or refuse motion (loses the design language).
+- **Proposed fix:** Amend `before-after-shell.md` to allow a documented CDN allowlist for animation runtime: GSAP family, Lenis, framer-motion, motion-one, popmotion. Each load must be CSP-friendly (HTTPS, integrity-hash optional). The proposed file's `_provenance.cdnDeps[]` lists every loaded URL with rationale. Migrate-stage either inlines them or copies to `migrated/assets/vendor/`.
+
+### G28. data-* attribute spec needs extensions for overlap/strata/horizontal-pin layouts
+
+- **What we hit:** v3's asymmetric breakout moves invented `data-layout="overlap"`, `data-layout="horizontal-pin"`, `data-layout="asymmetric-grid"`, and `data-z="N"` numeric attribute inline. None are in `data-attributes.md`. Migrate-stage will re-render these without knowing their semantics.
+- **Why it's a gap:** Data-* attributes are the structural lingua franca between prototype and migrate. v1/v2 used the documented vocabulary cleanly; v3's cinematic moves stress-tested it and revealed gaps.
+- **Proposed fix:** Extend `data-attributes.md` with:
+  - `data-layout="overlap"` (with `data-overlap-direction` and `data-overlap-amount`)
+  - `data-layout="horizontal-pin"` (with `data-pin-distance` and `data-scrub`)
+  - `data-z="N"` numeric strata index for stacking-context-sensitive sections
+  - `data-blend="multiply|screen|overlay"` for sections with blend-mode treatments
+
+### G29 (minor). `wrapLines()` text-splitter strips inline children
+
+- **What we hit:** v3's typography color moves use `<span class="accent">` for single-word color treatment ("everywhere" in the hero, "TODAY" in the closing CTA). The text-animate.js `wrapLines()` splitter strips inline children when wrapping lines, breaking the accent spans. v3 had to special-case those elements (skip line-splitting; treat whole element as a ta-unit), which means the accent words don't scrub-reveal independently.
+- **Proposed fix:** `wrapLines()` upstream should HTML-preserve when splitting, so accent spans survive line wrapping. Future stardust prototypes will hit this whenever single-word typography accents are part of the design language — it's not v3-specific.
+
 ### G21. Anti-toolbox audit / `audit_hits[]` schema needs a `deliberateViolation` flag
 
 - **What we hit:** v2 verbatim render trips ~10 P1 audit warnings (uppercase headings, 3-CTA hero density, multi-clause taglines, banner-with-no-slot) that would block `prototyped` status. But every one of these violations is **user-directed** — the whole point of v2 is to preserve semrush copy verbatim, including the structural moves Adobe DS forbids. The audit schema today treats all violations as fix-or-block.
