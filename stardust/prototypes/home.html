@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:provenance
+  writtenBy:        stardust:prototype
+  writtenAt:        2026-05-08T19:30:00Z
+  page:             home
+  pageUrl:          https://www.semrush.com/
+  proposedFile:     ./home-proposed.html
+  againstDirection: stardust/direction.md (Active 2026-05-08T16:30:00Z, mode=adopted)
+  readArtifacts:
+    - stardust/current/pages/home.json
+    - stardust/current/assets/screenshots/home.png
+    - stardust/prototypes/home-proposed.html
+    - stardust/direction.md
+    - stardust/state.json
+  synthesizedInputs: []
+  stardustVersion:  0.3.0
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>home — before / after — semrush × Adobe Acrobat Studio DS</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* ===== HEADER STRIP ===== */
+  .strip {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 16px;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+    height: 48px;
+    font-size: 12px;
+    line-height: 1;
+  }
+  .strip__slug {
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #111;
+    padding-right: 12px;
+    border-right: 1px solid #e2e2e2;
+  }
+  .strip__labels {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #6b6b6b;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .strip__label {
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: #f1f1f1;
+  }
+  .strip__label--current { background: #eaeaea; color: #444; }
+  .strip__label--proposed { background: #e7edff; color: #1d3fcc; }
+  .strip__arrow { color: #999; }
+
+  .strip__spacer { flex: 1 1 auto; }
+
+  .strip__actions {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+  }
+  .btn {
+    appearance: none;
+    border: 1px solid #d0d0d0;
+    background: #ffffff;
+    color: #1a1a1a;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+  .btn:hover { background: #f5f5f5; }
+  .btn:active { transform: translateY(1px); }
+  .btn--primary {
+    background: #1d3fcc;
+    color: #fff;
+    border-color: #1d3fcc;
+  }
+  .btn--primary:hover { background: #1734a8; }
+  .btn--toggle[aria-pressed="true"] {
+    background: #1a1a1a;
+    color: #fff;
+    border-color: #1a1a1a;
+  }
+  .btn--ghost {
+    background: transparent;
+    border-color: transparent;
+    color: #6b6b6b;
+    text-decoration: underline;
+  }
+  .btn--ghost:hover { color: #1a1a1a; background: transparent; }
+
+  /* ===== TOAST ===== */
+  .toast {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a1a1a;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 12px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 160ms ease;
+    max-width: 80vw;
+  }
+  .toast.is-visible { opacity: 1; }
+  .toast pre {
+    margin: 6px 0 0;
+    padding: 8px 10px;
+    background: #2a2a2a;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #d4ffe2;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+
+  /* ===== SPLIT BODY ===== */
+  .split {
+    flex: 1 1 auto;
+    display: flex;
+    overflow: hidden;
+    min-height: 0;
+  }
+  .pane {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+  .pane__head {
+    flex: 0 0 auto;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+    background: #fafafa;
+    border-bottom: 1px solid #ececec;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #555;
+  }
+  .pane__head--current { background: #f3f3f3; color: #444; }
+  .pane__head--proposed { background: #eef2ff; color: #1d3fcc; }
+  .pane__head .pane__source {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    color: #888;
+    font-size: 11px;
+  }
+
+  .pane__body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: auto;
+    background: #fff;
+    position: relative;
+  }
+  .pane__body--current {
+    background: #f7f7f7;
+    /* screenshot mode: scroll the tall image vertically */
+    overflow: auto;
+  }
+  .pane__screenshot {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+  }
+  .pane__iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: #fff;
+  }
+  .pane__notice {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    background: #fff5d6;
+    border: 1px solid #e0b948;
+    color: #5a4400;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    z-index: 5;
+    display: none;
+  }
+  .pane__notice.is-visible { display: block; }
+
+  .divider {
+    flex: 0 0 6px;
+    background: #ddd;
+    cursor: col-resize;
+    position: relative;
+    transition: background 120ms ease;
+  }
+  .divider:hover, .divider.is-dragging { background: #1d3fcc; }
+  .divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 24px;
+    background: #ffffff;
+    border-radius: 2px;
+    opacity: 0.6;
+  }
+
+  /* ===== FOOTER STRIP ===== */
+  .footer {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 16px;
+    background: #fafafa;
+    border-top: 1px solid #ececec;
+    height: 32px;
+    font-size: 11px;
+    color: #555;
+    line-height: 1;
+  }
+  .footer__title {
+    font-weight: 600;
+    color: #1a1a1a;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .footer__sep { color: #c4c4c4; }
+  .footer__link {
+    color: #1d3fcc;
+    text-decoration: none;
+  }
+  .footer__link:hover { text-decoration: underline; }
+  .footer__meta {
+    margin-left: auto;
+    color: #888;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ===== SWAPPED ===== */
+  .split[data-swapped="true"] { flex-direction: row-reverse; }
+</style>
+</head>
+<body>
+
+<!-- HEADER STRIP -->
+<header class="strip" role="banner">
+  <div class="strip__slug">home</div>
+  <div class="strip__labels" id="strip-labels">
+    <span class="strip__label strip__label--current" id="label-left">CURRENT</span>
+    <span class="strip__arrow">vs</span>
+    <span class="strip__label strip__label--proposed" id="label-right">PROPOSED</span>
+  </div>
+  <div class="strip__spacer"></div>
+  <div class="strip__actions">
+    <button class="btn btn--toggle" id="btn-live" type="button" aria-pressed="false" title="Replace screenshot with the live URL in a sandboxed iframe (may be blocked by CSP)">Try live</button>
+    <button class="btn" id="btn-swap" type="button" title="Swap which pane is on the left">Swap sides</button>
+    <button class="btn" id="btn-stash" type="button" title="Save the current proposed file as a timestamped stash so the next iteration starts fresh">Stash</button>
+    <button class="btn" id="btn-live-cmd" type="button" title="Copy the $impeccable live command for iterating on this prototype">Open in $impeccable live</button>
+    <button class="btn btn--primary" id="btn-approve" type="button" title="Mark this prototype approved in state.json">Approve</button>
+    <a class="btn btn--ghost" href="../direction.md" title="View the resolved direction" target="_blank" rel="noopener">provenance</a>
+  </div>
+</header>
+
+<!-- SPLIT BODY -->
+<div class="split" id="split" data-swapped="false">
+  <section class="pane" id="pane-current" aria-label="Current page">
+    <div class="pane__head pane__head--current">
+      <span>Current</span>
+      <span class="pane__source" id="current-source-label">screenshot · ../current/assets/screenshots/home.png</span>
+    </div>
+    <div class="pane__body pane__body--current" id="current-body">
+      <div class="pane__notice" id="current-notice"></div>
+      <img class="pane__screenshot" id="current-screenshot" src="../current/assets/screenshots/home.png" alt="Captured viewport screenshot of the current home page">
+      <iframe class="pane__iframe" id="current-iframe" title="Current page (live)" sandbox="allow-scripts allow-same-origin" style="display:none;"></iframe>
+    </div>
+  </section>
+
+  <div class="divider" id="divider" role="separator" aria-orientation="vertical" aria-label="Resize panes" tabindex="0"></div>
+
+  <section class="pane" id="pane-proposed" aria-label="Proposed redesign">
+    <div class="pane__head pane__head--proposed">
+      <span>Proposed</span>
+      <span class="pane__source">./home-proposed.html</span>
+    </div>
+    <div class="pane__body">
+      <iframe class="pane__iframe" id="proposed-iframe" src="./home-proposed.html" title="Proposed redesign"></iframe>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER STRIP -->
+<footer class="footer" role="contentinfo">
+  <span class="footer__title">Adopt the Adobe Acrobat Studio DS for the semrush marketing surface</span>
+  <span class="footer__sep">·</span>
+  <a class="footer__link" href="../direction.md" target="_blank" rel="noopener">stardust/direction.md</a>
+  <span class="footer__sep">·</span>
+  <span>Active 2026-05-08T16:30:00Z</span>
+  <span class="footer__sep">·</span>
+  <span>mode: adopted</span>
+  <span class="footer__meta">stardust v0.3.0 · viewer rendered 2026-05-08</span>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function () {
+  "use strict";
+
+  var SLUG = "home";
+  var LIVE_URL = "https://www.semrush.com/";
+  var PROPOSED_FILE = "home-proposed.html";
+  var SCREENSHOT_PATH = "../current/assets/screenshots/home.png";
+
+  var $ = function (id) { return document.getElementById(id); };
+
+  // ---------- Toast ----------
+  var toastEl = $("toast");
+  var toastTimer = null;
+  function toast(message, opts) {
+    opts = opts || {};
+    toastEl.innerHTML = "";
+    var msg = document.createElement("span");
+    msg.textContent = message;
+    toastEl.appendChild(msg);
+    if (opts.code) {
+      var pre = document.createElement("pre");
+      pre.textContent = opts.code;
+      toastEl.appendChild(pre);
+    }
+    toastEl.classList.add("is-visible");
+    if (toastTimer) { clearTimeout(toastTimer); }
+    toastTimer = setTimeout(function () {
+      toastEl.classList.remove("is-visible");
+    }, opts.duration || 3200);
+  }
+
+  // ---------- Action buttons (post to window.parent; toast as fallback) ----------
+  function postToParent(type, payload) {
+    try {
+      if (window.parent && window.parent !== window) {
+        window.parent.postMessage(Object.assign({ source: "stardust:viewer", slug: SLUG, type: type }, payload || {}), "*");
+        return true;
+      }
+    } catch (e) { /* swallow */ }
+    return false;
+  }
+
+  $("btn-approve").addEventListener("click", function () {
+    var sent = postToParent("approve", { proposedFile: PROPOSED_FILE });
+    toast(sent
+      ? "Approve signal posted to parent. Confirm with the agent to update state.json."
+      : "No parent listener detected. Tell the agent: \"Approve home prototype.\"");
+  });
+
+  $("btn-stash").addEventListener("click", function () {
+    var ts = new Date().toISOString().replace(/[:.]/g, "-").replace(/Z$/, "Z");
+    var stashName = "home-proposed-stash-" + ts + ".html";
+    var sent = postToParent("stash", { proposedFile: PROPOSED_FILE, stashName: stashName });
+    toast(sent
+      ? "Stash signal posted. Agent will copy proposed → " + stashName
+      : "No parent listener. Ask the agent to: cp " + PROPOSED_FILE + " " + stashName);
+  });
+
+  $("btn-live-cmd").addEventListener("click", function () {
+    var cmd = "$impeccable live stardust/prototypes/home-proposed.html";
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(cmd).then(function () {
+        toast("Copied $impeccable live command to clipboard.", { code: cmd });
+      }, function () {
+        toast("Run this command:", { code: cmd, duration: 6000 });
+      });
+    } else {
+      toast("Run this command:", { code: cmd, duration: 6000 });
+    }
+  });
+
+  // ---------- Swap sides ----------
+  var splitEl = $("split");
+  var labelLeft = $("label-left");
+  var labelRight = $("label-right");
+  $("btn-swap").addEventListener("click", function () {
+    var swapped = splitEl.getAttribute("data-swapped") === "true";
+    splitEl.setAttribute("data-swapped", swapped ? "false" : "true");
+    if (swapped) {
+      labelLeft.textContent = "CURRENT";
+      labelLeft.className = "strip__label strip__label--current";
+      labelRight.textContent = "PROPOSED";
+      labelRight.className = "strip__label strip__label--proposed";
+    } else {
+      labelLeft.textContent = "PROPOSED";
+      labelLeft.className = "strip__label strip__label--proposed";
+      labelRight.textContent = "CURRENT";
+      labelRight.className = "strip__label strip__label--current";
+    }
+  });
+
+  // ---------- Try live (toggle screenshot ↔ live iframe) ----------
+  var liveBtn = $("btn-live");
+  var screenshotEl = $("current-screenshot");
+  var liveIframe = $("current-iframe");
+  var noticeEl = $("current-notice");
+  var sourceLabel = $("current-source-label");
+  var liveLoadTimer = null;
+
+  function showNotice(text) {
+    noticeEl.textContent = text;
+    noticeEl.classList.add("is-visible");
+  }
+  function hideNotice() {
+    noticeEl.classList.remove("is-visible");
+    noticeEl.textContent = "";
+  }
+
+  function toScreenshot() {
+    liveBtn.setAttribute("aria-pressed", "false");
+    liveBtn.textContent = "Try live";
+    if (liveLoadTimer) { clearTimeout(liveLoadTimer); liveLoadTimer = null; }
+    liveIframe.src = "about:blank";
+    liveIframe.style.display = "none";
+    screenshotEl.style.display = "block";
+    sourceLabel.textContent = "screenshot · " + SCREENSHOT_PATH;
+  }
+
+  function toLive() {
+    liveBtn.setAttribute("aria-pressed", "true");
+    liveBtn.textContent = "Use screenshot";
+    screenshotEl.style.display = "none";
+    liveIframe.style.display = "block";
+    sourceLabel.textContent = "live · " + LIVE_URL;
+    hideNotice();
+    // Most production sites send `frame-ancestors` and silently block embedding;
+    // no `error` event fires. Use a load + heuristic timer.
+    var loaded = false;
+    liveIframe.addEventListener("load", function onLoad() {
+      loaded = true;
+      // We can't reliably detect CSP-block from inside the parent due to
+      // cross-origin restrictions; if the iframe stays visually empty the
+      // user can hit "Use screenshot" to revert. Surface a hint.
+    }, { once: true });
+    liveIframe.src = LIVE_URL;
+    liveLoadTimer = setTimeout(function () {
+      if (!loaded) {
+        showNotice("Live URL did not load within 6s — likely blocked by Content-Security-Policy: frame-ancestors. Click \"Use screenshot\" to revert.");
+      } else {
+        // Best-effort hint: if it loaded but is probably empty due to CSP,
+        // the user will tell. Add a soft notice anyway.
+        showNotice("Live loaded. If the pane appears blank, the site refused embedding (CSP). Click \"Use screenshot\" to revert.");
+        setTimeout(hideNotice, 5000);
+      }
+    }, 6000);
+  }
+
+  liveBtn.addEventListener("click", function () {
+    var pressed = liveBtn.getAttribute("aria-pressed") === "true";
+    if (pressed) {
+      toScreenshot();
+    } else {
+      toLive();
+    }
+  });
+
+  // ---------- Divider drag ----------
+  var dividerEl = $("divider");
+  var paneCurrent = $("pane-current");
+  var paneProposed = $("pane-proposed");
+  var dragging = false;
+  var startX = 0;
+  var startLeftFlex = 1;
+  var startRightFlex = 1;
+
+  function onPointerMove(e) {
+    if (!dragging) return;
+    var rect = splitEl.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var ratio = Math.min(0.92, Math.max(0.08, x / rect.width));
+    var swapped = splitEl.getAttribute("data-swapped") === "true";
+    if (swapped) {
+      paneProposed.style.flex = (1 - ratio) + " 1 0";
+      paneCurrent.style.flex = ratio + " 1 0";
+      // visually: when swapped, left visual pane is proposed, but the
+      // x-position still maps left→right of the visible row, so swap
+      // the assignments accordingly:
+      paneCurrent.style.flex = (1 - ratio) + " 1 0";
+      paneProposed.style.flex = ratio + " 1 0";
+    } else {
+      paneCurrent.style.flex = ratio + " 1 0";
+      paneProposed.style.flex = (1 - ratio) + " 1 0";
+    }
+  }
+  function onPointerUp() {
+    if (!dragging) return;
+    dragging = false;
+    dividerEl.classList.remove("is-dragging");
+    document.removeEventListener("pointermove", onPointerMove);
+    document.removeEventListener("pointerup", onPointerUp);
+    document.body.style.userSelect = "";
+  }
+  dividerEl.addEventListener("pointerdown", function (e) {
+    dragging = true;
+    startX = e.clientX;
+    dividerEl.classList.add("is-dragging");
+    document.body.style.userSelect = "none";
+    document.addEventListener("pointermove", onPointerMove);
+    document.addEventListener("pointerup", onPointerUp);
+  });
+  // Keyboard nudge for accessibility
+  dividerEl.addEventListener("keydown", function (e) {
+    var delta = 0;
+    if (e.key === "ArrowLeft") delta = -0.04;
+    else if (e.key === "ArrowRight") delta = 0.04;
+    else return;
+    e.preventDefault();
+    var rect = splitEl.getBoundingClientRect();
+    var currentRatio = paneCurrent.getBoundingClientRect().width / rect.width;
+    var ratio = Math.min(0.92, Math.max(0.08, currentRatio + delta));
+    paneCurrent.style.flex = ratio + " 1 0";
+    paneProposed.style.flex = (1 - ratio) + " 1 0";
+  });
+})();
+</script>
+
+</body>
+</html>

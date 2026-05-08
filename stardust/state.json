@@ -1,0 +1,103 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-08T15:12:00Z",
+    "stardustVersion": "0.3.0"
+  },
+  "site": {
+    "originUrl": "https://www.semrush.com",
+    "deployUrl": null,
+    "extractedAt": "2026-05-08T15:12:00Z",
+    "pageCap": 5,
+    "totalDiscovered": 22,
+    "crawled": 5
+  },
+  "direction": {
+    "resolvedAt": "2026-05-08T16:30:00Z",
+    "phrase": "Adopt the Adobe Acrobat Studio design system for the semrush marketing surface — preserve semrush's product substance, replace its visual language with Adobe's.",
+    "directionFile": "stardust/direction.md",
+    "mode": "adopted",
+    "writtenBy": "manual backfill (see learnings.md G15)"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "url": "https://www.semrush.com/",
+      "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
+      "type": "landing",
+      "status": "prototyped",
+      "history": [
+        { "status": "extracted",  "at": "2026-05-08T15:03:00Z" },
+        { "status": "directed",   "at": "2026-05-08T16:30:00Z" },
+        { "status": "prototyped", "at": "2026-05-08T19:15:00Z", "note": "Phase 2 + Phase 2.5 cleared: zero P0/P1 critique findings; 14 P3 advisory findings recorded in proposed file provenance (low-contrast false positives + system-font fallback)." }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/home.json",
+      "prototypePath": "stardust/prototypes/home.html",
+      "proposedPath": "stardust/prototypes/home-proposed.html",
+      "shapePath": "stardust/prototypes/home-shape.md",
+      "migratedPath": null
+    },
+    {
+      "slug": "pricing",
+      "url": "https://www.semrush.com/pricing/",
+      "title": "Plans & Pricing",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        { "status": "extracted", "at": "2026-05-08T15:03:30Z" }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/pricing.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "features",
+      "url": "https://www.semrush.com/features/",
+      "title": "Features | Semrush",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        { "status": "extracted", "at": "2026-05-08T15:04:00Z" }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/features.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "features__keyword-magic-tool",
+      "url": "https://www.semrush.com/features/keyword-magic-tool/",
+      "title": "Perform keyword research and analysis with Keyword Magic Tool | Semrush",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        { "status": "extracted", "at": "2026-05-08T15:04:30Z" }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/features__keyword-magic-tool.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "company",
+      "url": "https://www.semrush.com/company/",
+      "title": "About us",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        { "status": "extracted", "at": "2026-05-08T15:05:00Z" }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/company.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ]
+}

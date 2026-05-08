@@ -1,0 +1,1631 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-08T13:03:54.917Z",
+    "readArtifacts": [
+      "https://www.semrush.com/features/keyword-magic-tool/"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.3.0",
+    "waitMode": "medium",
+    "waitMs": 18470,
+    "httpStatus": 200,
+    "contentType": "text/html"
+  },
+  "slug": "features__keyword-magic-tool",
+  "url": "https://www.semrush.com/features/keyword-magic-tool/",
+  "finalUrl": "https://www.semrush.com/features/keyword-magic-tool/",
+  "title": "Perform keyword research and analysis with Keyword Magic Tool | Semrush",
+  "metaDescription": "Semrush Keyword Magic Tool is a powerful resource for keyword research. Build your most profitable SEO or PPC campaign with the Keyword Magic Tool",
+  "og": {
+    "title": "Perform keyword research and analysis with Keyword Magic Tool | Semrush",
+    "description": "Semrush Keyword Magic Tool is a powerful resource for keyword research. Build your most profitable SEO or PPC campaign with the Keyword Magic Tool",
+    "image": "https://www.semrush.com/__static__/semrush-logo-700.43215feb8faa.jpg",
+    "type": "website",
+    "siteName": "Semrush"
+  },
+  "themeColor": {
+    "light": "#F6F7F8",
+    "dark": "#111317"
+  },
+  "language": "en",
+  "headings": [
+    {
+      "level": 3,
+      "text": "Start Here",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Find the Right Tools",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Platform",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Top Apps",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Grow with Semrush",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Explore Free Tools",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "About Semrush",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 1,
+      "text": "Keyword Magic Tool",
+      "id": "main-title",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > div.semr__tool.keyword-magic__tool:nth-of-type(2) > section.semr__wrap.semr__tool-wrap > div.semr__tool-block:nth-of-type(1) > h1#main-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "48px",
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Take a Deep Dive into Any Topic",
+      "id": "metrics-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > h2#metrics-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "42px",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Keyword Difficulty",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(1) > h3.semr__h3.semr__infoblock-h3",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Intent",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(2) > h3.semr__h3.semr__infoblock-h3",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Search Volume",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(3) > h3.semr__h3.semr__infoblock-h3",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Trend",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(4) > h3.semr__h3.semr__infoblock-h3",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Cost Per Click",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(5) > h3.semr__h3.semr__infoblock-h3",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "SERP Features",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(6) > h3.semr__h3.semr__infoblock-h3",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Pick the most valuable keywords and create a powerful, personalized master list.",
+      "id": "get-gox-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.semr__wrap:nth-of-type(2) > div.semr__getbox.keyword-magic__metrics-getbox > h2#get-gox-title",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "31.9px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Conduct Research with One of the Market's Largest Databases",
+      "id": "get-trial-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__ideas:nth-of-type(3) > div.semr__wrap > h2#get-trial-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "42px",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Cluster Your Keywords",
+      "id": "features-clusters",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__cluster:nth-of-type(4) > div.semr__wrap > h2#features-clusters",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "42px",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Explore Keyword Groups to Plan Your Strategy",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__cluster:nth-of-type(4) > div.semr__wrap > div.semr__wrap_flex.semr__wrap_flex-center:nth-of-type(1) > div.semr__info.semr__info_left:nth-of-type(1) > h3.semr__h3.semr__info-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Expand Your Keyword Lists",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__cluster:nth-of-type(4) > div.semr__wrap > div.semr__wrap_flex.semr__wrap_flex-center:nth-of-type(2) > div.semr__info.semr__info_right:nth-of-type(2) > h3.semr__h3.semr__info-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Save All Your Keywords in One Place",
+      "id": "keywords-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__manager:nth-of-type(5) > div.semr__wrap > h2#keywords-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "42px",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Save, Manage, and Export Your Master Lists",
+      "id": null,
+      "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__manager:nth-of-type(5) > div.semr__wrap > div.semr__wrap_flex.semr__wrap_flex-center:nth-of-type(2) > div.semr__info.semr__info_left:nth-of-type(1) > h3.semr__h3.semr__info-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "25px",
+        "lineHeight": "30px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "See Why Professionals Across Industries Love Semrush’s Keyword Magic Tool",
+      "id": "marketers-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__digital:nth-of-type(6) > div.semr__wrap > h2#marketers-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "42px",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Find keywords, analyze their potential, and estimate their traffic",
+      "id": "analazer-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.semr__analyzer.keyword-magic__analyzer:nth-of-type(7) > div.semr__wrap > h2#analazer-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "42px",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "GET STARTED WITH SEMRUSH TODAY",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > h2.srf-footer__get-started-title",
+      "style": {
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "48px",
+        "lineHeight": "48px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "About cookies on this site",
+      "id": "ch2-dialog-title",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-content.h2-dialog-content-morespace:nth-of-type(1) > h2#ch2-dialog-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "28px",
+        "lineHeight": "33.6px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(51, 51, 51)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "div",
+      "role": "complementary",
+      "id": "srf-browser-unhappy",
+      "classes": [
+        "srf-browser-unhappy"
+      ],
+      "innerText": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "header",
+      "role": "banner",
+      "id": "srf-header",
+      "classes": [],
+      "innerText": "Products Pricing Resources Enterprise Log In Sign Up",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "main",
+      "role": "main",
+      "id": "root-content",
+      "classes": [
+        "srf-layout__body"
+      ],
+      "innerText": "Features Keyword Magic Tool Keyword Magic Tool Harness the strength of a database with over 27 billion keywords. Quickly find new ranking opportunities and dive into market trends with AI-powered personalized metrics. Try It Free Take a Deep Dive into Any Topic Find all of the best keyword opportunities for your site, powered by AI. Keyword Difficulty Use our advanced keyword difficulty and PKD analysis. Get detailed insights on domains, SERP features, and backlinks. Intent Identify keywords that match your goals. Review keyword intent. Search Volume Review the average monthly searches for a keyword over a 12-month period to find the most relevant queries. Trend Monitor the level of interest in a search query and see how often a keyword has been Googled over the past 12 months. Cost Per Click Discover the average CPC for ads tied to your target keywords to budget PPC campaigns. SERP Features Assess if your website can secure SERP features for targeted keywords and identify potential rich results. Pick the most valuable keywords and create a powerful, personalized master list. Try It Free Conduct Research with One of the Market's Largest Databases Explore an AI-enhanced database for comprehensive keyword research. Use domain-specific metrics and filters to refine your strategy and create custom tailored keyword lists. 27.8B keywords 20M ideas for a single keyword 142 geo databases Cluster Your Keywords Explore Keyword Groups to Plan Your Strategy Assess each subtopic’s search volume and average difficulty to fine-tune your strategies. Try It Free Expand Your Keyword Lists Discover related keywords to identify less competitive long-tail phrases with high click-through potential. Try It Free Save All Your Keywords in One Place Streamline your keyword strategy by consolidating your lists across Semrush tools or other platforms. Plan both paid advertising campaigns and content strategy, using keyword insights to maximize marketing efforts. Save, Manage, and Export Your Master Lists Maximize your keyword research efforts. Export lists to a spreadsheet or our Keyword Strategy Builder, where you can plan a content strategy. Try It Free See Why Professionals Across Industries Love Semrush’s Keyword Magic Tool Find keywords, analyze their potential, and estimate their traffic Start Searching",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "Features Keyword Magic Tool",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "footer",
+      "role": "contentinfo",
+      "id": "srf-footer",
+      "classes": [
+        "srf-footer"
+      ],
+      "innerText": "GET STARTED WITH SEMRUSH TODAY Try Semrush free for seven days. Cancel anytime. Start free trial Semrush Semrush One Features Pricing Free Trial Compare Semrush Success Stories Stats and Facts Affiliate Program More tools Enterprise SEO Enterprise AIO Enterprise SI Insights24 Mfour App Center Top Websites Free Tools Sensor Company About Us News Careers Partners Semrush Select Global Issues Index Do not sell my personal info Contact Us Support Knowledge Base Academy Semrush API Community Semrush Blog Webinars Ambassador Program © 2026 Semrush Holdings. All rights reserved. Privacy Policy Terms of Service Cookies Settings English",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "srf-notice-bubble-container",
+      "classes": [],
+      "innerText": "",
+      "headingSequence": [],
+      "children": []
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Skip to content",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__skip-to-content:nth-of-type(1) > button#skip-to-content",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 109, 202)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "1px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Products",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "10px",
+        "padding": "4px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Resources",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "10px",
+        "padding": "4px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Sign Up",
+      "href": "/signup/?src=header",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Start free trial",
+      "href": "/signup/?src=footer",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > a.srf-footer__get-started-button.srf-footer__button",
+      "style": {
+        "backgroundColor": "rgb(193, 144, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "21px 30px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "English",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__lang:nth-of-type(5) > button.srf-footer__button.srf-footer__button--lang",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 500,
+        "borderRadius": "0px",
+        "padding": "0px 18px 0px 22px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Allow all cookies",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-allow-all-btn:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Deny all",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-deny-all-btn:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie settings",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-open-settings-btn:nth-of-type(3)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.semrush.com/",
+        "text": "",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > a.srf-header__logo"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/",
+        "text": "Pricing",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(2) > a.srf-header__menu-item"
+      },
+      {
+        "href": "https://www.semrush.com/login/?src=header",
+        "text": "Log In",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(1)"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=header",
+        "text": "Sign Up",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(2)"
+      },
+      {
+        "href": "https://www.semrush.com/one/",
+        "text": "Semrush One",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/features/",
+        "text": "Features",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/request-demo/",
+        "text": "Request a Demo",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/sales/",
+        "text": "Talk to Sales",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/ai-seo/overview/",
+        "text": "AI Visibility Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/seo/",
+        "text": "SEO Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/traffic/",
+        "text": "Traffic & Market Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/content/",
+        "text": "Content Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/local-business/start/",
+        "text": "Local Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/social-media/",
+        "text": "Social Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/advertising/",
+        "text": "Advertising Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/pr-toolkit/",
+        "text": "AI PR Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(8) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/partner-integrations/",
+        "text": "Integrations",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/",
+        "text": "App Center",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/997-semrush-data",
+        "text": "Data Sources",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/adclarity-advertising-intelligence/",
+        "text": "AdClarity",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/exploding-topics/",
+        "text": "Exploding Topics",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/serp-gap-analyzer/",
+        "text": "SERP Gap Analyzer",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/collection/most-popular/",
+        "text": "Other apps",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/one/?utm_source=semrush&utm_medium=header",
+        "text": "Try Semrush One for Free The leading platform that unifies SEO authority and AI visibility.",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > a.srf-header__dropdown-promo"
+      },
+      {
+        "href": "https://www.semrush.com/blog/",
+        "text": "Blog",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/",
+        "text": "Knowledge Base",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/academy/",
+        "text": "Academy",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/stories/",
+        "text": "Success Stories",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/academy/webinars/",
+        "text": "Webinars",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/news/",
+        "text": "News",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/ai-search-visibility-checker/",
+        "text": "AI Visibility Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/siteaudit/",
+        "text": "SEO Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/website/",
+        "text": "Website Traffic Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/keywordmagic/",
+        "text": "Keyword Tool",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/backlinks/",
+        "text": "Backlink Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/website/top/",
+        "text": "Top Websites by Traffic",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/",
+        "text": "Explore Other Free Tools",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/",
+        "text": "About Us",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/stats/",
+        "text": "Stats and Facts",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/lp/affiliate-program/en/",
+        "text": "Affiliate Program",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/contacts/",
+        "text": "Contact Us",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=features&redirect_to=%2Fanalytics%2Fseomagic%2Fstart",
+        "text": "Try It Free",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > div.semr__tool.keyword-magic__tool:nth-of-type(2) > section.semr__wrap.semr__tool-wrap > div.semr__tool-block:nth-of-type(1) > a.button.semr__btn"
+      },
+      {
+        "href": "https://www.semrush.com/blog/how-to-find-low-competition-keywords-with-semrush/",
+        "text": "keyword difficulty",
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(1) > p > a:nth-of-type(1)"
+      },
+      {
+        "href": "https://www.semrush.com/blog/ai-keyword-research-updates/",
+        "text": "PKD",
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(1) > p > a:nth-of-type(2)"
+      },
+      {
+        "href": "https://www.semrush.com/blog/search-intent/",
+        "text": "intent",
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(2) > p > a"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=features&trial=force&redirect_to=%2Fanalytics%2Fseomagic%2Fstart",
+        "text": "Try It Free",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.semr__wrap:nth-of-type(2) > div.semr__getbox.keyword-magic__metrics-getbox > a.button.semr__btn"
+      },
+      {
+        "href": "https://www.semrush.com/blog/keyword-search-volume/",
+        "text": "search volume",
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__cluster:nth-of-type(4) > div.semr__wrap > div.semr__wrap_flex.semr__wrap_flex-center:nth-of-type(1) > div.semr__info.semr__info_left:nth-of-type(1) > p.semr__info-text > a"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=features&redirect_to=%2Fanalytics%2Fseomagic%2Fstart",
+        "text": "Start Searching",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.semr__analyzer.keyword-magic__analyzer:nth-of-type(7) > div.semr__wrap > a.button.semr__btn"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=footer",
+        "text": "Start free trial",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > a.srf-footer__get-started-button.srf-footer__button"
+      },
+      {
+        "href": "https://www.semrush.com/semrush-free-trial/",
+        "text": "Free Trial",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/vs/",
+        "text": "Compare Semrush",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/affiliate-program/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Affiliate Program",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/enterprise-aio/en/",
+        "text": "Enterprise AIO",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/site-intelligence/en/",
+        "text": "Enterprise SI",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/insights/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Insights24",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/mfour/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Mfour",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/apps/?utm_source=semrush&utm_medium=footer",
+        "text": "App Center",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://www.semrush.com/website/top/?utm_source=semrush&utm_medium=footer",
+        "text": "Top Websites",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/?utm_source=semrush&utm_medium=footer",
+        "text": "Free Tools",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://www.semrush.com/sensor/?utm_source=semrush&utm_medium=footer",
+        "text": "Sensor",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(9) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/partners/",
+        "text": "Partners",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/semrush-select/",
+        "text": "Semrush Select",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/global-issues/",
+        "text": "Global Issues Index",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://www.semrush.com/api-documentation/",
+        "text": "Semrush API",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/blog/",
+        "text": "Semrush Blog",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/semrush-circle/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Ambassador Program",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/privacy-policy/",
+        "text": "Privacy Policy",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__legal.srf-footer__collapsable:nth-of-type(4) > ul.srf-footer__legal-list > li.srf-footer__legal-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/",
+        "text": "Terms of Service",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__legal.srf-footer__collapsable:nth-of-type(4) > ul.srf-footer__legal-list > li.srf-footer__legal-list-item:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/cookie-policy/",
+        "text": "Cookie Policy.",
+        "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-content.h2-dialog-content-morespace:nth-of-type(1) > p:nth-of-type(2) > a.ch2-learn-more"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://enterprise.semrush.com/",
+        "text": "Enterprise",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(4) > a.srf-header__menu-item"
+      },
+      {
+        "href": "https://developer.semrush.com/api/",
+        "text": "API",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://ai-visibility-index.semrush.com/",
+        "text": "AI Visibility Index",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.spotlightconf.com/register?utm_source=semrush&utm_medium=resourceslink&utm_campaign=launch_promo&utm_content=spotlight_2026",
+        "text": "Get Your Ticket Now One day. Real strategies. Built for marketers who play to win. October 13, 2026London, UK",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > a.srf-header__dropdown-promo"
+      },
+      {
+        "href": "https://enterprise.semrush.com/?utm_source=semrush&utm_medium=footer",
+        "text": "Enterprise SEO",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://careers.semrush.com/",
+        "text": "Careers",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.linkedin.com/company/semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(1) > a.srf-footer__social-link.srf-footer__social-link--linkedin"
+      },
+      {
+        "href": "https://instagram.com/semrush/",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(2) > a.srf-footer__social-link.srf-footer__social-link--instagram"
+      },
+      {
+        "href": "https://www.tiktok.com/@semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(3) > a.srf-footer__social-link.srf-footer__social-link--tiktok"
+      },
+      {
+        "href": "https://www.youtube.com/user/SemrushHQ",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(4) > a.srf-footer__social-link.srf-footer__social-link--youtube"
+      },
+      {
+        "href": "https://www.facebook.com/Semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(5) > a.srf-footer__social-link.srf-footer__social-link--facebook"
+      },
+      {
+        "href": "https://x.com/semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(6) > a.srf-footer__social-link.srf-footer__social-link--twitter"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > p.srf-footer__copyright > a.srf-footer__adobe-logo"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/keyword-magic-tool.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 182,
+        "naturalHeight": 150,
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > div.semr__tool.keyword-magic__tool:nth-of-type(2) > section.semr__wrap.semr__tool-wrap > div.semr__img-wrap.keyword-magic__tool-img-wrap:nth-of-type(2) > img.semr__img",
+        "localPath": "stardust/current/assets/media/keyword-magic-tool-2e406715.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/keyword-magic.svg",
+        "srcset": null,
+        "alt": "Screenshot of the Semrush Keyword Magic Tool",
+        "naturalWidth": 881,
+        "naturalHeight": 498,
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__box.semr__box_medium-x:nth-of-type(2) > img.semr__box-img",
+        "localPath": "stardust/current/assets/media/keyword-magic-97906453.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/keyword-difficulty.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 84,
+        "naturalHeight": 84,
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(1) > div.semr__icon-wrap > img.semr__icon.semr__infoblock-icon",
+        "localPath": "stardust/current/assets/media/keyword-difficulty-ff39db6d.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/intent.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 79,
+        "naturalHeight": 58,
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(2) > div.semr__icon-wrap > img.semr__icon.semr__infoblock-icon",
+        "localPath": "stardust/current/assets/media/intent-b2934210.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/searc-volume.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 84,
+        "naturalHeight": 84,
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(3) > div.semr__icon-wrap > img.semr__icon.semr__infoblock-icon",
+        "localPath": null,
+        "downloadError": "read ETIMEDOUT"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/trend.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 84,
+        "naturalHeight": 84,
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(4) > div.semr__icon-wrap > img.semr__icon.semr__infoblock-icon",
+        "localPath": "stardust/current/assets/media/trend-edae2bc4.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/cost-per-click.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 84,
+        "naturalHeight": 84,
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(5) > div.semr__icon-wrap > img.semr__icon.semr__infoblock-icon",
+        "localPath": "stardust/current/assets/media/cost-per-click-2ee13d25.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/serp-features.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 84,
+        "naturalHeight": 84,
+        "domPath": "div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1) > div.semr__wrap > div.semr__infoblock-list:nth-of-type(3) > div.semr__infoblock-item:nth-of-type(6) > div.semr__icon-wrap > img.semr__icon.semr__infoblock-icon",
+        "localPath": "stardust/current/assets/media/serp-features-2d315eea.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/keyword-list.svg",
+        "srcset": null,
+        "alt": "a table of Semrush keyword metrics from the keyword magic tool",
+        "naturalWidth": 606,
+        "naturalHeight": 319,
+        "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__cluster:nth-of-type(4) > div.semr__wrap > div.semr__wrap_flex.semr__wrap_flex-center:nth-of-type(1) > div.semr__box.semr__box_medium:nth-of-type(2) > img.semr__box-img",
+        "localPath": "stardust/current/assets/media/keyword-list-ac5f7565.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/cluster.svg",
+        "srcset": null,
+        "alt": "options to filter a keyword list from the keyword magic tool",
+        "naturalWidth": 685,
+        "naturalHeight": 400,
+        "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__cluster:nth-of-type(4) > div.semr__wrap > div.semr__wrap_flex.semr__wrap_flex-center:nth-of-type(2) > div.semr__box.semr__box_medium:nth-of-type(1) > img.semr__box-img",
+        "localPath": "stardust/current/assets/media/cluster-92faab08.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/keyword-manager.svg",
+        "srcset": null,
+        "alt": "the interface of Keyword Strategy Builder showing options to save keywords, analyze metrics and export data",
+        "naturalWidth": 784,
+        "naturalHeight": 498,
+        "domPath": "main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__manager:nth-of-type(5) > div.semr__wrap > div.semr__wrap_flex.semr__wrap_flex-center:nth-of-type(2) > div.keyword-magic__manager-pick:nth-of-type(2) > img.semr__box-img",
+        "localPath": "stardust/current/assets/media/keyword-manager-ffa32e02.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/1-seo-tool-badge.svg",
+        "srcset": null,
+        "alt": "#1 SEO tool award",
+        "naturalWidth": 140,
+        "naturalHeight": 158,
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__digital:nth-of-type(6) > div.semr__wrap > div.keyword-magic__digital-block > img.keyword-magic__digital-img:nth-of-type(1)",
+        "localPath": "stardust/current/assets/media/1-seo-tool-badge-5cdde0d5.svg"
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/best-usability-badge.svg",
+        "srcset": null,
+        "alt": "best usability award",
+        "naturalWidth": 140,
+        "naturalHeight": 158,
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__digital:nth-of-type(6) > div.semr__wrap > div.keyword-magic__digital-block > img.keyword-magic__digital-img:nth-of-type(2)",
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/most-loved-trust-radius-badge.svg",
+        "srcset": null,
+        "alt": "most loved award from TrustRadius",
+        "naturalWidth": 140,
+        "naturalHeight": 158,
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__digital:nth-of-type(6) > div.semr__wrap > div.keyword-magic__digital-block > img.keyword-magic__digital-img:nth-of-type(3)",
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/global-search-awards-badge.svg",
+        "srcset": null,
+        "alt": "Global Search Awards badge",
+        "naturalWidth": 140,
+        "naturalHeight": 158,
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__digital:nth-of-type(6) > div.semr__wrap > div.keyword-magic__digital-block > img.keyword-magic__digital-img:nth-of-type(4)",
+        "localPath": null
+      },
+      {
+        "src": "https://cdn.semrush.com/features/static/redesign/images/happiest-user-crozdesk-badge.svg",
+        "srcset": null,
+        "alt": "Happiest users award by Crozdesk",
+        "naturalWidth": 140,
+        "naturalHeight": 158,
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__digital:nth-of-type(6) > div.semr__wrap > div.keyword-magic__digital-block > img.keyword-magic__digital-img:nth-of-type(5)",
+        "localPath": null
+      }
+    ],
+    "inlineSvgs": [
+      {
+        "viewBox": null,
+        "domPath": "svg#__SVG_SPRITE_NODE__",
+        "width": null,
+        "height": null,
+        "markupLength": 10615
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__notification:nth-of-type(2) > div#srf-browser-unhappy > button#srf-browser-unhappy-btn-close > svg.srf-icon",
+        "width": "16",
+        "height": "16",
+        "markupLength": 447
+      },
+      {
+        "viewBox": null,
+        "domPath": "div.semr > div.keyword-magic.semr__main > div.semr__wrap:nth-of-type(1) > nav > ol.semr__breadcrumbs > li.semr__breadcrumbs-item:nth-of-type(1) > a.semr__breadcrumbs-link > svg",
+        "width": "16",
+        "height": "17",
+        "markupLength": 319
+      },
+      {
+        "viewBox": "0 0 1376 192",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > div.srf-footer-reveal > svg",
+        "width": "1376",
+        "height": "192",
+        "markupLength": 1664
+      }
+    ],
+    "cssBackgrounds": [
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAYPCAMAAABfVEFjAAAARVBMVEUAAAC/j//Hj/+/j/+/j//Dj/+/j//Cj/+/j//Fj//Cj//Ekv/Dkf/Dkf/Ekv/Ckf/Dkv/Ckf/Dkv/Dkf/Ckf/Ckf/Ckf9k6gjCAAAAFnRSTlMAECAgMEBAUFBgYHCAkJ+gr7C/z9/vq3m4ogAAAb1JREFUeNrtyNGOnCAYhmEt6gwd1B0E7v9Sm910m6b5gKh/z97n8Bnwr1Huj9s7s2x3/e0NLNvdVe52eyPL9tbd38SyvZ3vb5ZbWLa33mAdy3Y2GOwkd2HZP1a5+6l9yvUs29losC+5gWU7mwx2Y9nOFoN9y40s+22U687tITexbHtni81yC8t+e8j1J3eU61j2t5fcYLILyzZ3N1nPss39kBtNNrBsc5PJbizb3Cy3mGxk2dY6m00s29rZZrPcwrKt9UbrWLaxwWgnuQvLflnl7qf3KdezbGOj0b7kBpb9cshNp3eVu7FsY4vRvuVGlv00ynXn95CbWPbTJHe22sKy9X3I9Rd2lOtYtrrBbBeWre5utp5lqxv/8waWrW4y241lq5vlFrONLFtbZ7eJZWs7222WW1i2tt5wHctWNhjuJHdh2WGVu1/ap1zPspWNhvuSG1h2OOSmS7vK3Vh2yHKL4b7lRpYd5bpre8hNLDvJnS23sKzeh1x/cUe5jmXlBtNdWFbuKne/uJ5l5X7IjaYbWFbuITdd3I1l5Wa5xXQjy6p1tptYVu1su1luYVm13ngdy4oNJ3b6+bdxGIZf9AyTQKv797YAAAAASUVORK5CYII=",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > div.srf-footer-reveal",
+        "boundingClientRect": {
+          "x": 0,
+          "y": 6592,
+          "width": 1440,
+          "height": 550
+        },
+        "backgroundSize": "7px 550px",
+        "backgroundPosition": "0px 100%",
+        "backgroundRepeat": "repeat-x",
+        "localPath": null
+      }
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": null,
+        "crossOrigin": false,
+        "boundingClientRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "src": null,
+        "title": "Intercom",
+        "crossOrigin": false,
+        "boundingClientRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      }
+    ]
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [
+      {
+        "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog",
+        "open": true
+      }
+    ],
+    "accordions": [],
+    "tabs": []
+  },
+  "components": {
+    "cards": {
+      "count": 0,
+      "examples": []
+    },
+    "grids": {
+      "count": 0,
+      "examples": []
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 1,
+      "examples": [
+        "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 2,
+      "examples": [
+        "iframe:nth-of-type(1)",
+        "iframe#intercom-frame:nth-of-type(2)"
+      ]
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 6,
+      "examples": [
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > div.semr__wrap:nth-of-type(1) > nav"
+      ]
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--srf-factor-a-funk-up-latin",
+      "value": "'ss01' off"
+    },
+    {
+      "name": "--srf-factor-a-curly-arrows",
+      "value": "'ss03' off"
+    },
+    {
+      "name": "--srf-header-blend-percent",
+      "value": "0%"
+    },
+    {
+      "name": "--srf-factor-a-frac",
+      "value": "'frac' off"
+    }
+  ],
+  "screenshot": "stardust/current/assets/screenshots/features__keyword-magic-tool.png",
+  "stats": {
+    "wordCount": 486,
+    "ctaCount": 9,
+    "internalLinkCount": 69,
+    "externalLinkCount": 13,
+    "imageCount": 16,
+    "inlineSvgCount": 4,
+    "cssBackgroundCount": 1
+  },
+  "_extras": {
+    "logoCandidates": {
+      "inlineSvg": {
+        "domPath": "div.semr > div.keyword-magic.semr__main > div.semr__wrap:nth-of-type(1) > nav > ol.semr__breadcrumbs > li.semr__breadcrumbs-item:nth-of-type(1) > a.semr__breadcrumbs-link > svg",
+        "markup": "<svg width=\"16\" height=\"17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\"><path d=\"m.458 8.154-.456.458.456.458 4.76 4.76h1.788L1.832 8.612l5.175-5.218h-1.79l-4.76 4.76Z\"></path><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"m1.476 9.256 13.834-.001.002-.646V7.96H1.478l-.002 1.296Z\"></path></svg>",
+        "width": 0
+      },
+      "img": null,
+      "appleTouch": "https://www.semrush.com/__static__/apple-touch-icon.fe16ae843d17.png",
+      "ogImage": "https://www.semrush.com/__static__/semrush-logo-700.43215feb8faa.jpg",
+      "favicon": "https://www.semrush.com/__static__/favicon.d8fbaa3a030a.ico"
+    },
+    "styleSamples": [
+      {
+        "where": "body",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Inter, sans-serif"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout__skip-to-content:nth-of-type(1) > button#skip-to-content",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 109, 202)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "1px 6px",
+        "borderColor": "rgb(0, 109, 202)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header",
+        "backgroundColor": "oklab(0.999994 0.0000455678 0.0000200868)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "lineHeight": "12px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px 24px",
+        "borderColor": "rgb(51, 51, 51)"
+      },
+      {
+        "where": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "4px 8px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "4px 8px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "lineHeight": "12px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(51, 51, 51)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > div.semr__wrap:nth-of-type(1) > nav",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > div.semr__tool.keyword-magic__tool:nth-of-type(2) > section.semr__wrap.semr__tool-wrap",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "22px",
+        "lineHeight": "31.9px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px 30px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__metrics:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.semr__wrap:nth-of-type(2)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px 30px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__ideas:nth-of-type(3)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__cluster:nth-of-type(4)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__manager:nth-of-type(5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.keyword-magic__digital:nth-of-type(6)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.semr > div.keyword-magic.semr__main > section.semr__analyzer.keyword-magic__analyzer:nth-of-type(7)",
+        "backgroundColor": "rgb(66, 25, 131)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "18px",
+        "lineHeight": "26.1px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "65px 0px 100px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "lineHeight": "14px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-allow-all-btn:nth-of-type(1)",
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "17px 24px",
+        "borderColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-deny-all-btn:nth-of-type(2)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "17px 24px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-open-settings-btn:nth-of-type(3)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "16px 24px",
+        "borderColor": "rgb(24, 30, 21)"
+      }
+    ],
+    "firstParagraph": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system."
+  }
+}

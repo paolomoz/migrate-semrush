@@ -1,0 +1,9 @@
+# Adobe reference source code (excluded — see learnings.md § Run context).
+# The captured DESIGN.md / DESIGN.json carry what's needed downstream.
+designs/
+
+# OS / editor noise
+.DS_Store
+
+# Empty placeholder
+node_modules/

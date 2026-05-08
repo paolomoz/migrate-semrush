@@ -1,0 +1,689 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:adopt (manual stage-1b inverse-extract)",
+    "writtenAt": "2026-05-08T16:00:00Z",
+    "readArtifacts": [
+      "designs/hub/HANDOFF.md",
+      "designs/hub/index.html",
+      "designs/hub/styles/global/typography.css",
+      "designs/hub/styles/global/grid.css",
+      "designs/hub/styles/global/reset.css",
+      "designs/hub/styles/page.css",
+      "designs/hub/styles/nav.css",
+      "designs/hub/styles/mega-nav.css",
+      "designs/hub/styles/mobile-nav.css",
+      "designs/hub/styles/hero.css",
+      "designs/hub/styles/hero-grid.css",
+      "designs/hub/styles/hero-hub-router.css",
+      "designs/hub/styles/editorial.css",
+      "designs/hub/styles/offer-apps.css",
+      "designs/hub/styles/sticky-cta.css",
+      "designs/hub/scripts/hero.js",
+      "designs/hub/scripts/text-animate.js",
+      "designs/hub/scripts/mega-nav.js",
+      "designs/hub/scripts/mobile-nav.js",
+      "designs/bizpro-hub-prototype (1)/bizpro-hub.html"
+    ],
+    "synthesizedInputs": [
+      "spacing.scale: derived from observed paddings/gaps (8/16/24/32/48/64/96/128) — bizpro-hub.html declares an explicit 8-based ladder so this is the canonical scale",
+      "rounded.lg=24px: read from .app-card; rounded.xl=32px: read from #hero/.section bottom-corner; primary radius 16px is mode across cards (mosaic, mnav-card, ucnav-card, perk-card, plan-card, editorial cards, hero-hub-card, gnav-inner)",
+      "fallback font choice (Source Sans 3 / Inter at 900 with -0.045em ls) is inferred — the source code only specifies licensed Adobe Clean. The fallback rationale is documented in DESIGN.md § Font availability note."
+    ],
+    "stardustVersion": "0.3.0",
+    "notes": [
+      "Authored manually as inverse-extract — NOT by /direct. The Adobe Acrobat Studio reference system was reverse-engineered into this spec so downstream stardust stages adopt it as the target.",
+      "The token contract (:root vocabulary expected by stardust prototype/migrate) is satisfied by the frontmatter `colors`, `typography`, `spacing`, `rounded` keys in DESIGN.md — see extensions.tokenContract for the explicit mapping."
+    ]
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-08T16:00:00Z",
+  "title": "Design System: Acrobat Studio (target)",
+  "extensions": {
+    "register": "brand",
+
+    "site": {
+      "name": "Acrobat Studio",
+      "tagline": "Confident, motion-led marketing surface",
+      "originUrl": "https://paolomoz.github.io/redesign-businessadobe/"
+    },
+
+    "logo": {
+      "source": "img",
+      "sourceSelector": "img.gnav-logo",
+      "localPath": "designs/hub/assets/adobe-logo.svg",
+      "format": "svg",
+      "intrinsicWidth": 67,
+      "intrinsicHeight": 16,
+      "synthesized": false,
+      "wordmarkVariants": [
+        { "name": "white",      "path": "designs/hub/assets/adobe-logo.svg" },
+        { "name": "black",      "path": "designs/hub/assets/adobe-logo-black.svg" },
+        { "name": "sm-white",   "path": "designs/hub/assets/adobe-logo-sm.svg" },
+        { "name": "sm-black",   "path": "designs/hub/assets/adobe-logo-sm-black.svg" },
+        { "name": "red-favicon","path": "designs/hub/assets/adobe-logo-red.svg" }
+      ],
+      "brandRedHex": "#eb1000",
+      "_provenance": "designs/hub/index.html:493-498 (gnav logo pair) + favicon link"
+    },
+
+    "palette": [
+      { "role": "background",   "value": "#ffffff", "displayName": "Surface White",      "usedAs": ["background"], "_source": "designs/hub/styles/global/reset.css:11-16 (html/body bg)" },
+      { "role": "surface",      "value": "#f8f8f8", "displayName": "Surface Light",      "usedAs": ["background"], "_source": "designs/hub/styles/mega-nav.css (panel bg) + offer-apps.css (perk-card)" },
+      { "role": "surface-2",    "value": "#f6f6f6", "displayName": "Surface Soft",       "usedAs": ["background"], "_source": "designs/hub/styles/editorial.css:8 + offer-apps.css:107 + hero-hub-router.css" },
+      { "role": "text-primary", "value": "#000000", "displayName": "Ink Dark",           "usedAs": ["text", "background"], "_source": "designs/hub/styles/offer-apps.css:52 (.btn-primary) + nav.css color flip" },
+      { "role": "text-near-black","value": "#1a1a1a","displayName": "Near-Black Ink",   "usedAs": ["text", "background"], "_source": "designs/hub/styles/mega-nav.css:217-218 (.mnav-filter--active hover and inverse cards)" },
+      { "role": "text-charcoal","value": "#2c2c2c", "displayName": "Text Deep Charcoal", "usedAs": ["text"], "_source": "designs/hub/styles/global/reset.css:13 + page.css:8" },
+      { "role": "text-mid",     "value": "#4a4a4a", "displayName": "Text Mid",           "usedAs": ["text"], "_source": "designs/hub/styles/hero.css:69 + offer-apps.css:36-150" },
+      { "role": "text-muted",   "value": "#6e6e6e", "displayName": "Text Muted",         "usedAs": ["text"], "_source": "designs/hub/styles/offer-apps.css:27 (.offer-apps-header eyebrow)" },
+      { "role": "primary",      "value": "#3b63fb", "displayName": "Trial Blue",         "usedAs": ["background"], "_source": "designs/hub/styles/sticky-cta.css:195 (.btn-plan-trial)" },
+      { "role": "primary-deep", "value": "#274dea", "displayName": "Trial Blue Hover",   "usedAs": ["background"], "_source": "designs/bizpro-hub-prototype (1)/bizpro-hub.html:45 (--s2a-color-blue-1000)" },
+      { "role": "brand-red",    "value": "#eb1000", "displayName": "Adobe Red",          "usedAs": ["fill"], "_source": "designs/bizpro-hub-prototype (1)/bizpro-hub.html:46 (--s2a-color-brand-adobe-red); favicon" },
+      { "role": "border",       "value": "#d0d0d0", "displayName": "Ink Divider",        "usedAs": ["background"], "_source": "designs/hub/styles/offer-apps.css:172 (.carousel-dot inactive)" },
+      { "role": "card-image-bg","value": "#c8c8c8", "displayName": "Card Mid Gray",      "usedAs": ["background"], "_source": "designs/hub/styles/offer-apps.css:113 (.app-card-image placeholder)" }
+    ],
+
+    "colorMeta": {
+      "surface-white":      { "role": "neutral",   "displayName": "Surface White",       "canonical": "#ffffff", "tonalRamp": ["#0a0a0a","#1a1a1a","#2c2c2c","#4a4a4a","#6e6e6e","#a8a8a8","#d0d0d0","#ffffff"] },
+      "surface-light":      { "role": "neutral",   "displayName": "Surface Light",       "canonical": "#f8f8f8", "tonalRamp": ["#1f1f1f","#373737","#525252","#717171","#8f8f8f","#c6c6c6","#e9e9e9","#f8f8f8"] },
+      "surface-soft":       { "role": "neutral",   "displayName": "Surface Soft",        "canonical": "#f6f6f6", "tonalRamp": ["#1d1d1d","#353535","#505050","#6e6e6e","#8c8c8c","#c1c1c1","#e6e6e6","#f6f6f6"] },
+      "ink-dark":           { "role": "neutral",   "displayName": "Ink Dark",            "canonical": "#000000", "tonalRamp": ["#000000","#1a1a1a","#2c2c2c","#4a4a4a","#6e6e6e","#9a9a9a","#c8c8c8","#e9e9e9"] },
+      "text-near-black":    { "role": "neutral",   "displayName": "Near-Black Ink",      "canonical": "#1a1a1a", "tonalRamp": ["#0a0a0a","#1a1a1a","#2c2c2c","#4a4a4a","#6e6e6e","#9a9a9a","#c8c8c8","#e9e9e9"] },
+      "text-deep-charcoal": { "role": "neutral",   "displayName": "Text Deep Charcoal",  "canonical": "#2c2c2c", "tonalRamp": ["#0e0e0e","#1c1c1c","#2c2c2c","#4a4a4a","#6e6e6e","#9a9a9a","#c8c8c8","#e9e9e9"] },
+      "text-mid":           { "role": "neutral",   "displayName": "Text Mid",            "canonical": "#4a4a4a", "tonalRamp": ["#171717","#2c2c2c","#3b3b3b","#4a4a4a","#6e6e6e","#9a9a9a","#c8c8c8","#e9e9e9"] },
+      "text-muted":         { "role": "neutral",   "displayName": "Text Muted",          "canonical": "#6e6e6e", "tonalRamp": ["#1d1d1d","#353535","#525252","#6e6e6e","#8f8f8f","#b4b4b4","#d6d6d6","#f0f0f0"] },
+      "trial-blue":         { "role": "primary",   "displayName": "Trial Blue",          "canonical": "#3b63fb", "tonalRamp": ["#0c1655","#142480","#1c33ab","#274dea","#3b63fb","#7088fc","#a4b3fd","#cdd5fe"] },
+      "trial-blue-hover":   { "role": "primary",   "displayName": "Trial Blue Hover",    "canonical": "#274dea", "tonalRamp": ["#0a113d","#0f1a5e","#152585","#1c33ab","#274dea","#5e7af0","#9aaaf6","#c8d2fb"] },
+      "adobe-red":          { "role": "secondary", "displayName": "Adobe Red",           "canonical": "#eb1000", "tonalRamp": ["#3a0400","#5e0700","#820a00","#a60d00","#cb1000","#eb1000","#ff4633","#ff8b80"] },
+      "ink-divider":        { "role": "neutral",   "displayName": "Ink Divider",         "canonical": "#d0d0d0", "tonalRamp": ["#262626","#3d3d3d","#5e5e5e","#7e7e7e","#a0a0a0","#bcbcbc","#d0d0d0","#ececec"] },
+      "card-mid-gray":      { "role": "neutral",   "displayName": "Card Mid Gray",       "canonical": "#c8c8c8", "tonalRamp": ["#242424","#3a3a3a","#5a5a5a","#7a7a7a","#9c9c9c","#b6b6b6","#c8c8c8","#e9e9e9"] }
+    },
+
+    "type": {
+      "headingFamily": {
+        "name": "Adobe Clean Display",
+        "stack": "'Adobe Clean Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "weights": [400, 700, 900],
+        "displayWeightCanonical": 900,
+        "sizes": ["96px", "80px", "56px", "48px", "24px"],
+        "tabletSizes": ["72px", "56px", "40px", "32px", "20px"],
+        "mobileSizes": ["56px", "40px", "32px", "24px", "20px"],
+        "lineHeights": [0.94, 0.96, 1.0, 1.0, 1.0],
+        "letterSpacing": ["-0.04em", "-0.04em", "-0.03em", "-0.03em", "-0.02em"],
+        "_source": "designs/hub/styles/global/typography.css:36-107 + tablet/mobile media queries"
+      },
+      "bodyFamily": {
+        "name": "Adobe Clean",
+        "stack": "'Adobe Clean', 'Adobe Clean Display', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "weights": [400, 700],
+        "sizes": ["20px", "16px", "14px", "12px"],
+        "lineHeights": [1.2, 1.3, 1.3, 1.3],
+        "letterSpacing": ["0", "0.01em", "0.01em", "0.02em"],
+        "_source": "designs/hub/styles/global/typography.css:73-107"
+      },
+      "monoFamily": null,
+      "scaleRatio": null,
+      "scaleAudit": {
+        "kind": "ad-hoc",
+        "ratios": [1.20, 1.43, 1.17, 2.0],
+        "matchedScale": null,
+        "_provenance": "Acrobat scale: 96 → 80 → 56 → 48 → 24. Ratios are 96/80=1.20, 80/56=1.43, 56/48=1.17, 48/24=2.0 — not a single canonical modular scale. The system is deliberate per token, not ratio-derived.",
+        "note": "Token-swap-by-breakpoint, not clamp(). Each Title size has 3 fixed breakpoint values."
+      },
+      "loadStrategy": "swap",
+      "fallbackFontDecision": {
+        "primary": "Adobe Clean Display + Adobe Clean (license required, OTF files in assets/fonts/)",
+        "fallback": "Source Sans 3 (preferred, Adobe open source) → Inter weight 900 with -0.045em letter-spacing → system-ui",
+        "rationale": "Source Sans 3 shares Adobe Clean's humanist proportions and ships at weight 900; Inter 900 is denser at display sizes than typical Helvetica-family fallbacks. See DESIGN.md § Font availability note."
+      }
+    },
+
+    "typographyMeta": {
+      "super":   { "displayName": "Super",   "purpose": "Hub-page super-display only — 96/72/56 across desktop/tablet/mobile." },
+      "title-1": { "displayName": "Title 1", "purpose": "Hero H1 — \"With great power comes great productivity.\"" },
+      "title-2": { "displayName": "Title 2", "purpose": "Section H2s — \"There's more to Acrobat than Acrobat,\" \"Real teams. Real work. Real impact.\"" },
+      "title-3": { "displayName": "Title 3", "purpose": "Reserved sub-display, large card titles." },
+      "title-4": { "displayName": "Title 4", "purpose": "Mega-nav use-case titles, plan-card name, list-nav heading." },
+      "body-l":  { "displayName": "Body Large",  "purpose": "Editorial sub-deck, hero supporting copy." },
+      "body-m":  { "displayName": "Body Medium", "purpose": "Default body copy, hero subcopy, section decks." },
+      "body-s":  { "displayName": "Body Small",  "purpose": "Plan-card billing line, list-nav items, plan features." },
+      "eyebrow": { "displayName": "Eyebrow", "purpose": "Category cue above section headlines, often paired with a 24×24 product icon at 8px gap." },
+      "label":   { "displayName": "Label",   "purpose": "Nav links, button copy, sign-in." },
+      "caption": { "displayName": "Caption", "purpose": "Reserved metadata; rarely visible." }
+    },
+
+    "spacing": {
+      "baseUnit": 8,
+      "scale": [4, 8, 12, 16, 24, 32, 48, 64, 96, 128],
+      "sectionPadding": "128px",
+      "containerMaxWidth": "1920px",
+      "gridGap": "8px",
+      "_source": "designs/hub/styles/global/grid.css (gutter:8px, max:1920px) + offer-apps.css (#the-offer-apps padding 128px) + bizpro-hub.html:99-110 (--s2a-spacing scale)"
+    },
+
+    "grid": {
+      "breakpoints": {
+        "xs": "≤767px",
+        "s":  "768–1023px",
+        "m":  "1024–1279px",
+        "l":  "1280–1440px",
+        "xl": "≥1441px"
+      },
+      "columns": { "xs": 6, "s": 6, "m": 12, "l": 12, "xl": 12 },
+      "margin":  { "xs": "24px", "s": "24px", "m": "8.333%", "l": "8.333%", "xl": "8.333%" },
+      "gutter":  "8px",
+      "containerMaxWidth": "1920px",
+      "_source": "designs/hub/styles/global/grid.css + HANDOFF.md § Grid system",
+      "note": "When using col-12 inside a 6-col grid (S/XS), CSS grid creates implicit columns which breaks col-3 siblings. Use `grid-column: 1 / -1` for full-width at small breakpoints."
+    },
+
+    "breakpoints": [
+      { "name": "xs", "value": "0px",     "purpose": "Mobile <768" },
+      { "name": "s",  "value": "768px",   "purpose": "Small tablet" },
+      { "name": "m",  "value": "1024px",  "purpose": "Desktop start" },
+      { "name": "l",  "value": "1280px",  "purpose": "Desktop wide" },
+      { "name": "xl", "value": "1441px",  "purpose": "Desktop ultra; container max-width 1920px applies" },
+      { "name": "container-max", "value": "1920px", "purpose": "Hard ceiling on .grid container" }
+    ],
+
+    "motifs": {
+      "borderRadius": {
+        "primary": "16px",
+        "secondary": "24px",
+        "pill": "999px",
+        "section-bottom": "32px",
+        "occurrences": { "16px": 18, "24px": 4, "32px": 2, "75px": 5, "999px": 3, "8px": 1 },
+        "_source": "Counted across designs/hub/styles/*.css — 16px dominates cards/mosaic/mnav-card/ucnav-card/perk-card/plan-card/editorial/hub-router-card/gnav-inner. 24px on .app-card. 32px on #hero bottom + #the-offer-apps bottom. 75px on pill CTAs. 999px on plan-trial."
+      },
+      "shadows": [
+        { "name": "photo-card", "value": "0 4px 100px rgba(0, 0, 0, 0.25)", "uses": "editorial right-card photo lift", "_source": "designs/hub/styles/editorial.css:108" },
+        { "name": "sticky-pill", "value": "0 0 0 0px #000000, 0 8px 32px rgba(0, 0, 0, 0.24), 0 2px 8px rgba(0, 0, 0, 0.12)", "uses": "morphing CTA pill bottom-center", "_source": "designs/hub/styles/sticky-cta.css:44" }
+      ],
+      "backdrops": [
+        { "name": "nav-pill-glass", "value": "backdrop-filter: blur(64px); background: rgba(255,255,255,0.51)", "uses": "scrolled gnav pill", "_source": "designs/hub/styles/nav.css:43-55" },
+        { "name": "mega-nav-dim", "value": "backdrop-filter: blur(32px); background: rgba(0,0,0,0.72)", "uses": "scrim behind mega-nav", "_source": "designs/hub/styles/mega-nav.css:6-15" },
+        { "name": "modal-scrim", "value": "backdrop-filter: blur(12px); background: rgba(0,0,0,0.6)", "uses": "behind sticky-CTA pricing modal", "_source": "designs/hub/styles/sticky-cta.css:13-21" },
+        { "name": "ghost-white-button", "value": "backdrop-filter: blur(16.5px)", "uses": "gnav-signin button over hero", "_source": "designs/hub/styles/nav.css:181-182" }
+      ],
+      "gradients": [],
+      "patterns": [
+        { "name": "hero-mosaic-converge",     "evidence": "5-col × 3-row image mosaic, scroll-pinned, converges from spread to tight (220–240vh pin)" },
+        { "name": "scroll-scrubbed-text-reveal", "evidence": "[data-ta] line splits + progressive y-offset reveals between 90vh and 40vh" },
+        { "name": "mega-nav-clip-morph",      "evidence": "panel clip-path expands from gnav-pill geometry to viewport bottom" },
+        { "name": "morphing-sticky-cta",      "evidence": "279×56 pill expands into full pricing modal via GSAP-driven width/height/content" },
+        { "name": "editorial-bento-2up",      "evidence": "two-card row tucked behind hero's 32px rounded bottom" },
+        { "name": "card-grid-3up",            "evidence": "mega-nav product grid, perks-row, hub-router carousel" },
+        { "name": "section-bottom-rounded",   "evidence": "32px bottom corners on full-bleed sections to reveal next layer" },
+        { "name": "stagger-fade-in-25ms",     "evidence": "mega-nav cards animate-in with 25ms stagger (mnav-item-in)" },
+        { "name": "card-dark-flip-hover",     "evidence": "product-card and use-case card invert to #1a1a1a + white text on hover" }
+      ]
+    },
+
+    "componentStyle": {
+      "buttons": {
+        "primary":   { "background": "#000000", "color": "#ffffff", "borderRadius": "75px", "padding": "0 24px", "height": "48px", "fontWeight": 700, "fontSize": "14px", "shadow": null, "hoverDelta": "background → #1a1a1a", "_source": "designs/hub/styles/offer-apps.css:47-63" },
+        "secondary": { "background": "transparent", "color": "#000000", "borderRadius": "75px", "padding": "0 24px", "height": "48px", "fontWeight": 700, "fontSize": "14px", "border": "1.5px solid #000", "shadow": null, "hoverDelta": "background → rgba(0,0,0,0.04)", "_source": "designs/hub/styles/offer-apps.css:65-82" },
+        "trial":     { "background": "#3b63fb", "color": "#ffffff", "borderRadius": "999px", "padding": "0 24px", "height": "40px", "fontWeight": 700, "fontSize": "14px", "shadow": null, "hoverDelta": "opacity 0.88 (or background → #274dea per bizpro-hub.html:176)", "_source": "designs/hub/styles/sticky-cta.css:189-210" },
+        "ghost-white":{"background": "transparent", "color": "#ffffff", "borderRadius": "75px", "padding": "0 24px", "height": "40px", "fontWeight": 700, "fontSize": "14px", "border": "1px solid rgba(255,255,255,0.85)", "shadow": null, "hoverDelta": "background → rgba(255,255,255,0.15); backdrop-filter: blur(16.5px)", "_source": "designs/hub/styles/nav.css:163-195" },
+        "filter-pill":{"background":"rgba(0,0,0,0.04)","color":"#1a1a1a","borderRadius":"999px","padding":"0 18px","height":"40px","fontWeight":700,"fontSize":"14px","activeStyle":{"background":"#000","color":"#fff"},"_source":"designs/hub/styles/mega-nav.css:189-219"}
+      },
+      "dualCTAPattern": "primary-then-secondary-pill",
+      "cards": {
+        "appCard":     { "background": "#f6f6f6", "borderRadius": "24px", "padding": "0", "shadow": null, "_source": "designs/hub/styles/offer-apps.css:103-110" },
+        "perkCard":    { "background": "#f8f8f8", "borderRadius": "16px", "padding": "32px 24px", "shadow": null, "_source": "designs/hub/styles/offer-apps.css:220-227" },
+        "productCard": { "background": "#ffffff", "borderRadius": "16px", "padding": "16px", "minHeight": "160px", "shadow": null, "hoverFlip": "background → #1a1a1a, all text inverts", "_source": "designs/hub/styles/mega-nav.css:252-358" },
+        "useCaseCard": { "background": "#ffffff", "borderRadius": "16px", "padding": "20px 20px 16px", "minHeight": "340px", "shadow": null, "hoverFlip": "background → #1a1a1a, all text inverts", "_source": "designs/hub/styles/mega-nav.css:441-505" },
+        "planCard":    { "background": "#f8f8f8", "borderRadius": "16px", "padding": "24px (header) / 20px 24px 24px (body)", "shadow": null, "_source": "designs/hub/styles/sticky-cta.css:113-265" },
+        "editorialBentoLeft": { "background": "transparent (full-bleed photo)", "borderRadius": "16px", "padding": "48px (overlay copy)", "shadow": null, "_source": "designs/hub/styles/editorial.css:73-95" },
+        "editorialBentoRight":{ "background": "#ffffff (image) / transparent (copy on gray)", "borderRadius": "16px", "padding": "24px 24px 0 (copy)", "shadow": "0 4px 100px rgba(0,0,0,0.25)", "_source": "designs/hub/styles/editorial.css:99-122" }
+      },
+      "inputs": null,
+      "navPill": {
+        "outerPadding": "8px",
+        "innerHeight": "64px",
+        "innerPadding": "0 16px",
+        "borderRadius": "16px",
+        "maxWidth": "1904px",
+        "defaultBg": "transparent (opacity 0)",
+        "scrolledBg": "rgba(255,255,255,0.51) + backdrop-filter: blur(64px)",
+        "scrollTriggerThreshold": "40px",
+        "transitionDuration": "0.35s ease",
+        "_source": "designs/hub/styles/nav.css + scripts/hero.js:7-18"
+      }
+    },
+
+    "systemComponents": [
+      {
+        "name": "global-nav",
+        "kind": "header",
+        "occurrences": 2,
+        "headingSequence": ["Products", "Use Cases", "Solutions", "Learn & Support", "Plans"],
+        "ctaLabels": ["Sign In", "View Pricing"],
+        "exampleSlug": "hub-index",
+        "exampleSelector": "#gnav",
+        "examplePages": ["designs/hub/index.html", "designs/bizpro-hub-prototype (1)/bizpro-hub.html"],
+        "exampleBlock": "<div id=\"gnav\"><div class=\"gnav-inner\"><div class=\"gnav-left\">[logo + nav-links]</div><div class=\"gnav-right\">[apps-icon + sign-in pill]</div></div></div>",
+        "treatment": "Frosted-glass pill, fixed top, transparent over hero → opaque on scroll. Logo color flips with state. Mega-nav clip-path expands from this pill's geometry."
+      },
+      {
+        "name": "mega-nav-panel",
+        "kind": "nav-secondary",
+        "occurrences": 1,
+        "exampleSlug": "hub-index",
+        "exampleSelector": "#megaNavPanel",
+        "examplePages": ["designs/hub/index.html"],
+        "treatment": "Off-canvas dropdown panel triggered by gnav links. clip-path morph from pill geometry. 4 panes: Products (filter+grid), Use Cases (5-col cards), Solutions (3-col list+feature), Learn & Support (3-col list+stack)."
+      },
+      {
+        "name": "mobile-nav-overlay",
+        "kind": "nav-secondary",
+        "occurrences": 1,
+        "exampleSlug": "hub-index",
+        "exampleSelector": "#mobileNav",
+        "treatment": "Hamburger-toggled overlay below gnav (z:99). clip-path expands from nav-pill shape. Logo slides off-screen during open."
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 1,
+        "headingSequence": ["[product-list-cols]", "Featured products", "Legal", "Social"],
+        "exampleSlug": "bizpro-hub",
+        "exampleSelector": ".footer",
+        "examplePages": ["designs/bizpro-hub-prototype (1)/bizpro-hub.html"],
+        "treatment": "background: #000, white type. 5–6 column link grid on desktop, stacks mobile. Featured-product strip with 16px icons. Legal/social row at bottom. Optional large wordmark with clip-path-reveal on scroll."
+      },
+      {
+        "name": "sticky-cta-pill",
+        "kind": "cta-band",
+        "occurrences": 1,
+        "ctaLabels": ["Start free trial"],
+        "exampleSlug": "hub-index",
+        "exampleSelector": "#cta-container",
+        "examplePages": ["designs/hub/index.html"],
+        "treatment": "Floating bottom-center 279×56 black pill. GSAP-morphs into a full pricing modal with 3 plan-cards + scrim. Single shape across pill and modal states."
+      }
+    ],
+
+    "motion": [
+      {
+        "name": "default-transition",
+        "value": "200ms ease",
+        "purpose": "Default state-change duration across buttons/links/hover."
+      },
+      {
+        "name": "ease-emphasized",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Mega-nav clip-path morph, mobile-nav overlay expand. 0.48s standard."
+      },
+      {
+        "name": "ease-spring-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Hub-router card flex-basis transition. 600ms standard."
+      },
+      {
+        "name": "hero-mosaic-converge",
+        "kind": "scroll-pinned",
+        "purpose": "Hero signature: 5×3 image mosaic converges from spread positions to tight grid as the user scrolls.",
+        "trigger": "ScrollTrigger trigger=.hero-pin-spacer, start=top top, end=bottom bottom, scrub=0.8",
+        "scrollDistance": "220–240vh pin spacer; 120–180vh of scroll drives the timeline",
+        "geometry": "Spread cols: x = [-178, -89, 0, 90, 179] / 1440 * vw, y = [-307, -124, 0, -100, -290] / 1024 * vh. Tight: (0,0). Card gap: 100px → 8px scaled by vw.",
+        "loadIn": "Chebyshev-distance ring ripple from center-top tile (col 3, row 1). Ring 0 (1 tile), Ring 1 (5), Ring 2 (9). Each ring: clipPath 'inset(50% round 16px)' → 'inset(0% round 16px)', stagger 0.1s/ring, duration 0.5s, ease power2.out.",
+        "vendor": ["GSAP", "ScrollTrigger"],
+        "_source": "designs/hub/scripts/hero.js + HANDOFF.md § Hero animation"
+      },
+      {
+        "name": "text-scrub-reveal",
+        "kind": "scroll-scrubbed",
+        "purpose": "Section-headline reveal — every Title 2 with [data-ta] uses this.",
+        "trigger": "ScrollTrigger trigger=parent, start=top 90%, end=top 40%, scrub=true",
+        "mechanic": "Lines slide up from a progressive y-offset to 0 simultaneously. Upper lines resolve first.",
+        "offsetFormula": "(lineIndex + 1) * (window.innerHeight * 0.065)",
+        "noMasking": true,
+        "groups": "[data-ta-group] collects [data-ta] and [data-ta-unit] children in DOM order and assigns sequential offsets",
+        "vendor": ["GSAP", "ScrollTrigger"],
+        "_source": "designs/hub/scripts/text-animate.js + HANDOFF.md § Text animator"
+      },
+      {
+        "name": "mega-nav-clip-expand",
+        "kind": "clip-path-morph",
+        "purpose": "Mega-nav panel grows from gnav-pill geometry to full viewport.",
+        "duration": "0.48s",
+        "ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "from": "inset(8px 8px calc(100% - 72px) 8px round 16px)",
+        "to":   "inset(0 0 0 0 round 0 0 18px 18px)",
+        "background": "transparent → #f8f8f8",
+        "stagger": "Filters and cards animate in via mnav-item-in keyframes. Initial open: 0.20s base + 25–30ms per item. Tab switch: 0s base + 25ms stagger.",
+        "_source": "designs/hub/styles/mega-nav.css:23-176"
+      },
+      {
+        "name": "sticky-cta-morph",
+        "kind": "container-morph",
+        "purpose": "Pill expands into full pricing modal at bottom-center.",
+        "fromSize": "279 × 56",
+        "toSize": "viewport-sized modal",
+        "vendor": ["GSAP"],
+        "_source": "designs/hub/styles/sticky-cta.css + HANDOFF.md (sticky CTA section)"
+      },
+      {
+        "name": "card-flip-hover",
+        "kind": "state-transition",
+        "purpose": "Product / use-case cards invert from #fff to #1a1a1a on hover.",
+        "duration": "200ms ease",
+        "_source": "designs/hub/styles/mega-nav.css:265-360"
+      },
+      {
+        "name": "hub-router-accordion",
+        "kind": "flex-accordion",
+        "purpose": "Hub-router carousel: 4-card flex row where the active card grows from 291px to ~491px and crossfades to dark.",
+        "duration": "600ms",
+        "ease": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "_source": "designs/hub/styles/hero-hub-router.css"
+      },
+      {
+        "name": "lenis-smooth-scroll",
+        "kind": "page-scroll",
+        "config": "new Lenis({ lerp: 0.1, smoothWheel: true })",
+        "integration": "lenis.on('scroll', ScrollTrigger.update); gsap.ticker.add(time => lenis.raf(time * 1000)); gsap.ticker.lagSmoothing(0)",
+        "warning": "DO NOT load ScrollSmoother.min.js — collapses document height to 0. Lenis is the only smooth-scroll dependency.",
+        "vendor": ["lenis@1.1.14"],
+        "_source": "HANDOFF.md § Smooth scroll"
+      },
+      {
+        "name": "anim-enter-section",
+        "kind": "scroll-driven-css",
+        "purpose": "bizpro-hub generic section reveal — opacity 0 + translateY(40px) → opacity 1 + translateY(0).",
+        "trigger": "Custom raf loop driven by Lenis scroll + getBoundingClientRect; trigger at 85% viewport, complete over 30vh.",
+        "easing": "easeOut3 (1 - (1-t)^3)",
+        "_source": "designs/bizpro-hub-prototype (1)/bizpro-hub.html (scroll-driven section animations IIFE)"
+      }
+    ],
+
+    "reducedMotion": {
+      "_provenance": { "kind": "synthesized", "basis": "Stage-2 authoring decision; see learnings G14 / open-question 2.", "source": "DESIGN.md § 7" },
+      "policy": "Motion is presentational, not load-bearing. Under prefers-reduced-motion: reduce, prototypes must produce the same final composition without scroll-pinned timelines, scrubbed reveals, or clip-path morphs. State-change transitions ≤200ms (hover, focus, button press) remain.",
+      "authoringRule": "Wrap any GSAP timeline / ScrollTrigger.create(...) registration in a matchMedia('(prefers-reduced-motion: no-preference)') guard so timelines don't initialize when the user has opted out.",
+      "collapseRules": {
+        "hero-mosaic-converge":     "Render mosaic in final tight (0,0) positions on load; 200ms opacity fade-in. Skip the 220vh pin and the spread→tight ScrollTrigger timeline.",
+        "text-scrub-reveal":        "[data-ta] / [data-ta-group] lines render at full opacity and y:0 on first paint. Optional ≤150ms fade is acceptable but not required.",
+        "hub-router-accordion":     "Active card sizes to its expanded width instantly on selection; transition-duration: 0.",
+        "sticky-cta-morph":         "Pill expands to modal on tap with no GSAP scale/radius interpolation. Scrim appears at rgba(0,0,0,0.6) immediately.",
+        "mega-nav-clip-expand":     "Show expanded panel directly; skip the 0.48s clip-path cubic-bezier interpolation.",
+        "footer-wordmark-clip":     "Render at final 0% inset on first paint; do not animate the upward reveal.",
+        "lenis-smooth-scroll":      "Disabled. Native scroll only. Lenis self-disables under prefers-reduced-motion; verify the prototype does not override this default.",
+        "default-transition":       "Unchanged — 200ms feedback transitions are interactive, not presentational.",
+        "ease-emphasized":          "Unchanged where used as a state-change easing; only as a clip-morph driver does it collapse (see mega-nav-clip-expand).",
+        "ease-spring-out":          "Unchanged where used for ≤200ms feedback; collapses where used for the 600ms hub-router accordion (see hub-router-accordion).",
+        "anim-enter-section":       "Items render at final position/opacity on first paint; skip stagger and easeOut3 ramp."
+      }
+    },
+
+    "vendorDependencies": [
+      { "name": "gsap",           "version": "3.x",   "path": "vendor/gsap.min.js",          "required": true,  "purpose": "Core animation library; powers hero, sticky-CTA, hub-router, mosaic." },
+      { "name": "ScrollTrigger",  "version": "3.x",   "path": "vendor/ScrollTrigger.min.js", "required": true,  "purpose": "Scroll-pinned timelines and scroll-scrubbed reveals." },
+      { "name": "lenis",          "version": "1.1.14","path": "vendor/lenis.min.js or CDN",  "required": true,  "purpose": "Smooth-scroll wheel/touch — integrated with GSAP ticker." },
+      { "name": "ScrollSmoother", "version": "3.x",   "path": "vendor/ScrollSmoother.min.js","required": false, "purpose": "INTENTIONALLY NOT LOADED — collapses document height. Use Lenis instead." }
+    ],
+
+    "tokenContract": {
+      "description": "Mapping from this DESIGN.md frontmatter onto stardust's :root token contract (token-contract.md). Downstream prototypes must expose these CSS custom properties on :root.",
+      "mapping": {
+        "--heading-font-family": "{typography.title-1.fontFamily} = 'Adobe Clean Display', system-ui, ...",
+        "--body-font-family":    "{typography.body-m.fontFamily}  = 'Adobe Clean', 'Adobe Clean Display', ...",
+        "--heading-xxl": "{typography.super.fontSize}    = 96px",
+        "--heading-xl":  "{typography.title-1.fontSize}  = 80px",
+        "--heading-lg":  "{typography.title-2.fontSize}  = 56px",
+        "--heading-md":  "{typography.title-3.fontSize}  = 48px",
+        "--body":        "{typography.body-m.fontSize}   = 16px",
+        "--body-sm":     "{typography.body-s.fontSize}   = 14px",
+        "--line-height-heading": "{typography.title-1.lineHeight} = 0.96",
+        "--line-height-body":    "{typography.body-m.lineHeight}  = 1.3",
+        "--color-bg":     "{colors.surface-white} = #ffffff",
+        "--color-fg":     "{colors.text-primary}  = #000000",
+        "--color-accent": "{colors.trial-blue}    = #3b63fb",
+        "--spacing-xs":  "{spacing.xs}  = 4px",
+        "--spacing-sm":  "{spacing.sm}  = 8px",
+        "--spacing-md":  "{spacing.md}  = 16px",
+        "--spacing-lg":  "{spacing.lg}  = 24px",
+        "--spacing-xl":  "{spacing.xl}  = 48px",
+        "--spacing-2xl": "{spacing.2xl} = 96px",
+        "--section-padding": "{spacing.section} = 128px",
+        "--max-width":   "1920px (extensions.spacing.containerMaxWidth)",
+        "--radius":      "{rounded.primary} = 16px"
+      },
+      "extraTokens": {
+        "--radius-pill":    "75px",
+        "--radius-full":    "999px",
+        "--radius-section-bottom": "32px",
+        "--color-surface-light": "#f8f8f8",
+        "--color-surface-soft":  "#f6f6f6",
+        "--color-ink-near-black":"#1a1a1a",
+        "--color-text-mid":      "#4a4a4a",
+        "--color-text-muted":    "#6e6e6e",
+        "--color-trial-blue":    "#3b63fb",
+        "--color-trial-blue-hover":"#274dea",
+        "--ease-emphasized": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "--ease-spring-out": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "--duration-fast":   "200ms",
+        "--duration-base":   "400ms",
+        "--duration-emphasized": "480ms",
+        "--duration-spring": "600ms"
+      }
+    },
+
+    "voice": {
+      "heroHeadline": "With great power comes great productivity.",
+      "heroEyebrow": "PDF & Productivity",
+      "heroSubcopy": "Do your best work faster with AI-powered document insights, secure collaboration, and professional content creation — all in one place.",
+      "heroSubcopyAlt": "Streamline the way you work, communicate, and transact business. Plus, get AI-powered assistance, APIs and integrations, and built-in security tools.",
+      "primaryCTALabel": "Try it free",
+      "ctaSamples": ["Try it free", "Buy now", "Start free trial", "Sign In", "View Pricing", "Contact us", "Learn more", "All products"],
+      "navItems": ["Products", "Use Cases", "Solutions", "Learn & Support", "Plans"],
+      "sectionHeadlines": [
+        "There's more to Acrobat than Acrobat.",
+        "Work faster. No matter the work.",
+        "Real teams. Real work. Real impact.",
+        "Do it all with the power of Acrobat.",
+        "Solutions that work for you.",
+        "Find what you're looking for."
+      ],
+      "tile-tagline-samples": [
+        "Close more deals.",
+        "Take the pain out of campaigns.",
+        "Move the fine print faster.",
+        "Make policy more personal.",
+        "Understand quickly."
+      ],
+      "tile-body-samples": [
+        "Turn insights into action and accelerate your pipeline with AI-powered tools.",
+        "Quickly create and edit images, video, and audio with creative AI.",
+        "Draft, review, and manage contracts and compliance documents at scale.",
+        "Streamline hiring, onboarding, and employee communications with ease.",
+        "Ask your custom or prebuilt AI Assistant to quickly summarize, analyze, provide insights, turn docs into decks, and more."
+      ],
+      "footerHeadings": ["Featured products", "Legal", "Social"],
+      "tone": {
+        "guess": "bold-direct",
+        "evidence": "Single-clause headlines, periods inside section titles ('Real teams. Real work. Real impact.'), confident generosity, no jargon, no exclamation marks, em-dashes preferred over commas. Sentence case throughout."
+      }
+    },
+
+    "voiceTable": {
+      "ctaFrequency": [
+        { "label": "Try it free",       "total": 4, "pages": ["hub-index"] },
+        { "label": "Buy now",           "total": 3, "pages": ["hub-index", "bizpro-hub"] },
+        { "label": "Start free trial",  "total": 2, "pages": ["hub-index"] },
+        { "label": "Sign In",           "total": 2, "pages": ["hub-index", "bizpro-hub"] },
+        { "label": "Learn more",        "total": 2, "pages": ["bizpro-hub"] },
+        { "label": "View Pricing",      "total": 1, "pages": ["bizpro-hub"] },
+        { "label": "Contact us",        "total": 4, "pages": ["hub-index"] },
+        { "label": "All products",      "total": 2, "pages": ["hub-index"] }
+      ],
+      "toneMetrics": {
+        "headingsUppercasePercent": 0,
+        "distinctHeadings": 6,
+        "distinctCtaLabels": 8
+      }
+    },
+
+    "divergence": {
+      "toolkit_version": "v1.0 (stardust v2)",
+      "mode": "adopted",
+      "seed": null,
+      "font_deck": "adobe-clean (licensed) → Source Sans 3 (open-source fallback)",
+      "anti_toolbox_count": 5,
+      "anti_toolbox_hits": [
+        { "move": "Sticky top navigation", "justification": "Adobe Acrobat Studio DS canonical pattern (`#gnav` in designs/hub/index.html); the gnav is fixed-pill, frosted-glass on scroll, with mega-nav clip-morph from the same geometry. Source DS ships this; not a stardust default. See DESIGN.md § 5 Components / Navigation." },
+        { "move": "Stat-callout bar", "justification": "PARTIAL — present only as the editorial-bento left card (one stat figure + body), NOT a 3–4 number trust bar. Rendered as PLACEHOLDER per F-002 (semrush home has STATS AND FACTS H2 with no captured values; the brief flagged this as Open Question 2 / decision: keep as placeholder). The bento-left card is the source DS's editorial bento pattern, not a horizontal stat strip. Justification: a single stat-card is the source DS's editorial-bento composition, not a generic trust bar." },
+        { "move": "Generic-2026-SaaS silhouette (oversized hero + CTA pair + sticky nav + serial footer)", "justification": "FALSE-POSITIVE flagging — three of four elements are present (oversized hero at 80px Title 1, primary+secondary CTA pair, sticky top-nav) but the fourth (serial-marker footer) is absent. The composition is the source DS's exact hero pattern — Adobe Clean Display Black at 80px, primary+secondary pill pair, frosted-glass nav. Source DS justification, not stardust default." },
+        { "move": "Hero text on photographic background without contrast scrim", "justification": "Hero text sits at z-index 2 on white ground (#ffffff); the mosaic tiles are at opacity 0.18 behind, giving an effective text-on-near-white reading. Contrast computed at >7:1 (black-on-white) under the headline. The mosaic is decorative, not a photographic background — DESIGN.md § Hero specifies the mosaic-converge pattern with hero copy centered above on white ground." },
+        { "move": "Card-grid 3-up / 4-up", "justification": "Adobe DS hub-router accordion (5-up flex with active card expanding) and perks-4-up are explicit DS patterns named in DESIGN.md § 5 Components and DESIGN.json extensions.motifs.patterns[hub-router-accordion / card-grid-3up]. Source-DS-justified, not a stardust card-grid reflex." }
+      ],
+      "off_toolbox_moves": [],
+      "audit_adjustments": [
+        { "from": "anti_toolbox_hits", "to": "noted_as_partial", "move": "Stat-callout bar", "reason": "Single bento-left stat is not a horizontal multi-number trust bar; flagged as PARTIAL hit with PLACEHOLDER content treatment." }
+      ],
+      "references_used": [],
+      "palette_source": {
+        "library_version": "n/a (adopted-mode)",
+        "candidates": ["Acrobat Studio DS palette (15 colors)"],
+        "recommended_index": 0,
+        "picked_index": 0,
+        "_note": "Palette inherited from designs/hub/styles/global/reset.css + designs/bizpro-hub-prototype (1)/bizpro-hub.html — not seed-derived."
+      },
+      "notes": [
+        "Adopted direction: anti-toolbox audit pre-cleared by source DS (every hit Adobe Studio's DS makes is justified by the source itself, not by a stardust default).",
+        "Brand-faithful inversions allowed and documented: pure #000 / #fff (intentional Adobe DS choice — DESIGN.md § Colors The One Blue Rule + The Two-Gray Rule); hex format throughout (Adobe DS frontmatter ships hex); no clamp on Title sizes (DESIGN.md hard rule, token-swap-by-breakpoint via @media); em-dashes welcome (Adobe register samples ship them throughout)."
+      ]
+    }
+  },
+
+  "components": [
+    {
+      "name": "Primary Button (Ink-Dark Pill)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The default site CTA — black pill on white. Use as the dominant action on every section. Hover deepens to #1a1a1a.",
+      "html": "<a href=\"#\" class=\"ds-btn-primary\">Try it free</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 24px; background: #000; color: #fff; border: 0; border-radius: 75px; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 14px; font-weight: 700; line-height: 1.3; letter-spacing: 0; text-decoration: none; white-space: nowrap; cursor: pointer; transition: background 200ms ease; } .ds-btn-primary:hover { background: #1a1a1a; } .ds-btn-primary:focus-visible { outline: 2px solid #3b63fb; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button (Outline Pill)",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Always paired right of the primary; never alone. 1.5px hairline outline.",
+      "html": "<a href=\"#\" class=\"ds-btn-secondary\">Buy now</a>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 24px; background: transparent; color: #000; border: 1.5px solid #000; border-radius: 75px; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 14px; font-weight: 700; line-height: 1.3; text-decoration: none; cursor: pointer; transition: background 200ms ease; } .ds-btn-secondary:hover { background: rgba(0,0,0,0.04); } .ds-btn-secondary:focus-visible { outline: 2px solid #3b63fb; outline-offset: 2px; }"
+    },
+    {
+      "name": "Trial CTA (Signature Blue)",
+      "kind": "button",
+      "refersTo": "button-trial",
+      "description": "Reserved per The One Blue Rule. Hero \"Start free trial\" + plan-trial pill in the sticky pricing modal. Never anywhere else.",
+      "html": "<a href=\"#\" class=\"ds-btn-trial\">Start free trial</a>",
+      "css": ".ds-btn-trial { display: inline-flex; align-items: center; justify-content: center; height: 40px; padding: 0 24px; background: #3b63fb; color: #fff; border: 0; border-radius: 999px; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 14px; font-weight: 700; line-height: 1; text-decoration: none; cursor: pointer; transition: background 200ms ease, opacity 200ms ease; } .ds-btn-trial:hover { background: #274dea; }"
+    },
+    {
+      "name": "Filter Pill (Mega-Nav)",
+      "kind": "chip",
+      "refersTo": "filter-pill",
+      "description": "Mega-nav category selector. Default 4% black; active flips to #000 with white type.",
+      "html": "<button class=\"ds-filter-pill ds-filter-pill--active\">Featured</button><button class=\"ds-filter-pill\">Photography</button>",
+      "css": ".ds-filter-pill { display: inline-flex; align-items: center; height: 40px; padding: 0 18px; background: rgba(0,0,0,0.04); color: #1a1a1a; border: 0; border-radius: 999px; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 14px; font-weight: 700; cursor: pointer; transition: background 200ms ease, color 200ms ease; } .ds-filter-pill:hover:not(.ds-filter-pill--active) { background: rgba(0,0,0,0.08); } .ds-filter-pill--active { background: #000; color: #fff; }"
+    },
+    {
+      "name": "Product Card (Mega-Nav)",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Mega-nav 3-up product tile. Hover flips entire card to #1a1a1a with all text inverting.",
+      "html": "<a href=\"#\" class=\"ds-product-card\"><div class=\"ds-product-card__top\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect width=\"24\" height=\"24\" rx=\"4\" fill=\"#fa0f00\"/></svg></div><div class=\"ds-product-card__bottom\"><p class=\"ds-product-card__name\">Acrobat</p><p class=\"ds-product-card__desc\">Quickly create, edit, sign, and manage your PDFs anywhere.</p></div></a>",
+      "css": ".ds-product-card { display: flex; flex-direction: column; min-height: 160px; padding: 16px; background: #fff; border-radius: 16px; text-decoration: none; cursor: pointer; transition: background 200ms ease; } .ds-product-card:hover { background: #1a1a1a; } .ds-product-card__top { margin-bottom: auto; } .ds-product-card__bottom { padding-top: 16px; } .ds-product-card__name { margin: 0 0 4px; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 15px; font-weight: 700; color: #1a1a1a; line-height: 1.25; transition: color 200ms ease; } .ds-product-card__desc { margin: 0; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 13px; color: rgba(0,0,0,0.56); line-height: 1.45; transition: color 200ms ease; } .ds-product-card:hover .ds-product-card__name { color: #fff; } .ds-product-card:hover .ds-product-card__desc { color: rgba(255,255,255,0.64); }"
+    },
+    {
+      "name": "Perk Card (4-up Grid)",
+      "kind": "card",
+      "refersTo": "perk-card",
+      "description": "4-up perks grid below the app carousel. Flat tonal layering — no shadow, no border.",
+      "html": "<article class=\"ds-perk-card\"><h3 class=\"ds-perk-card__title\">Always up to date.</h3><p class=\"ds-perk-card__body\">New features, ongoing improvements, and the latest AI tools — included.</p></article>",
+      "css": ".ds-perk-card { display: flex; flex-direction: column; gap: 12px; padding: 32px 24px; background: #f8f8f8; border-radius: 16px; } .ds-perk-card__title { margin: 0; font-family: 'Adobe Clean Display', system-ui, sans-serif; font-size: 24px; font-weight: 900; line-height: 1; letter-spacing: -0.02em; color: #2c2c2c; } .ds-perk-card__body { margin: 0; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 16px; line-height: 1.3; letter-spacing: 0.01em; color: #4a4a4a; }"
+    },
+    {
+      "name": "Section Eyebrow + Headline",
+      "kind": "custom",
+      "refersTo": "typography.eyebrow + typography.title-2",
+      "description": "Canonical section opener — eyebrow line + Title 2 headline. The eyebrow-headline pair rule.",
+      "html": "<header class=\"ds-section-header\" data-ta-group><p class=\"ds-eyebrow\" data-ta>Customer Stories</p><h2 class=\"ds-title-2\" data-ta>Real teams. Real work. Real impact.</h2><p class=\"ds-body-md\" data-ta>From small businesses to the world's largest enterprises, our customers use Acrobat to unleash their creativity.</p></header>",
+      "css": ".ds-section-header { display: flex; flex-direction: column; align-items: center; gap: 20px; text-align: center; padding: 0 24px; max-width: 760px; margin: 0 auto; } .ds-eyebrow { margin: 0; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 16px; font-weight: 700; line-height: 1.3; letter-spacing: -0.01em; color: #6e6e6e; } .ds-title-2 { margin: 0; font-family: 'Adobe Clean Display', system-ui, sans-serif; font-size: clamp(32px, 4.375vw, 56px); font-weight: 900; line-height: 1.0; letter-spacing: -0.03em; color: #000; max-width: 16ch; } .ds-body-md { margin: 0; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 16px; font-weight: 400; line-height: 1.3; letter-spacing: 0.01em; color: #4a4a4a; max-width: 44ch; }"
+    },
+    {
+      "name": "Global Nav Pill",
+      "kind": "nav",
+      "refersTo": "nav-pill",
+      "description": "Top fixed pill that crossfades from invisible to frosted glass at >40px scroll. Logo + link colors flip in lockstep.",
+      "html": "<header id=\"ds-gnav\"><div class=\"ds-gnav-inner\"><div class=\"ds-gnav-left\"><a href=\"/\" class=\"ds-gnav-logo\" aria-label=\"Adobe\"><svg width=\"67\" height=\"16\" viewBox=\"0 0 67 16\" aria-hidden=\"true\"><rect width=\"67\" height=\"16\" fill=\"currentColor\"/></svg></a><nav class=\"ds-gnav-links\"><a href=\"#\">Products</a><a href=\"#\">Use Cases</a><a href=\"#\">Solutions</a><a href=\"#\">Plans</a></nav></div><div class=\"ds-gnav-right\"><a href=\"#\" class=\"ds-gnav-signin\">Sign In</a></div></div></header>",
+      "css": "#ds-gnav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 8px; } .ds-gnav-inner { position: relative; display: flex; align-items: center; justify-content: space-between; height: 64px; padding: 0 16px; max-width: 1904px; margin: 0 auto; border-radius: 16px; } .ds-gnav-inner::before { content: ''; position: absolute; inset: 0; z-index: -1; border-radius: 16px; background: rgba(255,255,255,0.51); backdrop-filter: blur(64px); -webkit-backdrop-filter: blur(64px); opacity: 0; transition: opacity 0.35s ease; pointer-events: none; } #ds-gnav.is-scrolled .ds-gnav-inner::before { opacity: 1; } .ds-gnav-left { display: flex; align-items: center; gap: 24px; height: 100%; } .ds-gnav-logo { color: #fff; transition: color 0.35s ease; } #ds-gnav.is-scrolled .ds-gnav-logo { color: #000; } .ds-gnav-links { display: flex; align-items: center; gap: 24px; } .ds-gnav-links a { font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 14px; font-weight: 700; color: #fff; text-decoration: none; transition: color 0.35s ease, opacity 0.15s ease; } #ds-gnav.is-scrolled .ds-gnav-links a { color: #000; } .ds-gnav-links:has(a:hover) a { opacity: 0.65; } .ds-gnav-links:has(a:hover) a:hover { opacity: 1; } .ds-gnav-signin { display: inline-flex; align-items: center; height: 40px; padding: 0 24px; background: transparent; color: #fff; border: 1px solid rgba(255,255,255,0.85); border-radius: 75px; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 14px; font-weight: 700; text-decoration: none; backdrop-filter: blur(16.5px); transition: color 0.35s ease, border-color 0.35s ease, background 0.2s ease; } #ds-gnav.is-scrolled .ds-gnav-signin { color: #000; border-color: rgba(0,0,0,0.7); } .ds-gnav-signin:hover { background: rgba(255,255,255,0.15); }"
+    },
+    {
+      "name": "Sticky CTA Pill (Compact State)",
+      "kind": "custom",
+      "refersTo": "hero-pill-cta",
+      "description": "Floating bottom-center CTA pill. Compact pill state shown here; full modal expansion is GSAP-driven.",
+      "html": "<div class=\"ds-sticky-cta\"><span class=\"ds-sticky-cta__icon\" aria-hidden=\"true\"><svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><circle cx=\"16\" cy=\"16\" r=\"14\" fill=\"#fff\"/></svg></span><span class=\"ds-sticky-cta__label\">Start free trial</span></div>",
+      "css": ".ds-sticky-cta { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 102; display: inline-flex; align-items: center; gap: 16px; height: 56px; padding: 0 16px 0 12px; background: #000; color: #fff; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.24), 0 2px 8px rgba(0,0,0,0.12); cursor: pointer; transition: transform 200ms ease, box-shadow 200ms ease; } .ds-sticky-cta:hover { transform: translateX(-50%) translateY(-2px); } .ds-sticky-cta__icon { display: inline-flex; flex-shrink: 0; } .ds-sticky-cta__label { font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 16px; font-weight: 700; line-height: 1.3; }"
+    },
+    {
+      "name": "Hero Block (Mosaic-Convergence Ready)",
+      "kind": "custom",
+      "refersTo": "hero-text + hero-image-grid",
+      "description": "Centered hero copy block — eyebrow with product icon, Title 1, body, CTA pair. Pair with the mosaic-converge motion pattern (handled in JS).",
+      "html": "<section data-section=\"hero\" data-intent=\"emotional hook\" data-layout=\"full-bleed\" data-media=\"image\" class=\"ds-hero\"><div class=\"ds-hero__text\" data-ta-group><div class=\"ds-hero__app-id\" data-ta-unit><span class=\"ds-eyebrow\">PDF &amp; Productivity</span></div><h1 class=\"ds-hero__title\" data-ta>With great power comes<br>great productivity.</h1><p class=\"ds-hero__body\" data-ta>Do your best work faster with AI-powered document insights, secure collaboration, and professional content creation — all in one place.</p><div class=\"ds-hero__ctas\" data-ta-unit><a href=\"#\" class=\"ds-btn-primary\">Try it free</a><a href=\"#\" class=\"ds-btn-secondary\">Buy now</a></div></div></section>",
+      "css": ".ds-hero { position: relative; background: #fff; border-radius: 0 0 32px 32px; padding-top: 189px; min-height: 100vh; overflow: visible; } .ds-hero__text { display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; max-width: 1200px; margin: 0 auto; padding: 0 24px; } .ds-hero__app-id { display: inline-flex; align-items: center; gap: 8px; } .ds-hero__title { margin: 0; max-width: 16ch; font-family: 'Adobe Clean Display', system-ui, sans-serif; font-size: clamp(40px, 6.25vw, 80px); font-weight: 900; line-height: 0.96; letter-spacing: -0.04em; color: #000; } .ds-hero__body { margin: 0; max-width: 48ch; font-family: 'Adobe Clean', system-ui, sans-serif; font-size: 16px; line-height: 1.3; letter-spacing: 0.01em; color: #4a4a4a; } .ds-hero__ctas { display: flex; align-items: center; gap: 12px; }"
+    }
+  ],
+
+  "narrative": {
+    "northStar": "The Confident Marquee",
+    "overview": "Acrobat Studio is a marketing surface that earns the viewport. The page is mostly white. Type is enormous, set in Adobe Clean Display Black at 80–96px. Color is rationed: a near-black ink for buttons and emphasis, a pure white ground, two warm grays for cards and bento panels, a single signature blue (#3b63fb) reserved for 'Try it free,' and the Adobe red wordmark as a brand anchor. The design is motion-led — the hero pins for 220–240vh while a five-column image mosaic converges from a spread state into a tight 8px-gap grid; copy fades up, ScrollTrigger scrubs the timeline, Lenis smooths the wheel.",
+    "keyCharacteristics": [
+      "White ground, near-black ink, surfaces in two warm grays only",
+      "Adobe Clean Display Black at 80–96px on the hero, dropping to 24px for tile titles",
+      "Type sizes are tokens, not clamps — desktop / tablet / mobile redefine the same names",
+      "Pill-shaped CTAs (75px or 999px radius), no rectangular buttons",
+      "16px is THE radius — cards, mega-nav panel bottom, mosaic tiles, product cards",
+      "32px rounded bottom on full-bleed sections so the next layer can peek through",
+      "Signature blue (#3b63fb) is for 'Try it free' and the plan-trial CTA only — never on chrome",
+      "Scroll-pinned hero (220vh+), scroll-scrubbed text reveals, GSAP + ScrollTrigger + Lenis vendored locally",
+      "Mega-nav opens via a clip-path expansion of the gnav pill — a single shape transforms across states"
+    ],
+    "rules": [
+      { "name": "The One Blue Rule", "body": "The signature blue (#3b63fb) appears on exactly two elements site-wide: the hero 'Start free trial' button and the plan-trial pill in the sticky pricing modal. Anywhere else, the primary CTA is ink-dark on white.", "section": "colors" },
+      { "name": "The Two-Gray Rule", "body": "Surfaces are #f8f8f8 OR #f6f6f6 — never both in the same section, and never any other gray. Adding a third gray means the system has drifted.", "section": "colors" },
+      { "name": "The Adobe-Red Reservation", "body": "#eb1000 is the wordmark color. It is not a status color, an accent, a hover color, or a button color. It exists once on every page, in the logo, and nowhere else.", "section": "colors" },
+      { "name": "The Black-900 Rule", "body": "Every Title size in the scale is font-weight: 900. Adobe Clean Display Black is the only display weight in the system; never substitute Bold or Regular at headline sizes.", "section": "typography" },
+      { "name": "The Eyebrow-Headline Pair Rule", "body": "Section headlines are always preceded by an Eyebrow line at 16/700/-0.01em. The eyebrow is the category cue; the headline is the statement. Never start a section with a Title 2 alone.", "section": "typography" },
+      { "name": "The Tightline Rule", "body": "Display sizes (Title 1–4) use line-heights of 0.94–1.0. They are stacked, not airy. Body sizes use 1.2–1.3.", "section": "typography" },
+      { "name": "The Glass-Not-Shadow Rule", "body": "Where a typical SaaS site would add a shadow to lift the nav off the page, this system uses a frosted-glass pill instead. Never add a box-shadow to the gnav.", "section": "elevation" },
+      { "name": "The One-Photo-Shadow Rule", "body": "Use 0 4px 100px rgba(0,0,0,0.25) only on photographic images that need to lift off a colored backdrop. Don't reach for it on cards, buttons, or chrome.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do lead every section with an eyebrow at 16/700/-0.01em above the Title 2 headline.",
+      "Do use Adobe Clean Display Black (900) at 80–96px on the hero.",
+      "Do use 16px as the default radius — cards, mega-nav panel bottom, mosaic tiles, product cards. Use 24px only on app-carousel cards. Use 32px only on full-bleed section bottom corners.",
+      "Do rotate exactly two grays for surfaces: #f8f8f8 and #f6f6f6.",
+      "Do pin the hero for 220vh+ and scrub the mosaic convergence to scroll progress with scrub: 0.8.",
+      "Do apply the global Text Animator to every section headline using [data-ta] and [data-ta-group].",
+      "Do vendor GSAP, ScrollTrigger, and Lenis locally — these are required, not optional.",
+      "Do crossfade the gnav pill from invisible to frosted-glass at >40px scroll, with the logo and link colors flipping in lockstep."
+    ],
+    "donts": [
+      "Don't add a box-shadow to the gnav. Use frosted glass instead.",
+      "Don't spread the trial-blue (#3b63fb) onto links, eyebrows, nav, or feature accents.",
+      "Don't introduce a third gray.",
+      "Don't use rounded-rectangle buttons. All CTAs are pill-shaped (75px or 999px).",
+      "Don't use clamp() on Title sizes. The system swaps fixed tokens at the breakpoint media queries.",
+      "Don't load ScrollSmoother.min.js. It collapses document height to 0 and breaks scroll. Use Lenis.",
+      "Don't add badge-soup, gradient hero backgrounds, or social-proof logo strips beneath the hero.",
+      "Don't use the Adobe red (#eb1000) anywhere except the wordmark.",
+      "Don't introduce text-transform: uppercase on body or eyebrow copy.",
+      "Don't use box-shadow on cards as a default lift. Cards live on tonal layering."
+    ]
+  }
+}

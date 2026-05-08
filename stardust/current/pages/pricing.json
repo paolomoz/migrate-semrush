@@ -1,0 +1,2602 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-08T13:03:42.676Z",
+    "readArtifacts": [
+      "https://www.semrush.com/pricing/"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.3.0",
+    "waitMode": "medium",
+    "waitMs": 5835,
+    "httpStatus": 200,
+    "contentType": "text/html"
+  },
+  "slug": "pricing",
+  "url": "https://www.semrush.com/pricing/",
+  "finalUrl": "https://www.semrush.com/pricing/seo/",
+  "title": "Plans & Pricing",
+  "metaDescription": "Semrush Plans and Pricing",
+  "og": {
+    "title": "Plans & Pricing",
+    "description": "Semrush Plans and Pricing",
+    "image": "https://www.semrush.com/__static__/semrush-logo-700.43215feb8faa.jpg",
+    "type": "website",
+    "siteName": "Semrush"
+  },
+  "themeColor": {
+    "light": "#F6F7F8",
+    "dark": "#111317"
+  },
+  "language": "en",
+  "headings": [
+    {
+      "level": 3,
+      "text": "Start Here",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Find the Right Tools",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Platform",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Top Apps",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Grow with Semrush",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Explore Free Tools",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "About Semrush",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Toolkits",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > h2.Menu-module__title--sXv1G",
+      "style": {
+        "fontFamily": "\"Factor A\", sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "28.35px",
+        "letterSpacing": "normal",
+        "color": "rgb(108, 110, 121)"
+      }
+    },
+    {
+      "level": 1,
+      "text": "SEO Classic Plans",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(1) > h1._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "36px",
+        "lineHeight": "43.2px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Pro",
+      "id": null,
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > h2._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "28.35px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Guru",
+      "id": null,
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > h2._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "28.35px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Business",
+      "id": null,
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h2._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "28.35px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Compare Plans",
+      "id": "pricing-table-heading-mobile",
+      "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > div.styles-module__table--w3dqE:nth-of-type(2) > div.styles-module__SwitchColumnTable--Q88AM:nth-of-type(1) > div.styles-module__compactHeader--SnJbu:nth-of-type(1) > h2#pricing-table-heading-mobile",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "30px",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Compare Plans",
+      "id": null,
+      "domPath": "div.styles-module__SwitchColumnTable--Q88AM:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div#igc-ui-kit-ro-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div.___SFlex_1b70x_gg_.___SBoxInnerOutline_1fjik_gg_:nth-of-type(1) > h2._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "30px",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Compare Plans",
+      "id": "pricing-table-heading-desktop",
+      "domPath": "div.styles-module__MultiColumnTable--zyUwY:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div.___SFlex_1b70x_gg_.___SBoxInnerOutline_1fjik_gg_:nth-of-type(1) > h2#pricing-table-heading-desktop",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "30px",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Improve your plan with add-ons",
+      "id": "pricing-addons-title",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > h2#pricing-addons-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "30px",
+        "lineHeight": "45px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Additional Users",
+      "id": null,
+      "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(1) > h3._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "31.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Lead Generation",
+      "id": null,
+      "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > h3._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "31.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Base Report",
+      "id": null,
+      "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > h3._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "31.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Pro Report",
+      "id": null,
+      "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(4) > h3._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "21px",
+        "lineHeight": "31.5px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Playing big? Request an Enterprise demo.",
+      "id": "custom-request-title",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > div.CustomPlanRequest-module__content--daaWX > h2#custom-request-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "30px",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "FAQ",
+      "id": "faq-title",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h2#faq-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "30px",
+        "lineHeight": "45px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Can I cancel my subscription anytime?",
+      "id": "igc-ui-kit-r1l-cancel_subscription-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1l-cancel_subscription-toggle:nth-of-type(1)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "What is Semrush’s refund policy?",
+      "id": "igc-ui-kit-r1n-refund_policy-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1n-refund_policy-toggle:nth-of-type(2)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "What payment methods do you accept?",
+      "id": "igc-ui-kit-r1p-payment_methods-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1p-payment_methods-toggle:nth-of-type(3)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Do I get a customer demo?",
+      "id": "igc-ui-kit-r1r-customer_demo-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1r-customer_demo-toggle:nth-of-type(4)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Can I use Semrush for free?",
+      "id": "igc-ui-kit-r1t-free_using-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1t-free_using-toggle:nth-of-type(5)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Am I charged when I enter my credit card?",
+      "id": "igc-ui-kit-r1v-charged_after_enter_card-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1v-charged_after_enter_card-toggle:nth-of-type(6)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Which would be better for me, Guru or Pro?",
+      "id": "igc-ui-kit-r21-better_plan-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r21-better_plan-toggle:nth-of-type(7)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "I run a small agency. What plan should I choose?",
+      "id": "igc-ui-kit-r23-agency-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r23-agency-toggle:nth-of-type(8)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "What is the pricing currency?",
+      "id": "igc-ui-kit-r25-currency-toggle",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r25-currency-toggle:nth-of-type(9)",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Testimonials",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.Testimonials-module__pricingTestimonials--NAk36:nth-of-type(4) > h2.Testimonials-module__visuallyHidden--OAb6c",
+      "style": {
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "letterSpacing": "normal",
+        "color": "rgb(25, 27, 35)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "GET STARTED WITH SEMRUSH TODAY",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > h2.srf-footer__get-started-title",
+      "style": {
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "48px",
+        "lineHeight": "48px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "About cookies on this site",
+      "id": "ch2-dialog-title",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-content.h2-dialog-content-morespace:nth-of-type(1) > h2#ch2-dialog-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "28px",
+        "lineHeight": "33.6px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(51, 51, 51)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "div",
+      "role": "complementary",
+      "id": "srf-browser-unhappy",
+      "classes": [
+        "srf-browser-unhappy"
+      ],
+      "innerText": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "header",
+      "role": "banner",
+      "id": "srf-header",
+      "classes": [],
+      "innerText": "Products Pricing Resources Enterprise Log In Sign Up",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "main",
+      "role": "main",
+      "id": "root-content",
+      "classes": [
+        "srf-layout__body"
+      ],
+      "innerText": "Semrush One new Toolkits SEO Classic AI Visibility Traffic & Market Local Content Social Advertising AI PR Enterprise App center SEO Classic Plans Monthly Annually save up to 17% Pro For beginners and individual projects 117.33 dollars monthly $117.33/mo billed annually instead of 139 dollars monthly $139 Try for free or subscribe What’s inside: Up to 5 websites to monitor Keyword research tools Competitor analysis tools Position Tracking Backlinks Site Audit MCP Access Guru For small businesses 208.33 dollars monthly $208.33/mo billed annually instead of 249 dollars monthly $249 Try for free or subscribe All Pro features plus: Up to 15 websites to monitor Historical data Multi-location and device data Content optimization tools Business For agencies and mid-market companies 416.66 dollars monthly $416.66/mo billed annually instead of 499 dollars monthly $499 Subscribe or try custom plan All Guru features plus: Up to 40 websites to monitor Share of Voice Extended limits API access Migration from third-party tools Compare Plans Pro Guru Business Sortable Website monitoring AI Search Site Audit Site Audit Yes Yes Yes Keywords to track (daily updates) Position Tracking 500 1,500 5,000 Mobile data Position Tracking Yes Yes Yes Targets per monitored website Position Tracking 1 10 unlimited Expand details Improve your plan with add-ons Additional Users Starting at $45/mo • Add colleagues to your Semrush account • Collaborate across shared projects • Keep your account secure with individual logins Lead Generation $90/mo • Branded profile on the Semrush Agency Partners platform • Semrush verified badge for your marketing channels • 1000 outreach credits in Lead Finder Base Report $10/mo • Data from 20+ Semrush tools • Google Analytics and Google Search Console integrations • Monthly/Weekly/Daily scheduling • PDF export • Sharing with Semrush users Pro Report $20/mo • All Base Report features • 20+ external integrations • Delivery at a specific time • Branding and white-labeling • AI-generated summaries • Sharing by link Playing big? Request an Enterprise demo. Full LLM coverage (including Grok & Claude) Detailed analysis by brand, concept, or product line ROI attribution & funnel analysis Request demo FAQ Can I cancel my subscription anytime? Yes, you can cancel your subscription, downgrade or upgrade your plan at any time, unless you have custom terms and a signed agreement with us. What is Semrush’s refund policy? What payment methods do you accept? Do I get a customer demo? Can I use Semrush for free? Am I charged when I enter my credit card? Which would be better for me, Guru or Pro? I run a small agency. What plan should I choose? What is the pricing currency? Testimonials 1 / 5 In the first 5 years of RockContent's existence Semrush has helped us to become Brazil's biggest digital marketing blog. Vitor Peçanha Co-Founder, Rock Content By using Semrush, my team saves a lot of time by working on the right content and in a more data-driven way. Everything we do here is backed up with data, and your tool is giving us more ammunition. Idan Segal Organic Growth Lead, Wix The most important thing I can have really is data. Data is my currency. I need to support initiatives, business cases - any tools that give me insight I find incredibly useful. Semrush is a very solid package that delivers exactly that. Nick Wilsdon Product Owner, Search, Vodafone Group Encouraged by our successes with Semrush software, I was asked to rollout Semrush to the rest of the university including all the faculties. With the help of Semrush, we empowered every single marketing team within the university to do what was done for the central sites. Shefali Joshi Marketing Optimization Analyst, Monash University The competition is really tough. It’s getting harder to compete for the top 3 positions when it comes to the most popular KWs. You have to really deep dive into keyword research to find those untapped opportunities. Semrush helps us get to the very botto",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [
+        "sidebar",
+        "LeftMenu-module__wrapper--PTGUb",
+        "LeftMenu-module__desktopOnly--Yu_m8"
+      ],
+      "innerText": "Semrush One new Toolkits SEO Classic AI Visibility Traffic & Market Local Content Social Advertising AI PR Enterprise App center",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "igc-ui-kit-r1l-cancel_subscription-collapse",
+      "classes": [
+        "_inAfterOutline_false_1fjik_gg_",
+        "___SBox_1fjik_gg_",
+        "___SCollapse_1ngif_gg_",
+        "___SAnimation_160qv_gg_",
+        "__transition-based_160qv_gg_",
+        "__visible_160qv_gg_",
+        "__selected_1w207_gg_"
+      ],
+      "innerText": "Yes, you can cancel your subscription, downgrade or upgrade your plan at any time, unless you have custom terms and a signed agreement with us.",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "footer",
+      "role": "contentinfo",
+      "id": "srf-footer",
+      "classes": [
+        "srf-footer"
+      ],
+      "innerText": "GET STARTED WITH SEMRUSH TODAY Try Semrush free for seven days. Cancel anytime. Start free trial Semrush Semrush One Features Pricing Free Trial Compare Semrush Success Stories Stats and Facts Affiliate Program More tools Enterprise SEO Enterprise AIO Enterprise SI Insights24 Mfour App Center Top Websites Free Tools Sensor Company About Us News Careers Partners Semrush Select Global Issues Index Do not sell my personal info Contact Us Support Knowledge Base Academy Semrush API Community Semrush Blog Webinars Ambassador Program © 2026 Semrush Holdings. All rights reserved. Privacy Policy Terms of Service Cookies Settings English",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "srf-notice-bubble-container",
+      "classes": [],
+      "innerText": "",
+      "headingSequence": [],
+      "children": []
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Skip to content",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__skip-to-content:nth-of-type(1) > button#skip-to-content",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 109, 202)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "1px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Products",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "10px",
+        "padding": "4px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Resources",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "10px",
+        "padding": "4px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Sign Up",
+      "href": "/signup/?src=header",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "SEO Classic",
+      "href": "/pricing/seo/",
+      "tag": "a",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgba(255, 100, 45, 0.1)",
+        "color": "rgb(255, 100, 45)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 700,
+        "borderRadius": "8px",
+        "padding": "12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "try custom plan",
+      "href": "pricing/#custom-plan",
+      "tag": "a",
+      "domPath": "div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > p._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > a._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 100, 45)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "AI Search Site Audit",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njcht_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Keywords to track (daily updates)",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchu_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Mobile data",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchv_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Targets per monitored website",
+      "href": null,
+      "tag": "button",
+      "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(5) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchw_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Expand details",
+      "href": null,
+      "tag": "button",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > div.styles-module__table--w3dqE:nth-of-type(2) > div.styles-module__showMoreButtonContainer--UYBkD:nth-of-type(3) > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "backgroundColor": "rgba(138, 142, 155, 0.1)",
+        "color": "rgb(108, 110, 121)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 500,
+        "borderRadius": "6px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Request demo",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+      "style": {
+        "backgroundColor": "rgb(0, 143, 248)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 500,
+        "borderRadius": "6px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Can I cancel my subscription anytime?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1l-cancel_subscription-toggle:nth-of-type(1) > div#igc-ui-kit-r1l-cancel_subscription-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "What is Semrush’s refund policy?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1n-refund_policy-toggle:nth-of-type(2) > div#igc-ui-kit-r1n-refund_policy-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "What payment methods do you accept?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1p-payment_methods-toggle:nth-of-type(3) > div#igc-ui-kit-r1p-payment_methods-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Do I get a customer demo?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1r-customer_demo-toggle:nth-of-type(4) > div#igc-ui-kit-r1r-customer_demo-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Can I use Semrush for free?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1t-free_using-toggle:nth-of-type(5) > div#igc-ui-kit-r1t-free_using-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Am I charged when I enter my credit card?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1v-charged_after_enter_card-toggle:nth-of-type(6) > div#igc-ui-kit-r1v-charged_after_enter_card-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Which would be better for me, Guru or Pro?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r21-better_plan-toggle:nth-of-type(7) > div#igc-ui-kit-r21-better_plan-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "I run a small agency. What plan should I choose?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r23-agency-toggle:nth-of-type(8) > div#igc-ui-kit-r23-agency-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "What is the pricing currency?",
+      "href": null,
+      "tag": "div",
+      "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r25-currency-toggle:nth-of-type(9) > div#igc-ui-kit-r25-currency-toggle-button",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Start free trial",
+      "href": "/signup/?src=footer",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > a.srf-footer__get-started-button.srf-footer__button",
+      "style": {
+        "backgroundColor": "rgb(193, 144, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "21px 30px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "English",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__lang:nth-of-type(5) > button.srf-footer__button.srf-footer__button--lang",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 500,
+        "borderRadius": "0px",
+        "padding": "0px 18px 0px 22px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Allow all cookies",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-allow-all-btn:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Deny all",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-deny-all-btn:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie settings",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-open-settings-btn:nth-of-type(3)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.semrush.com/",
+        "text": "",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > a.srf-header__logo"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/",
+        "text": "Pricing",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(2) > a.srf-header__menu-item"
+      },
+      {
+        "href": "https://www.semrush.com/login/?src=header",
+        "text": "Log In",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(1)"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=header",
+        "text": "Sign Up",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(2)"
+      },
+      {
+        "href": "https://www.semrush.com/one/",
+        "text": "Semrush One",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/features/",
+        "text": "Features",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/request-demo/",
+        "text": "Request a Demo",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/sales/",
+        "text": "Talk to Sales",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/ai-seo/overview/",
+        "text": "AI Visibility Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/seo/",
+        "text": "SEO Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/traffic/",
+        "text": "Traffic & Market Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/content/",
+        "text": "Content Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/local-business/start/",
+        "text": "Local Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/social-media/",
+        "text": "Social Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/advertising/",
+        "text": "Advertising Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/pr-toolkit/",
+        "text": "AI PR Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(8) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/partner-integrations/",
+        "text": "Integrations",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/",
+        "text": "App Center",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/997-semrush-data",
+        "text": "Data Sources",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/adclarity-advertising-intelligence/",
+        "text": "AdClarity",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/exploding-topics/",
+        "text": "Exploding Topics",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/serp-gap-analyzer/",
+        "text": "SERP Gap Analyzer",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/collection/most-popular/",
+        "text": "Other apps",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/one/?utm_source=semrush&utm_medium=header",
+        "text": "Try Semrush One for Free The leading platform that unifies SEO authority and AI visibility.",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > a.srf-header__dropdown-promo"
+      },
+      {
+        "href": "https://www.semrush.com/blog/",
+        "text": "Blog",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/",
+        "text": "Knowledge Base",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/academy/",
+        "text": "Academy",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/stories/",
+        "text": "Success Stories",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/academy/webinars/",
+        "text": "Webinars",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/news/",
+        "text": "News",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/ai-search-visibility-checker/",
+        "text": "AI Visibility Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/siteaudit/",
+        "text": "SEO Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/website/",
+        "text": "Website Traffic Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/keywordmagic/",
+        "text": "Keyword Tool",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/backlinks/",
+        "text": "Backlink Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/website/top/",
+        "text": "Top Websites by Traffic",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/",
+        "text": "Explore Other Free Tools",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/",
+        "text": "About Us",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/stats/",
+        "text": "Stats and Facts",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/lp/affiliate-program/en/",
+        "text": "Affiliate Program",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/contacts/",
+        "text": "Contact Us",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/semrush-one/",
+        "text": "Semrush One new",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(1)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/seo/",
+        "text": "SEO Classic",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(1)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/ai/",
+        "text": "AI Visibility",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(2)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/traffic-and-market/",
+        "text": "Traffic & Market",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(3)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/local/",
+        "text": "Local",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(4)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/content/",
+        "text": "Content",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(5)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/social/",
+        "text": "Social",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(6)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/advertising/",
+        "text": "Advertising",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(7)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/pr/",
+        "text": "AI PR",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(8)"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/enterprise/",
+        "text": "Enterprise",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(2)"
+      },
+      {
+        "href": "https://www.semrush.com/apps/",
+        "text": "App center",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(3)"
+      },
+      {
+        "href": "https://www.semrush.com/subscribe/?src=pricing&offer=g3dr4lgt&redirect_to=%2Fanalytics%2Foverview%2F",
+        "text": "Try for free",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > a._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_"
+      },
+      {
+        "href": "https://www.semrush.com/subscribe/?src=pricing&offer=pro-one-year&redirect_to=%2Fanalytics%2Foverview%2F",
+        "text": "subscribe",
+        "domPath": "div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > p._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > a._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_"
+      },
+      {
+        "href": "https://www.semrush.com/subscribe/?src=pricing&offer=f6dd3dcr&redirect_to=%2Fanalytics%2Foverview%2F",
+        "text": "Try for free",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > a._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_"
+      },
+      {
+        "href": "https://www.semrush.com/subscribe/?src=pricing&offer=guru-one-year&redirect_to=%2Fanalytics%2Foverview%2F",
+        "text": "subscribe",
+        "domPath": "div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > p._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > a._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_"
+      },
+      {
+        "href": "https://www.semrush.com/subscribe/?src=pricing&offer=business-one-year&redirect_to=%2Fanalytics%2Foverview%2F",
+        "text": "Subscribe",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > a._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/seo/pricing/#custom-plan",
+        "text": "try custom plan",
+        "domPath": "div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > p._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > a._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=footer",
+        "text": "Start free trial",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > a.srf-footer__get-started-button.srf-footer__button"
+      },
+      {
+        "href": "https://www.semrush.com/semrush-free-trial/",
+        "text": "Free Trial",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/vs/",
+        "text": "Compare Semrush",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/affiliate-program/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Affiliate Program",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/enterprise-aio/en/",
+        "text": "Enterprise AIO",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/site-intelligence/en/",
+        "text": "Enterprise SI",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/insights/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Insights24",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/mfour/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Mfour",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/apps/?utm_source=semrush&utm_medium=footer",
+        "text": "App Center",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://www.semrush.com/website/top/?utm_source=semrush&utm_medium=footer",
+        "text": "Top Websites",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/?utm_source=semrush&utm_medium=footer",
+        "text": "Free Tools",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://www.semrush.com/sensor/?utm_source=semrush&utm_medium=footer",
+        "text": "Sensor",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(9) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/partners/",
+        "text": "Partners",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/semrush-select/",
+        "text": "Semrush Select",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/global-issues/",
+        "text": "Global Issues Index",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://www.semrush.com/api-documentation/",
+        "text": "Semrush API",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/blog/",
+        "text": "Semrush Blog",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/semrush-circle/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Ambassador Program",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/privacy-policy/",
+        "text": "Privacy Policy",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__legal.srf-footer__collapsable:nth-of-type(4) > ul.srf-footer__legal-list > li.srf-footer__legal-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/",
+        "text": "Terms of Service",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__legal.srf-footer__collapsable:nth-of-type(4) > ul.srf-footer__legal-list > li.srf-footer__legal-list-item:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/cookie-policy/",
+        "text": "Cookie Policy.",
+        "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-content.h2-dialog-content-morespace:nth-of-type(1) > p:nth-of-type(2) > a.ch2-learn-more"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://enterprise.semrush.com/",
+        "text": "Enterprise",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(4) > a.srf-header__menu-item"
+      },
+      {
+        "href": "https://developer.semrush.com/api/",
+        "text": "API",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://ai-visibility-index.semrush.com/",
+        "text": "AI Visibility Index",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.spotlightconf.com/register?utm_source=semrush&utm_medium=resourceslink&utm_campaign=launch_promo&utm_content=spotlight_2026",
+        "text": "Get Your Ticket Now One day. Real strategies. Built for marketers who play to win. October 13, 2026London, UK",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > a.srf-header__dropdown-promo"
+      },
+      {
+        "href": "https://enterprise.semrush.com/?utm_source=semrush&utm_medium=footer",
+        "text": "Enterprise SEO",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://careers.semrush.com/",
+        "text": "Careers",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.linkedin.com/company/semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(1) > a.srf-footer__social-link.srf-footer__social-link--linkedin"
+      },
+      {
+        "href": "https://instagram.com/semrush/",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(2) > a.srf-footer__social-link.srf-footer__social-link--instagram"
+      },
+      {
+        "href": "https://www.tiktok.com/@semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(3) > a.srf-footer__social-link.srf-footer__social-link--tiktok"
+      },
+      {
+        "href": "https://www.youtube.com/user/SemrushHQ",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(4) > a.srf-footer__social-link.srf-footer__social-link--youtube"
+      },
+      {
+        "href": "https://www.facebook.com/Semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(5) > a.srf-footer__social-link.srf-footer__social-link--facebook"
+      },
+      {
+        "href": "https://x.com/semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(6) > a.srf-footer__social-link.srf-footer__social-link--twitter"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > p.srf-footer__copyright > a.srf-footer__adobe-logo"
+      }
+    ]
+  },
+  "media": {
+    "images": [],
+    "inlineSvgs": [
+      {
+        "viewBox": null,
+        "domPath": "svg#__SVG_SPRITE_NODE__",
+        "width": null,
+        "height": null,
+        "markupLength": 10615
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__notification:nth-of-type(2) > div#srf-browser-unhappy > button#srf-browser-unhappy-btn-close > svg.srf-icon",
+        "width": "16",
+        "height": "16",
+        "markupLength": 447
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing__layout > div#pricing > div.LeftMenu-module__mobileOnly--E2E5F:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > span.___SInner_1lc4c_gg_ > span._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 1122
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing__layout > div#pricing > div.LeftMenu-module__mobileOnly--E2E5F:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > span.___SInner_1lc4c_gg_ > span._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 456
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 966
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 1122
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 860
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 237
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 314
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(5) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 413
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(6) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 629
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(7) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 1280
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > a.MenuLink-module__menuLink--CiWRK:nth-of-type(8) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 697
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 395
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "width": "24",
+        "height": "24",
+        "markupLength": 464
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(3) > span._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 611
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(5) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(6) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(7) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > div.KeyFeaturesList-module__Root--BGJuF:nth-of-type(2) > div.KeyFeaturesList-module__Section--VqaK9 > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(5) > span.___SMarker_pw9rn_gg_ > span.KeyFeaturesList-module__ItemIcon--t8nzr > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 556
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-ro-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div#ui-kit-rn_ui-kit-rn_1njcht_1 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-ro-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div#ui-kit-rn_ui-kit-rn_1njchv_1 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div#ui-kit-r15_ui-kit-r15_1njcht_1 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div#ui-kit-r15_ui-kit-r15_1njcht_2 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div#ui-kit-r15_ui-kit-r15_1njcht_3 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div#ui-kit-r15_ui-kit-r15_1njchv_1 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div#ui-kit-r15_ui-kit-r15_1njchv_2 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div#ui-kit-r15_ui-kit-r15_1njchv_3 > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 504
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(1) > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "24",
+        "height": "24",
+        "markupLength": 815
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(1) > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_ > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 423
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2) > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "24",
+        "height": "24",
+        "markupLength": 570
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3) > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "24",
+        "height": "24",
+        "markupLength": 673
+      },
+      {
+        "viewBox": "0 0 24 24",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(4) > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "24",
+        "height": "24",
+        "markupLength": 730
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > div.CustomPlanRequest-module__content--daaWX > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > span.___SMarker_pw9rn_gg_ > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 542
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > div.CustomPlanRequest-module__content--daaWX > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > span.___SMarker_pw9rn_gg_ > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 542
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > div.CustomPlanRequest-module__content--daaWX > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > span.___SMarker_pw9rn_gg_ > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 542
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1l-cancel_subscription-toggle:nth-of-type(1) > div#igc-ui-kit-r1l-cancel_subscription-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 549
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1n-refund_policy-toggle:nth-of-type(2) > div#igc-ui-kit-r1n-refund_policy-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1p-payment_methods-toggle:nth-of-type(3) > div#igc-ui-kit-r1p-payment_methods-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1r-customer_demo-toggle:nth-of-type(4) > div#igc-ui-kit-r1r-customer_demo-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1t-free_using-toggle:nth-of-type(5) > div#igc-ui-kit-r1t-free_using-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1v-charged_after_enter_card-toggle:nth-of-type(6) > div#igc-ui-kit-r1v-charged_after_enter_card-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r21-better_plan-toggle:nth-of-type(7) > div#igc-ui-kit-r21-better_plan-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r23-agency-toggle:nth-of-type(8) > div#igc-ui-kit-r23-agency-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r25-currency-toggle:nth-of-type(9) > div#igc-ui-kit-r25-currency-toggle-button > svg.___SIcon_14s6y_gg_._inAfterOutline_false_1fjik_gg_",
+        "width": "16",
+        "height": "16",
+        "markupLength": 528
+      },
+      {
+        "viewBox": "0 0 1376 192",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > div.srf-footer-reveal > svg",
+        "width": "1376",
+        "height": "192",
+        "markupLength": 1664
+      }
+    ],
+    "cssBackgrounds": [
+      {
+        "url": "https://www.semrush.com/pricing/static/images/ent_bg.2718d5df405dae81bbe7.svg",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2)",
+        "boundingClientRect": {
+          "x": 340,
+          "y": 1971,
+          "width": 1076,
+          "height": 252
+        },
+        "backgroundSize": "780px",
+        "backgroundPosition": "calc(100% + 170px) calc(100% + 190px)",
+        "backgroundRepeat": "no-repeat",
+        "localPath": "stardust/current/assets/media/ent_bg.2718d5df405dae81bbe7-72d6977f.svg"
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAYPCAMAAABfVEFjAAAARVBMVEUAAAC/j//Hj/+/j/+/j//Dj/+/j//Cj/+/j//Fj//Cj//Ekv/Dkf/Dkf/Ekv/Ckf/Dkv/Ckf/Dkv/Dkf/Ckf/Ckf/Ckf9k6gjCAAAAFnRSTlMAECAgMEBAUFBgYHCAkJ+gr7C/z9/vq3m4ogAAAb1JREFUeNrtyNGOnCAYhmEt6gwd1B0E7v9Sm910m6b5gKh/z97n8Bnwr1Huj9s7s2x3/e0NLNvdVe52eyPL9tbd38SyvZ3vb5ZbWLa33mAdy3Y2GOwkd2HZP1a5+6l9yvUs29losC+5gWU7mwx2Y9nOFoN9y40s+22U687tITexbHtni81yC8t+e8j1J3eU61j2t5fcYLILyzZ3N1nPss39kBtNNrBsc5PJbizb3Cy3mGxk2dY6m00s29rZZrPcwrKt9UbrWLaxwWgnuQvLflnl7qf3KdezbGOj0b7kBpb9cshNp3eVu7FsY4vRvuVGlv00ynXn95CbWPbTJHe22sKy9X3I9Rd2lOtYtrrBbBeWre5utp5lqxv/8waWrW4y241lq5vlFrONLFtbZ7eJZWs7222WW1i2tt5wHctWNhjuJHdh2WGVu1/ap1zPspWNhvuSG1h2OOSmS7vK3Vh2yHKL4b7lRpYd5bpre8hNLDvJnS23sKzeh1x/cUe5jmXlBtNdWFbuKne/uJ5l5X7IjaYbWFbuITdd3I1l5Wa5xXQjy6p1tptYVu1su1luYVm13ngdy4oNJ3b6+bdxGIZf9AyTQKv797YAAAAASUVORK5CYII=",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > div.srf-footer-reveal",
+        "boundingClientRect": {
+          "x": 0,
+          "y": 4082,
+          "width": 1440,
+          "height": 550
+        },
+        "backgroundSize": "7px 550px",
+        "backgroundPosition": "0px 100%",
+        "backgroundRepeat": "repeat-x",
+        "localPath": null
+      }
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": null,
+        "crossOrigin": false,
+        "boundingClientRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "src": null,
+        "title": "Intercom",
+        "crossOrigin": false,
+        "boundingClientRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      }
+    ]
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [
+      {
+        "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog",
+        "open": true
+      }
+    ],
+    "accordions": [],
+    "tabs": []
+  },
+  "components": {
+    "cards": {
+      "count": 9,
+      "examples": [
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1)"
+      ]
+    },
+    "grids": {
+      "count": 65,
+      "examples": [
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1)",
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2)"
+      ]
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 1,
+      "examples": [
+        "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 2,
+      "examples": [
+        "iframe:nth-of-type(1)",
+        "iframe#intercom-frame:nth-of-type(2)"
+      ]
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 34,
+      "examples": [
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.Testimonials-module__pricingTestimonials--NAk36:nth-of-type(4) > div.Testimonials-module__testimonialsSlider--q8ruF",
+        "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.Testimonials-module__pricingTestimonials--NAk36:nth-of-type(4) > div.Testimonials-module__testimonialsSlider--q8ruF > div.Testimonials-module__testimonialsControls--LrANW:nth-of-type(1)"
+      ]
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 0,
+      "examples": []
+    },
+    "statRow": {
+      "count": 5,
+      "examples": [
+        "div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(1) > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > label._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > input._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+        "div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(1) > div.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > label._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > input._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_"
+      ]
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--srf-factor-a-funk-up-latin",
+      "value": "'ss01' off"
+    },
+    {
+      "name": "--srf-factor-a-curly-arrows",
+      "value": "'ss03' off"
+    },
+    {
+      "name": "--srf-header-blend-percent",
+      "value": "0%"
+    },
+    {
+      "name": "--srf-factor-a-frac",
+      "value": "'frac' off"
+    }
+  ],
+  "screenshot": "stardust/current/assets/screenshots/pricing.png",
+  "stats": {
+    "wordCount": 823,
+    "ctaCount": 26,
+    "internalLinkCount": 79,
+    "externalLinkCount": 13,
+    "imageCount": 0,
+    "inlineSvgCount": 58,
+    "cssBackgroundCount": 2
+  },
+  "_extras": {
+    "logoCandidates": {
+      "inlineSvg": {
+        "domPath": "main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb > a.MenuLink-module__menuLink--CiWRK:nth-of-type(1) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > svg",
+        "markup": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M11.9986 2C12.321 1.99953 12.6239 2.15455 12.8121 2.41636L17.3445 8.72237L20.55 7.10698C20.8993 6.93098 21.3191 6.97474 21.6245 7.21898C21.93 7.46322 22.065 7.86311 21.9702 8.24254L20.0649 15.8638C19.8979 16.5316 19.298 17 18.6097 17H5.39043C4.70213 17 4.10215 16.5316 3.93521 15.8638L2.0299 8.24254C1.93518 7.86367 2.06968 7.46432 2.37431 7.21996C2.67894 6.97559 3.09795 6.93092 3.44725 7.10557L6.68297 8.72343L11.1863 2.41876C11.3737 2.15639 11.6761 2.00048 11.9986 2ZM12.0026 4.71692L7.81377 10.5812C7.52776 10.9817 6.99295 11.1145 6.55283 10.8944L4.49751 9.86677L5.78082 15H18.2193L19.5004 9.87554L17.4813 10.893C17.0418 11.1145 16.5065 10.9833 16.2193 10.5836L12.0026 4.71692Z\"></path><path d=\"M5.00004 20C5.00004 19.4477 5.44775 19 6.00004 19H18C18.5523 19 19 19.4477 19 20C19 20.5523 18.5523 21 18 21H6.00004C5.44776 21 5.00004 20.5523 5.00004 20Z\"></path></svg>",
+        "width": 24
+      },
+      "img": null,
+      "appleTouch": "https://www.semrush.com/__static__/apple-touch-icon.fe16ae843d17.png",
+      "ogImage": "https://www.semrush.com/__static__/semrush-logo-700.43215feb8faa.jpg",
+      "favicon": "https://www.semrush.com/__static__/favicon.d8fbaa3a030a.ico"
+    },
+    "styleSamples": [
+      {
+        "where": "body",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Inter, sans-serif"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout__skip-to-content:nth-of-type(1) > button#skip-to-content",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 109, 202)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "1px 6px",
+        "borderColor": "rgb(0, 109, 202)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header",
+        "backgroundColor": "oklab(0.999994 0.0000455678 0.0000200868)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "lineHeight": "12px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px 24px",
+        "borderColor": "rgb(51, 51, 51)"
+      },
+      {
+        "where": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "4px 8px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "4px 8px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "lineHeight": "12px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(51, 51, 51)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > nav.sidebar.LeftMenu-module__wrapper--PTGUb",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "48px 0px 0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "19.88px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "19.88px",
+        "borderRadius": "12px",
+        "boxShadow": "rgba(137, 141, 154, 0.3) 5px 5px 25px 0px",
+        "padding": "24px 24px 32px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "19.88px",
+        "borderRadius": "12px",
+        "boxShadow": "rgba(137, 141, 154, 0.3) 5px 5px 25px 0px",
+        "padding": "24px 24px 32px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "19.88px",
+        "borderRadius": "12px",
+        "boxShadow": "rgba(137, 141, 154, 0.3) 5px 5px 25px 0px",
+        "padding": "24px 24px 32px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njcht_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(0, 0, 0)"
+      },
+      {
+        "where": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchu_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(0, 0, 0)"
+      },
+      {
+        "where": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchv_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(0, 0, 0)"
+      },
+      {
+        "where": "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(5) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchw_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Arial",
+        "fontWeight": "400",
+        "fontSize": "13.3333px",
+        "lineHeight": "normal",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(0, 0, 0)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > div.styles-module__table--w3dqE:nth-of-type(2) > div.styles-module__showMoreButtonContainer--UYBkD:nth-of-type(3) > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+        "backgroundColor": "rgba(138, 142, 155, 0.1)",
+        "color": "rgb(108, 110, 121)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(196, 199, 207)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(1)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "padding": "24px 24px 24px 60px",
+        "borderColor": "rgb(224, 225, 233)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(2)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "padding": "24px 24px 24px 60px",
+        "borderColor": "rgb(224, 225, 233)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(3)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "padding": "24px 24px 24px 60px",
+        "borderColor": "rgb(224, 225, 233)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > ul._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > li.___SFlex_1b70x_gg_._inAfterOutline_false_1fjik_gg_:nth-of-type(4)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "12px",
+        "boxShadow": "none",
+        "padding": "24px 24px 24px 60px",
+        "borderColor": "rgb(224, 225, 233)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2)",
+        "backgroundColor": "rgb(34, 37, 45)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "12px",
+        "boxShadow": "rgba(137, 141, 154, 0.3) 5px 5px 25px 0px",
+        "padding": "24px 24px 32px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+        "backgroundColor": "rgb(0, 143, 248)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "lineHeight": "normal",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1l-cancel_subscription-toggle:nth-of-type(1) > div#igc-ui-kit-r1l-cancel_subscription-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1n-refund_policy-toggle:nth-of-type(2) > div#igc-ui-kit-r1n-refund_policy-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1p-payment_methods-toggle:nth-of-type(3) > div#igc-ui-kit-r1p-payment_methods-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1r-customer_demo-toggle:nth-of-type(4) > div#igc-ui-kit-r1r-customer_demo-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1t-free_using-toggle:nth-of-type(5) > div#igc-ui-kit-r1t-free_using-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r1v-charged_after_enter_card-toggle:nth-of-type(6) > div#igc-ui-kit-r1v-charged_after_enter_card-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r21-better_plan-toggle:nth-of-type(7) > div#igc-ui-kit-r21-better_plan-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r23-agency-toggle:nth-of-type(8) > div#igc-ui-kit-r23-agency-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > h3#igc-ui-kit-r25-currency-toggle:nth-of-type(9) > div#igc-ui-kit-r25-currency-toggle-button",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.Testimonials-module__pricingTestimonials--NAk36:nth-of-type(4)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(25, 27, 35)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(25, 27, 35)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "lineHeight": "14px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-allow-all-btn:nth-of-type(1)",
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "17px 24px",
+        "borderColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-deny-all-btn:nth-of-type(2)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "17px 24px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-open-settings-btn:nth-of-type(3)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "16px 24px",
+        "borderColor": "rgb(24, 30, 21)"
+      }
+    ],
+    "firstParagraph": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system."
+  }
+}

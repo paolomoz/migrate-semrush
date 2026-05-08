@@ -1,0 +1,119 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-08T13:04:20.838Z",
+    "stardustVersion": "0.3.0"
+  },
+  "discovery": {
+    "source": "sitemap_index",
+    "sourceUrl": "https://www.semrush.com/sitemap.xml",
+    "fetchedAt": "2026-05-08T13:04:20.838Z",
+    "discoveredCount": 22,
+    "filteredCount": 17,
+    "filteredAsJunk": [],
+    "waitMode": "medium",
+    "waitModeAutoDetect": null,
+    "cappedAt": 5,
+    "cap": 5,
+    "capSource": "default",
+    "userChoice": null,
+    "kept": [
+      {
+        "url": "https://www.semrush.com/",
+        "slug": "home",
+        "score": null
+      },
+      {
+        "url": "https://www.semrush.com/pricing/",
+        "slug": "pricing",
+        "score": null
+      },
+      {
+        "url": "https://www.semrush.com/features/",
+        "slug": "features",
+        "score": null
+      },
+      {
+        "url": "https://www.semrush.com/features/keyword-magic-tool/",
+        "slug": "features__keyword-magic-tool",
+        "score": null
+      },
+      {
+        "url": "https://www.semrush.com/company/",
+        "slug": "company",
+        "score": null
+      }
+    ],
+    "cut": [
+      {
+        "reason": "sub-sitemap excluded as ancillary",
+        "urls": [
+          "blog/",
+          "news/",
+          "kb/",
+          "academy/",
+          "apps/",
+          "careers/",
+          "eyeon/",
+          "trending-websites/",
+          "free-tools/",
+          "website/",
+          "vs/",
+          "content-hub/",
+          "pt./es./it./fr./de./ja. blogs (locale)"
+        ]
+      }
+    ],
+    "scores": {
+      "rules": [
+        "home",
+        "IA-pillar keyword",
+        "sitemap priority",
+        "shallow path",
+        "page-type checklist"
+      ],
+      "sample": null
+    },
+    "malformed": [],
+    "requiresAuth": [],
+    "notes": "Page selection: home + pricing (high IA priority) + features (IA pillar) + features/keyword-magic-tool (long-form feature page for body typography variety) + company (about/IA pillar). Cross-page coverage = 5 distinct page-types: landing, pricing, IA-index, feature-detail, about/static. Locale-specific blog sitemaps and ancillary surfaces (kb, academy, news, blog, apps, careers, vs, free-tools) excluded — these are downstream blog/help/ancillary content, not core marketing IA. Solutions sub-sitemap had only one entry (competitive-research), redundant against features."
+  },
+  "crawl": {
+    "startedAt": "2026-05-08T13:04:20.838Z",
+    "finishedAt": "2026-05-08T13:04:20.838Z",
+    "successes": 5,
+    "failures": [],
+    "perPageWait": [
+      {
+        "slug": "home",
+        "waitMs": 10143,
+        "waitMode": "medium",
+        "ok": true
+      },
+      {
+        "slug": "pricing",
+        "waitMs": 5835,
+        "waitMode": "medium",
+        "ok": true
+      },
+      {
+        "slug": "features",
+        "waitMs": 6399,
+        "waitMode": "medium",
+        "ok": true
+      },
+      {
+        "slug": "features__keyword-magic-tool",
+        "waitMs": 18470,
+        "waitMode": "medium",
+        "ok": true
+      },
+      {
+        "slug": "company",
+        "waitMs": 7403,
+        "waitMode": "medium",
+        "ok": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-08T15:10:00Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/pages/home.json",
+      "stardust/current/DESIGN.md"
+    ],
+    "synthesizedInputs": [
+      "componentStyle (mostly captured; secondary and ghost variants inferred from observed patterns)",
+      "narrative.dos / donts (translated from observed visual moves)"
+    ],
+    "stardustVersion": "0.3.0"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-08T15:10:00Z",
+  "title": "Design System: Semrush (current state)",
+  "extensions": {
+    "colorMeta": {
+      "primary":           { "role": "primary",  "displayName": "Semrush Blue", "canonical": "#008ff8", "tonalRamp": ["#001931","#00355e","#00528b","#006dba","#0089e8","#3aa9ff","#7ec5ff","#bae0ff"] },
+      "background":        { "role": "neutral",  "displayName": "Surface White", "canonical": "#ffffff", "tonalRamp": ["#181e15","#33372f","#5a5e54","#7c8076","#a4a89e","#c8ccc1","#e2e5dc","#ffffff"] },
+      "text-primary":      { "role": "neutral",  "displayName": "Text Primary",  "canonical": "#181e15", "tonalRamp": ["#181e15","#2c3327","#454c40","#5e6657","#7c826f","#a0a594","#c2c6b6","#e6e9d9"] },
+      "surface-mint":      { "role": "tertiary", "displayName": "Mint Surface",     "canonical": "#dceeeb", "tonalRamp": ["#1a4944","#2c685e","#3d8074","#62a394","#86beb1","#a8d5cb","#c5e6df","#dceeeb"] },
+      "surface-lavender":  { "role": "tertiary", "displayName": "Lavender Surface", "canonical": "#e8e1ff", "tonalRamp": ["#231a4e","#3a2b7c","#4d3aa7","#6e5bcf","#8c7be5","#a89aef","#c1b6f5","#e8e1ff"] },
+      "accent-lime":       { "role": "secondary","displayName": "Lime",         "canonical": "#89ff75", "tonalRamp": ["#0e3c08","#1d6517","#2c8e22","#3eb830","#5cd84e","#7ee870","#a4f297","#c5fab9"] },
+      "accent-lavender":   { "role": "secondary","displayName": "Lavender",     "canonical": "#c190ff", "tonalRamp": ["#240a4d","#3a127f","#5520b3","#7437d7","#945bdf","#b482ee","#c8a8f2","#dec6f7"] },
+      "accent-aqua":       { "role": "secondary","displayName": "Aqua",         "canonical": "#18f0bf", "tonalRamp": ["#013429","#015949","#017c66","#01a182","#06caa3","#18f0bf","#5af5d2","#9bf9e2"] },
+      "accent-text-soft":  { "role": "neutral",  "displayName": "Text Soft",    "canonical": "#575c66", "tonalRamp": ["#1c2026","#2a2f37","#383d46","#474c56","#575c66","#7a7f88","#a3a7af","#cdd0d4"] },
+      "border-soft":       { "role": "neutral",  "displayName": "Border Soft",  "canonical": "#d1d4db", "tonalRamp": ["#2a2c30","#42464d","#5a5f68","#73798a","#9095a0","#a8acb6","#c1c4cd","#d1d4db"] },
+      "pure-black":        { "role": "neutral",  "displayName": "Pure Black",   "canonical": "#000000", "tonalRamp": ["#000000","#101010","#202020","#383838","#525252","#7a7a7a","#a3a3a3","#cccccc"] }
+    },
+    "typographyMeta": {
+      "display":  { "displayName": "Display",  "purpose": "Hero H1 only — \"Be found everywhere search happens\"" },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s on home and feature pages" },
+      "title":    { "displayName": "Title",    "purpose": "Tile titles, pricing tier names" },
+      "body":     { "displayName": "Body",     "purpose": "Paragraphs, list items, form inputs" },
+      "label":    { "displayName": "Label",    "purpose": "Chip and badge labels, footer headings, sometimes uppercase" }
+    },
+    "shadows": [
+      { "name": "glass-soft", "value": "0 2px 12px 0 rgba(0,0,0,0.05)", "purpose": "The only shadow token observed (--mp-shadow-glass). Used on floating overlays and the cookie-consent strip." }
+    ],
+    "motion": [
+      { "name": "default", "value": "200ms ease", "purpose": "Default state-change duration, captured as --mp-transition-duration." }
+    ],
+    "breakpoints": [
+      { "name": "container", "value": "1280px" }
+    ],
+    "componentStyle": {
+      "buttons": {
+        "primary":   { "background": "#008ff8", "color": "#ffffff", "borderRadius": "100px", "padding": "16px 32px", "fontWeight": 500, "shadow": null, "hoverDelta": "darken to #006dca" },
+        "secondary": { "background": "#ffffff", "color": "#181e15", "borderRadius": "100px", "padding": "16px 32px", "fontWeight": 500, "shadow": null, "hoverDelta": "background --mp-medium-grey" },
+        "ghost":     { "background": "transparent", "color": "#181e15", "borderRadius": "0", "padding": "0", "fontWeight": 500, "shadow": null, "hoverDelta": "underline" }
+      },
+      "dualCTAPattern": "primary-then-secondary-pill",
+      "cards": { "background": "#ffffff", "borderRadius": "10px", "padding": "24px", "shadow": null, "border": "1px solid #d1d4db" },
+      "inputs": { "borderRadius": "6px", "padding": "12px 16px", "border": "1px solid #d1d4db", "focusRing": "0 0 0 3px #008ff87f" }
+    },
+    "motifs": {
+      "patterns": [
+        { "name": "card-grid", "evidence": "company: 3 cards, features: tile grid" },
+        { "name": "social-proof-logos", "evidence": "home: customer logo strip; features, company: same strip" },
+        { "name": "stat-row", "evidence": "company: impact stats" },
+        { "name": "testimonial-grid", "evidence": "home: 11 testimonial cards" },
+        { "name": "tool-tile", "evidence": "home, features: tinted square cards (mint/lavender/aqua) — color-coded tool tiles, signature visual" },
+        { "name": "platform-overview-band", "evidence": "home: full-width product matrix below hero" },
+        { "name": "pricing-3up", "evidence": "pricing: three-tier comparison" }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "Be found everywhere search happens",
+      "heroSubcopy": "The leading platform to grow and measure brand visibility across virtually every digital channel.",
+      "primaryCTALabel": "Sign Up",
+      "ctaSamples": [
+        "Sign Up", "Start free trial", "Get insights", "Try for free",
+        "Talk to sales", "Request a Demo", "View Pricing", "Pricing"
+      ],
+      "navItems": ["Pricing", "Log In", "Sign Up", "Products", "Resources", "Request a Demo"],
+      "footerHeadings": [],
+      "tone": {
+        "guess": "professional-warm",
+        "evidence": "27% uppercase headings; 40 distinct CTA labels; action-oriented imperative voice"
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 5,
+        "headingSequence": [],
+        "ctaLabels": ["Sign Up", "Log In"],
+        "exampleSlug": "home",
+        "exampleSelector": "header#srf-header"
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 5,
+        "headingSequence": [],
+        "ctaLabels": [],
+        "exampleSlug": "home",
+        "exampleSelector": "footer.srf-footer"
+      },
+      {
+        "name": "cross-promo-band",
+        "kind": "cta-band",
+        "occurrences": 5,
+        "headingSequence": ["GET STARTED WITH SEMRUSH TODAY"],
+        "ctaLabels": ["Start free trial", "View Pricing"],
+        "exampleSlug": "home",
+        "exampleSelector": "section.cross-promo (inferred)"
+      },
+      {
+        "name": "footer-cross-promo",
+        "kind": "cross-promo",
+        "occurrences": 5,
+        "headingSequence": ["Start Here", "Find the Right Tools", "Platform", "Top Apps", "Grow with Semrush", "Explore Free Tools", "About Semrush"],
+        "ctaLabels": [],
+        "exampleSlug": "home",
+        "exampleSelector": "footer .footer-megamenu (inferred)"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [1.826, 1.0, 1.095, 1.5],
+      "matchedScale": null,
+      "observedSizesPx": [84, 46, 46, 42, 28]
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The Semrush Blue pill — every primary CTA across the site.",
+      "html": "<button class=\"ds-btn-primary\">Start free trial</button>",
+      "css": ".ds-btn-primary { background: #008ff8; color: #ffffff; padding: 16px 32px; border: none; border-radius: 100px; font-family: 'Inter', system-ui, sans-serif; font-weight: 500; font-size: 16px; cursor: pointer; transition: background 200ms ease, transform 200ms ease; } .ds-btn-primary:hover { background: #006dca; } .ds-btn-primary:focus-visible { outline: 3px solid #008ff87f; outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White pill with primary text — secondary action in dual-CTA pairs.",
+      "html": "<button class=\"ds-btn-secondary\">Talk to sales</button>",
+      "css": ".ds-btn-secondary { background: #ffffff; color: #181e15; padding: 16px 32px; border: 1px solid #d1d4db; border-radius: 100px; font-family: 'Inter', system-ui, sans-serif; font-weight: 500; font-size: 16px; cursor: pointer; transition: background 200ms ease; } .ds-btn-secondary:hover { background: #f4f5f7; }"
+    },
+    {
+      "name": "URL Input (Hero)",
+      "kind": "input",
+      "refersTo": null,
+      "description": "The signature hero input field — centerpiece of the home page conversion.",
+      "html": "<form class=\"ds-hero-form\"><input class=\"ds-hero-input\" placeholder=\"Enter your website\" /><button class=\"ds-btn-primary\">Get insights</button></form>",
+      "css": ".ds-hero-form { display: inline-flex; gap: 8px; padding: 6px; background: #ffffff; border: 1px solid #d1d4db; border-radius: 100px; max-width: 640px; width: 100%; } .ds-hero-input { flex: 1; border: 0; padding: 12px 20px; font-family: 'Inter', system-ui, sans-serif; font-size: 16px; outline: none; background: transparent; } .ds-hero-input::placeholder { color: #575c66; }"
+    },
+    {
+      "name": "Tool Tile",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Signature pattern — colored square card with icon, name, description, arrow link. Background tints rotate through mint, lavender, aqua.",
+      "html": "<a class=\"ds-tool-tile ds-tool-tile--mint\" href=\"#\"><span class=\"ds-tool-tile__icon\" aria-hidden=\"true\"></span><h3>Keyword Magic Tool</h3><p>Find the keywords your audience is searching for.</p><span class=\"ds-tool-tile__arrow\" aria-hidden=\"true\">&rarr;</span></a>",
+      "css": ".ds-tool-tile { display: block; padding: 24px; border-radius: 20px; background: #dceeeb; color: #181e15; text-decoration: none; font-family: 'Inter', system-ui, sans-serif; transition: transform 200ms ease, background 200ms ease; } .ds-tool-tile:hover { transform: translateY(-2px); } .ds-tool-tile--lavender { background: #e8e1ff; } .ds-tool-tile--aqua { background: rgba(24, 240, 191, 0.15); } .ds-tool-tile h3 { font-family: 'Lazzer', system-ui, sans-serif; font-weight: 600; font-size: 24px; margin: 12px 0 8px; } .ds-tool-tile p { font-size: 14px; color: #575c66; margin: 0 0 16px; line-height: 1.5; } .ds-tool-tile__icon { display: inline-block; width: 32px; height: 32px; border-radius: 8px; background: #ffffff; }"
+    },
+    {
+      "name": "Pricing Tile",
+      "kind": "card",
+      "refersTo": "pricing-tile",
+      "description": "Three-up pricing card — title, price, feature list, CTA. Mint surface; flat by default.",
+      "html": "<div class=\"ds-pricing-tile\"><h3>Pro</h3><p class=\"ds-pricing-tile__price\">$139.95<span>/mo</span></p><ul><li>5 projects</li><li>500 keywords to track</li><li>10,000 results per report</li></ul><button class=\"ds-btn-primary\">Try for free</button></div>",
+      "css": ".ds-pricing-tile { background: #dceeeb; border-radius: 20px; padding: 32px; color: #181e15; font-family: 'Inter', system-ui, sans-serif; } .ds-pricing-tile h3 { font-family: 'Lazzer', system-ui, sans-serif; font-weight: 600; font-size: 28px; margin: 0 0 12px; } .ds-pricing-tile__price { font-size: 32px; font-weight: 600; margin: 0 0 16px; } .ds-pricing-tile__price span { font-size: 14px; font-weight: 400; color: #575c66; } .ds-pricing-tile ul { padding: 0 0 24px 16px; margin: 0; } .ds-pricing-tile li { font-size: 14px; line-height: 1.6; }"
+    },
+    {
+      "name": "Customer Logo Strip",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Repeated proof pattern — a row of 8–12 grayscale customer logos. Appears on home, features, company.",
+      "html": "<div class=\"ds-logo-strip\"><img src=\"booking.svg\" alt=\"Booking.com\"><img src=\"samsung.svg\" alt=\"Samsung\"><img src=\"amazon.svg\" alt=\"Amazon\"><img src=\"fedex.svg\" alt=\"FedEx\"><img src=\"decathlon.svg\" alt=\"Decathlon\"><img src=\"dropbox.svg\" alt=\"Dropbox\"><img src=\"netflix.svg\" alt=\"Netflix\"><img src=\"shopify.svg\" alt=\"Shopify\"></div>",
+      "css": ".ds-logo-strip { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 48px; padding: 32px 0; opacity: 0.7; } .ds-logo-strip img { height: 24px; width: auto; filter: grayscale(1); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Pastel Operator Console",
+    "overview": "Semrush's surface is a marketing site that reads as a lightweight, pastel cousin of an operator dashboard. The hero starts on white. Below the fold, mint-into-lavender gradients carry the platform overview. Each tool gets a colored badge or tile — lime, aqua, lavender — but the primary action button is always the same signal blue. The dominant personality is bright-but-calm, dense-but-breathable, expert-friendly.",
+    "keyCharacteristics": [
+      "White background plus tinted surfaces (mint, lavender); never a dark home page.",
+      "One signal blue (#008ff8) carries every primary CTA across the site.",
+      "Pill-radius (100px) for actions and chrome; 10px / 6px for cards and inputs.",
+      "Customer logo strip appears on home, features, and company — proof is structural.",
+      "Type scale is ad-hoc, not a strict modular ratio."
+    ],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "Primary blue (#008ff8) only appears on call-to-action buttons. Never on text, never on backgrounds wider than a button.", "section": "colors" },
+      { "name": "The Tinted-Neutral Rule", "body": "No #f5f5f5-family grays. Every neutral surface alt has a hue (mint or lavender). Pure neutral is only #ffffff and #181e15.", "section": "colors" },
+      { "name": "The Two-Family Rule", "body": "Lazzer for headings + chrome, Inter for body and form inputs. Never invert.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "Sections, cards, and pricing tiles do not carry shadows. Depth is implied by surface color, not blur.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do carry every primary call-to-action in #008ff8, pill-shaped (100px radius). The One Voice Rule.",
+      "Do start every page on white. Tinted surfaces (mint, lavender) appear below the fold, never as the page-top background.",
+      "Do lead feature pages with a tool name; the brand treats tools as named characters.",
+      "Do keep the customer logo strip on home, features, and company — it's a structural proof move, not a decoration.",
+      "Do use Lazzer for every heading and Inter for every paragraph, no exceptions."
+    ],
+    "donts": [
+      "Don't ship a dark-mode neon AI-startup aesthetic. Every gradient here is pastel, every CTA is on white.",
+      "Don't add screenshot-of-app dropshadow heroes. The hero centers on the URL input bar — the surface IS the product moment.",
+      "Don't introduce new chrome radii. 100px (pill) and 10px (card) are doing different jobs; 6px is for inputs.",
+      "Don't elevate cards. The brand is flat-default; only the glass-shadow token is allowed, and it's reserved for floating overlays.",
+      "Don't introduce a third type family. Lazzer + Inter is the pairing; serif and mono additions break the brand."
+    ]
+  }
+}

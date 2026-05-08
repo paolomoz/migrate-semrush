@@ -1,0 +1,2898 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-08T13:03:48.514Z",
+    "readArtifacts": [
+      "https://www.semrush.com/features/"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.3.0",
+    "waitMode": "medium",
+    "waitMs": 6399,
+    "httpStatus": 200,
+    "contentType": "text/html"
+  },
+  "slug": "features",
+  "url": "https://www.semrush.com/features/",
+  "finalUrl": "https://www.semrush.com/features/",
+  "title": "Features | Semrush",
+  "metaDescription": "Benefit from your competitors with Semrush",
+  "og": {
+    "title": "Features | Semrush",
+    "description": "Benefit from your competitors with Semrush",
+    "image": "https://www.semrush.com/__static__/semrush-logo-700.43215feb8faa.jpg",
+    "type": "website",
+    "siteName": "Semrush"
+  },
+  "themeColor": {
+    "light": "#F6F7F8",
+    "dark": "#111317"
+  },
+  "language": "en",
+  "headings": [
+    {
+      "level": 3,
+      "text": "Start Here",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Find the Right Tools",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Platform",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Top Apps",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Grow with Semrush",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Explore Free Tools",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "About Semrush",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > h3.srf-header__menu-sublist-column-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 1,
+      "text": "Semrush Features",
+      "id": "hero-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1) > div.main > div.main__content > h1#hero-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "42px",
+        "lineHeight": "50.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Choose your area of interest",
+      "id": "interests_title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > h2#interests_title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "32px",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "AI SEO",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Keyword Research",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Enterprise",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Content Optimization",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Link Building",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Rank Tracking",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Technical SEO",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Competitive analysis",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Market Analysis and Traffic",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#maat:nth-of-type(9) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Competitor SEO Analysis",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Local SEO",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Advertising",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Content Marketing",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cmt:nth-of-type(13) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Social Media",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "AI PR",
+      "id": null,
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pr:nth-of-type(15) > h3.title.feature-card__title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "letterSpacing": "normal",
+        "color": "rgb(23, 26, 34)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Explore the full power of Semrush features - and watch your brand take off",
+      "id": "main-get-trial-title",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.main-get-trial.container:nth-of-type(2) > div.main-get-trial__inner > h2#main-get-trial-title",
+      "style": {
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "32px",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "GET STARTED WITH SEMRUSH TODAY",
+      "id": null,
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > h2.srf-footer__get-started-title",
+      "style": {
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 600,
+        "fontSize": "48px",
+        "lineHeight": "48px",
+        "letterSpacing": "-1.92px",
+        "color": "rgb(24, 30, 21)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "About cookies on this site",
+      "id": "ch2-dialog-title",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-content.h2-dialog-content-morespace:nth-of-type(1) > h2#ch2-dialog-title",
+      "style": {
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 700,
+        "fontSize": "28px",
+        "lineHeight": "33.6px",
+        "letterSpacing": "-0.32px",
+        "color": "rgb(51, 51, 51)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "div",
+      "role": "complementary",
+      "id": "srf-browser-unhappy",
+      "classes": [
+        "srf-browser-unhappy"
+      ],
+      "innerText": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system.",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "header",
+      "role": "banner",
+      "id": "srf-header",
+      "classes": [],
+      "innerText": "Products Pricing Resources Enterprise Log In Sign Up",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "main",
+      "role": "main",
+      "id": "root-content",
+      "classes": [
+        "srf-layout__body"
+      ],
+      "innerText": "Semrush Features Get tools to help you brand grow and stand out - with AI that helps, not hypes. Try for free Choose your area of interest All Online Visibility AI Competitor and Market Insights Local Presence Content and Brand Visibility Lead Generation AI SEO Increase your visibility in AI search engines: ChatGPT, Google AI Mode, etc. Learn more Keyword Research Drive more traffic with high-impact keywords your audience is searching for Learn more 6 tools Enterprise Next-level SEO solutions for industry leaders Learn more Content Optimization Enhance content quality and match intent to improve rankings Learn more 3 tools Link Building Gain credible backlinks to improve authority and organic performance Learn more 6 tools Rank Tracking Track how your keywords perform and where you’re gaining ground Learn more 4 tools Technical SEO Find and fix technical issues that hold your site back in search Learn more 3 tools Competitive analysis Find out what works for your competitors and where you can grow Learn more 5 tools Market Analysis and Traffic See who your audience is and how to engage them Learn more Competitor SEO Analysis Benchmark your SEO against the top players in your market Learn more 8 tools Local SEO Help local customers find you in search, LLMs, and on the map Learn more 6 tools Advertising Generate leads with high-performing paid campaigns Learn more 3 tools Content Marketing Create high-performing content with AI Learn more 4 tools Social Media Plan, publish, and track social media content Learn more 4 tools AI PR Get coverage in media cited by AI Learn more Explore the full power of Semrush features - and watch your brand take off Get free trial cancel anytime",
+      "headingSequence": [
+        "Semrush Features",
+        "Explore the full power of Semrush features - and watch your brand take off"
+      ],
+      "children": [
+        {
+          "tag": "section",
+          "role": null,
+          "id": null,
+          "classes": [
+            "container"
+          ],
+          "purpose": "unknown",
+          "headlineRef": 7,
+          "innerTextSummary": "Semrush Features Get tools to help you brand grow and stand out - with AI that helps, not hypes. Try for free",
+          "wordCount": 22
+        },
+        {
+          "tag": "section",
+          "role": null,
+          "id": null,
+          "classes": [
+            "main-get-trial",
+            "container"
+          ],
+          "purpose": "unknown",
+          "headlineRef": 24,
+          "innerTextSummary": "Explore the full power of Semrush features - and watch your brand take off Get free trial cancel anytime",
+          "wordCount": 19
+        }
+      ]
+    },
+    {
+      "tag": "footer",
+      "role": "contentinfo",
+      "id": "srf-footer",
+      "classes": [
+        "srf-footer"
+      ],
+      "innerText": "GET STARTED WITH SEMRUSH TODAY Try Semrush free for seven days. Cancel anytime. Start free trial Semrush Semrush One Features Pricing Free Trial Compare Semrush Success Stories Stats and Facts Affiliate Program More tools Enterprise SEO Enterprise AIO Enterprise SI Insights24 Mfour App Center Top Websites Free Tools Sensor Company About Us News Careers Partners Semrush Select Global Issues Index Do not sell my personal info Contact Us Support Knowledge Base Academy Semrush API Community Semrush Blog Webinars Ambassador Program © 2026 Semrush Holdings. All rights reserved. Privacy Policy Terms of Service Cookies Settings English",
+      "headingSequence": [],
+      "children": []
+    },
+    {
+      "tag": "div",
+      "role": "region",
+      "id": "srf-notice-bubble-container",
+      "classes": [],
+      "innerText": "",
+      "headingSequence": [],
+      "children": []
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Skip to content",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__skip-to-content:nth-of-type(1) > button#skip-to-content",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 109, 202)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "1px 6px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Products",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "10px",
+        "padding": "4px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Resources",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "10px",
+        "padding": "4px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Sign Up",
+      "href": "/signup/?src=header",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Try for free",
+      "href": "/signup/?src=features",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1) > div.main > div.main__content > a.button.button--primary",
+      "style": {
+        "backgroundColor": "rgb(255, 100, 45)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 500,
+        "borderRadius": "5px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "All",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#all:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(0, 159, 129)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "20px",
+        "padding": "7px 27px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Online Visibility",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#online-visibility:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "20px",
+        "padding": "7px 27px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "AI",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#ai:nth-of-type(3)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "20px",
+        "padding": "7px 27px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Competitor and Market Insights",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#market:nth-of-type(4)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "20px",
+        "padding": "7px 27px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Local Presence",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#local:nth-of-type(5)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "20px",
+        "padding": "7px 27px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Content and Brand Visibility",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#content:nth-of-type(6)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "20px",
+        "padding": "7px 27px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Lead Generation",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#lead-generation:nth-of-type(7)",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "20px",
+        "padding": "7px 27px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Get free trial",
+      "href": "/signup/?src=features",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.main-get-trial.container:nth-of-type(2) > div.main-get-trial__inner > a.button.button--primary",
+      "style": {
+        "backgroundColor": "rgb(255, 100, 45)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": 500,
+        "borderRadius": "5px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Start free trial",
+      "href": "/signup/?src=footer",
+      "tag": "a",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > a.srf-footer__get-started-button.srf-footer__button",
+      "style": {
+        "backgroundColor": "rgb(193, 144, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "21px 30px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "English",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__lang:nth-of-type(5) > button.srf-footer__button.srf-footer__button--lang",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": 500,
+        "borderRadius": "0px",
+        "padding": "0px 18px 0px 22px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Allow all cookies",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-allow-all-btn:nth-of-type(1)",
+      "style": {
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Deny all",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-deny-all-btn:nth-of-type(2)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "17px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Cookie settings",
+      "href": null,
+      "tag": "button",
+      "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-open-settings-btn:nth-of-type(3)",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": 600,
+        "borderRadius": "100px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "https://www.semrush.com/",
+        "text": "",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > a.srf-header__logo"
+      },
+      {
+        "href": "https://www.semrush.com/pricing/",
+        "text": "Pricing",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(2) > a.srf-header__menu-item"
+      },
+      {
+        "href": "https://www.semrush.com/login/?src=header",
+        "text": "Log In",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(1)"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=header",
+        "text": "Sign Up",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(2)"
+      },
+      {
+        "href": "https://www.semrush.com/one/",
+        "text": "Semrush One",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/features/",
+        "text": "Features",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/request-demo/",
+        "text": "Request a Demo",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/sales/",
+        "text": "Talk to Sales",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/ai-seo/overview/",
+        "text": "AI Visibility Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/seo/",
+        "text": "SEO Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/traffic/",
+        "text": "Traffic & Market Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/content/",
+        "text": "Content Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/local-business/start/",
+        "text": "Local Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/social-media/",
+        "text": "Social Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/advertising/",
+        "text": "Advertising Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/pr-toolkit/",
+        "text": "AI PR Toolkit",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(8) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/partner-integrations/",
+        "text": "Integrations",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/",
+        "text": "App Center",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/997-semrush-data",
+        "text": "Data Sources",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/adclarity-advertising-intelligence/",
+        "text": "AdClarity",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/exploding-topics/",
+        "text": "Exploding Topics",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/serp-gap-analyzer/",
+        "text": "SERP Gap Analyzer",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/apps/collection/most-popular/",
+        "text": "Other apps",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(4) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/one/?utm_source=semrush&utm_medium=header",
+        "text": "Try Semrush One for Free The leading platform that unifies SEO authority and AI visibility.",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > a.srf-header__dropdown-promo"
+      },
+      {
+        "href": "https://www.semrush.com/blog/",
+        "text": "Blog",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/kb/",
+        "text": "Knowledge Base",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/academy/",
+        "text": "Academy",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/stories/",
+        "text": "Success Stories",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/academy/webinars/",
+        "text": "Webinars",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/news/",
+        "text": "News",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/ai-search-visibility-checker/",
+        "text": "AI Visibility Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/siteaudit/",
+        "text": "SEO Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/website/",
+        "text": "Website Traffic Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/keywordmagic/",
+        "text": "Keyword Tool",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/backlinks/",
+        "text": "Backlink Checker",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/website/top/",
+        "text": "Top Websites by Traffic",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(6) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/",
+        "text": "Explore Other Free Tools",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(2) > ul.srf-header__menu-sublist-list > li:nth-of-type(7) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/",
+        "text": "About Us",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(1) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/stats/",
+        "text": "Stats and Facts",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(2) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/lp/affiliate-program/en/",
+        "text": "Affiliate Program",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/company/contacts/",
+        "text": "Contact Us",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(4) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=features",
+        "text": "Try for free",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1) > div.main > div.main__content > a.button.button--primary"
+      },
+      {
+        "href": "https://www.semrush.com/semrush-ai-toolkit/",
+        "text": "AI SEO Increase your visibility in AI search engines: ChatGPT, Google AI Mode, etc. Learn more",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1)"
+      },
+      {
+        "href": "https://www.semrush.com/features/keyword-research-toolkit/",
+        "text": "Keyword Research Drive more traffic with high-impact keywords your audience is searching for Learn more 6 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2)"
+      },
+      {
+        "href": "https://www.semrush.com/features/content-optimization-tools/",
+        "text": "Content Optimization Enhance content quality and match intent to improve rankings Learn more 3 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4)"
+      },
+      {
+        "href": "https://www.semrush.com/features/link-building-and-prospecting-tools/",
+        "text": "Link Building Gain credible backlinks to improve authority and organic performance Learn more 6 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5)"
+      },
+      {
+        "href": "https://www.semrush.com/features/serp-tracking-tools/",
+        "text": "Rank Tracking Track how your keywords perform and where you’re gaining ground Learn more 4 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6)"
+      },
+      {
+        "href": "https://www.semrush.com/features/technical-seo-tools/",
+        "text": "Technical SEO Find and fix technical issues that hold your site back in search Learn more 3 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7)"
+      },
+      {
+        "href": "https://www.semrush.com/features/competitor-website-analysis-tools/",
+        "text": "Competitive analysis Find out what works for your competitors and where you can grow Learn more 5 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8)"
+      },
+      {
+        "href": "https://www.semrush.com/analytics/traffic/",
+        "text": "Market Analysis and Traffic See who your audience is and how to engage them Learn more",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#maat:nth-of-type(9)"
+      },
+      {
+        "href": "https://www.semrush.com/features/seo-competitor-analysis-tool/",
+        "text": "Competitor SEO Analysis Benchmark your SEO against the top players in your market Learn more 8 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10)"
+      },
+      {
+        "href": "https://www.semrush.com/features/local-seo-tools/",
+        "text": "Local SEO Help local customers find you in search, LLMs, and on the map Learn more 6 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11)"
+      },
+      {
+        "href": "https://www.semrush.com/features/ppc-marketing-tools/",
+        "text": "Advertising Generate leads with high-performing paid campaigns Learn more 3 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12)"
+      },
+      {
+        "href": "https://www.semrush.com/features/content-marketing-tools/",
+        "text": "Content Marketing Create high-performing content with AI Learn more 4 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cmt:nth-of-type(13)"
+      },
+      {
+        "href": "https://www.semrush.com/features/social-media-marketing/",
+        "text": "Social Media Plan, publish, and track social media content Learn more 4 tools",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14)"
+      },
+      {
+        "href": "https://www.semrush.com/pr-toolkit/",
+        "text": "AI PR Get coverage in media cited by AI Learn more",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pr:nth-of-type(15)"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=features",
+        "text": "Get free trial",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.main-get-trial.container:nth-of-type(2) > div.main-get-trial__inner > a.button.button--primary"
+      },
+      {
+        "href": "https://www.semrush.com/signup/?src=footer",
+        "text": "Start free trial",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__get-started:nth-of-type(1) > a.srf-footer__get-started-button.srf-footer__button"
+      },
+      {
+        "href": "https://www.semrush.com/semrush-free-trial/",
+        "text": "Free Trial",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/vs/",
+        "text": "Compare Semrush",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/affiliate-program/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Affiliate Program",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/enterprise-aio/en/",
+        "text": "Enterprise AIO",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/site-intelligence/en/",
+        "text": "Enterprise SI",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/insights/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Insights24",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/mfour/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Mfour",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/apps/?utm_source=semrush&utm_medium=footer",
+        "text": "App Center",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://www.semrush.com/website/top/?utm_source=semrush&utm_medium=footer",
+        "text": "Top Websites",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(7) > a"
+      },
+      {
+        "href": "https://www.semrush.com/free-tools/?utm_source=semrush&utm_medium=footer",
+        "text": "Free Tools",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(8) > a"
+      },
+      {
+        "href": "https://www.semrush.com/sensor/?utm_source=semrush&utm_medium=footer",
+        "text": "Sensor",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(9) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/partners/",
+        "text": "Partners",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(4) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/semrush-select/",
+        "text": "Semrush Select",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(5) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/global-issues/",
+        "text": "Global Issues Index",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(6) > a"
+      },
+      {
+        "href": "https://www.semrush.com/api-documentation/",
+        "text": "Semrush API",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(1) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/blog/",
+        "text": "Semrush Blog",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.semrush.com/lp/semrush-circle/en/?utm_source=semrush&utm_medium=footer",
+        "text": "Ambassador Program",
+        "domPath": "footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-column:nth-of-type(4) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/privacy-policy/",
+        "text": "Privacy Policy",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__legal.srf-footer__collapsable:nth-of-type(4) > ul.srf-footer__legal-list > li.srf-footer__legal-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/",
+        "text": "Terms of Service",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__legal.srf-footer__collapsable:nth-of-type(4) > ul.srf-footer__legal-list > li.srf-footer__legal-list-item:nth-of-type(2) > a"
+      },
+      {
+        "href": "https://www.semrush.com/company/legal/cookie-policy/",
+        "text": "Cookie Policy.",
+        "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-content.h2-dialog-content-morespace:nth-of-type(1) > p:nth-of-type(2) > a.ch2-learn-more"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://enterprise.semrush.com/",
+        "text": "Enterprise",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(4) > a.srf-header__menu-item"
+      },
+      {
+        "href": "https://developer.semrush.com/api/",
+        "text": "API",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-productsdropdown:nth-of-type(1) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(3) > ul.srf-header__menu-sublist-list > li:nth-of-type(3) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://ai-visibility-index.semrush.com/",
+        "text": "AI Visibility Index",
+        "domPath": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > div.srf-header__dropdown-columns > div.srf-header__menu-sublist-column:nth-of-type(1) > ul.srf-header__menu-sublist-list > li:nth-of-type(5) > a.srf-header__menu-sublist-item"
+      },
+      {
+        "href": "https://www.spotlightconf.com/register?utm_source=semrush&utm_medium=resourceslink&utm_campaign=launch_promo&utm_content=spotlight_2026",
+        "text": "Get Your Ticket Now One day. Real strategies. Built for marketers who play to win. October 13, 2026London, UK",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > srf-header-dropdown-items#srf-dropdown-items-resourcesdropdown:nth-of-type(2) > a.srf-header__dropdown-promo"
+      },
+      {
+        "href": "https://enterprise.semrush.com/",
+        "text": "Enterprise Next-level SEO solutions for industry leaders Learn more",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3)"
+      },
+      {
+        "href": "https://enterprise.semrush.com/?utm_source=semrush&utm_medium=footer",
+        "text": "Enterprise SEO",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(2) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(1) > a"
+      },
+      {
+        "href": "https://careers.semrush.com/",
+        "text": "Careers",
+        "domPath": "div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div#srf-footer__menu:nth-of-type(2) > div.srf-footer__menu-block.srf-footer__collapsable:nth-of-type(3) > ul.srf-footer__menu-list > li.srf-footer__menu-block-list-item:nth-of-type(3) > a"
+      },
+      {
+        "href": "https://www.linkedin.com/company/semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(1) > a.srf-footer__social-link.srf-footer__social-link--linkedin"
+      },
+      {
+        "href": "https://instagram.com/semrush/",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(2) > a.srf-footer__social-link.srf-footer__social-link--instagram"
+      },
+      {
+        "href": "https://www.tiktok.com/@semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(3) > a.srf-footer__social-link.srf-footer__social-link--tiktok"
+      },
+      {
+        "href": "https://www.youtube.com/user/SemrushHQ",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(4) > a.srf-footer__social-link.srf-footer__social-link--youtube"
+      },
+      {
+        "href": "https://www.facebook.com/Semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(5) > a.srf-footer__social-link.srf-footer__social-link--facebook"
+      },
+      {
+        "href": "https://x.com/semrush",
+        "text": "",
+        "domPath": "div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > ul.srf-footer__social-list > li:nth-of-type(6) > a.srf-footer__social-link.srf-footer__social-link--twitter"
+      },
+      {
+        "href": "https://business.adobe.com/",
+        "text": "",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer > div.srf-footer-content > div.srf-footer__social:nth-of-type(3) > p.srf-footer__copyright > a.srf-footer__adobe-logo"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://cdn.semrush.com/features/static/features/index/illustration-main.svg",
+        "srcset": null,
+        "alt": "Example of the Site Audit and AI Visibility tools data",
+        "naturalWidth": 440,
+        "naturalHeight": 256,
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1) > div.main > img.main__illustration",
+        "localPath": "stardust/current/assets/media/illustration-main-3a880d34.svg"
+      }
+    ],
+    "inlineSvgs": [
+      {
+        "viewBox": null,
+        "domPath": "svg#__SVG_SPRITE_NODE__",
+        "width": null,
+        "height": null,
+        "markupLength": 10615
+      },
+      {
+        "viewBox": "0 0 16 16",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout__notification:nth-of-type(2) > div#srf-browser-unhappy > button#srf-browser-unhappy-btn-close > svg.srf-icon",
+        "width": "16",
+        "height": "16",
+        "markupLength": 447
+      },
+      {
+        "viewBox": "0 0 1376 192",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > div.srf-footer-reveal > svg",
+        "width": "1376",
+        "height": "192",
+        "markupLength": 1664
+      }
+    ],
+    "cssBackgrounds": [
+      {
+        "url": "https://www.semrush.com/features/static/images/ai_seo_bg.6dfe8121db9ecc6e6362.jpg",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1)",
+        "boundingClientRect": {
+          "x": 160,
+          "y": 783,
+          "width": 352,
+          "height": 228
+        },
+        "backgroundSize": "cover",
+        "backgroundPosition": "50% 50%",
+        "backgroundRepeat": "no-repeat",
+        "localPath": "stardust/current/assets/media/ai_seo_bg.6dfe8121db9ecc6e6362-817d58d6.jpg"
+      },
+      {
+        "url": "https://www.semrush.com/features/static/images/enterprise_bg.4cafd0807066f8bf31e1.png",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3)",
+        "boundingClientRect": {
+          "x": 928,
+          "y": 783,
+          "width": 352,
+          "height": 228
+        },
+        "backgroundSize": "auto",
+        "backgroundPosition": "calc(100% + 30px) -46px",
+        "backgroundRepeat": "no-repeat",
+        "localPath": "stardust/current/assets/media/enterprise_bg.4cafd0807066f8bf31e1-fc1d1a5f.png"
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAYPCAMAAABfVEFjAAAARVBMVEUAAAC/j//Hj/+/j/+/j//Dj/+/j//Cj/+/j//Fj//Cj//Ekv/Dkf/Dkf/Ekv/Ckf/Dkv/Ckf/Dkv/Dkf/Ckf/Ckf/Ckf9k6gjCAAAAFnRSTlMAECAgMEBAUFBgYHCAkJ+gr7C/z9/vq3m4ogAAAb1JREFUeNrtyNGOnCAYhmEt6gwd1B0E7v9Sm910m6b5gKh/z97n8Bnwr1Huj9s7s2x3/e0NLNvdVe52eyPL9tbd38SyvZ3vb5ZbWLa33mAdy3Y2GOwkd2HZP1a5+6l9yvUs29losC+5gWU7mwx2Y9nOFoN9y40s+22U687tITexbHtni81yC8t+e8j1J3eU61j2t5fcYLILyzZ3N1nPss39kBtNNrBsc5PJbizb3Cy3mGxk2dY6m00s29rZZrPcwrKt9UbrWLaxwWgnuQvLflnl7qf3KdezbGOj0b7kBpb9cshNp3eVu7FsY4vRvuVGlv00ynXn95CbWPbTJHe22sKy9X3I9Rd2lOtYtrrBbBeWre5utp5lqxv/8waWrW4y241lq5vlFrONLFtbZ7eJZWs7222WW1i2tt5wHctWNhjuJHdh2WGVu1/ap1zPspWNhvuSG1h2OOSmS7vK3Vh2yHKL4b7lRpYd5bpre8hNLDvJnS23sKzeh1x/cUe5jmXlBtNdWFbuKne/uJ5l5X7IjaYbWFbuITdd3I1l5Wa5xXQjy6p1tptYVu1su1luYVm13ngdy4oNJ3b6+bdxGIZf9AyTQKv797YAAAAASUVORK5CYII=",
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > div.srf-footer-reveal",
+        "boundingClientRect": {
+          "x": 0,
+          "y": 3168,
+          "width": 1440,
+          "height": 550
+        },
+        "backgroundSize": "7px 550px",
+        "backgroundPosition": "0px 100%",
+        "backgroundRepeat": "repeat-x",
+        "localPath": null
+      }
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": null,
+        "title": null,
+        "crossOrigin": false,
+        "boundingClientRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      {
+        "src": null,
+        "title": "Intercom",
+        "crossOrigin": false,
+        "boundingClientRect": {
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1
+        }
+      }
+    ]
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [
+      {
+        "domPath": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog",
+        "open": true
+      }
+    ],
+    "accordions": [],
+    "tabs": [
+      {
+        "domPath": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist",
+        "tabCount": 7
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 87,
+      "examples": [
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2)",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1)"
+      ]
+    },
+    "grids": {
+      "count": 0,
+      "examples": []
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 1,
+      "examples": [
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist"
+      ]
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 1,
+      "examples": [
+        "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 2,
+      "examples": [
+        "iframe:nth-of-type(1)",
+        "iframe#intercom-frame:nth-of-type(2)"
+      ]
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 0,
+      "examples": []
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(23, 26, 34)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "48px 48px",
+        "gap": "normal"
+      },
+      "borderRadius": "5px",
+      "fontFamilies": [
+        "Inter, sans-serif"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.main-get-trial.container:nth-of-type(2)",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgba(0, 0, 0, 0)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(23, 26, 34)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "48px 48px",
+        "gap": "normal"
+      },
+      "borderRadius": "5px",
+      "fontFamilies": [
+        "Inter, sans-serif"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--srf-factor-a-funk-up-latin",
+      "value": "'ss01' off"
+    },
+    {
+      "name": "--srf-factor-a-curly-arrows",
+      "value": "'ss03' off"
+    },
+    {
+      "name": "--srf-header-blend-percent",
+      "value": "0%"
+    },
+    {
+      "name": "--srf-factor-a-frac",
+      "value": "'frac' off"
+    }
+  ],
+  "screenshot": "stardust/current/assets/screenshots/features.png",
+  "stats": {
+    "wordCount": 409,
+    "ctaCount": 18,
+    "internalLinkCount": 78,
+    "externalLinkCount": 14,
+    "imageCount": 1,
+    "inlineSvgCount": 3,
+    "cssBackgroundCount": 3
+  },
+  "_extras": {
+    "logoCandidates": {
+      "inlineSvg": null,
+      "img": null,
+      "appleTouch": "https://www.semrush.com/__static__/apple-touch-icon.fe16ae843d17.png",
+      "ogImage": "https://www.semrush.com/__static__/semrush-logo-700.43215feb8faa.jpg",
+      "favicon": "https://www.semrush.com/__static__/favicon.d8fbaa3a030a.ico"
+    },
+    "styleSamples": [
+      {
+        "where": "body",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Inter, sans-serif"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout__skip-to-content:nth-of-type(1) > button#skip-to-content",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 109, 202)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "1px 6px",
+        "borderColor": "rgb(0, 109, 202)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header",
+        "backgroundColor": "oklab(0.999994 0.0000455678 0.0000200868)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "lineHeight": "12px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px 24px",
+        "borderColor": "rgb(51, 51, 51)"
+      },
+      {
+        "where": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "4px 8px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "19.2px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "4px 8px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(51, 51, 51)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "12px",
+        "lineHeight": "12px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(51, 51, 51)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px 48px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#all:nth-of-type(1)",
+        "backgroundColor": "rgb(0, 159, 129)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "padding": "7px 27px",
+        "borderColor": "rgb(0, 159, 129)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#online-visibility:nth-of-type(2)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "padding": "7px 27px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#ai:nth-of-type(3)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "padding": "7px 27px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#market:nth-of-type(4)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "padding": "7px 27px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#local:nth-of-type(5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "padding": "7px 27px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#content:nth-of-type(6)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "padding": "7px 27px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#lead-generation:nth-of-type(7)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "20px",
+        "boxShadow": "none",
+        "padding": "7px 27px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1) > div.feature-card__footer.feature-card__footer--external",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#ai-seo:nth-of-type(1) > div.feature-card__footer.feature-card__footer--external > div.feature-card__footer-link",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3) > div.feature-card__footer.feature-card__footer--external",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#enterprise:nth-of-type(3) > div.feature-card__footer.feature-card__footer--external > div.feature-card__footer-link",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#stt:nth-of-type(6) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#tst:nth-of-type(7) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cwat:nth-of-type(8) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#maat:nth-of-type(9)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#maat:nth-of-type(9) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#maat:nth-of-type(9) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#maat:nth-of-type(9) > div.feature-card__footer.feature-card__footer--external-regular",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#maat:nth-of-type(9) > div.feature-card__footer.feature-card__footer--external-regular > div.feature-card__footer-link",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#scat:nth-of-type(10) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lst:nth-of-type(11) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pmt:nth-of-type(12) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cmt:nth-of-type(13)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cmt:nth-of-type(13) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cmt:nth-of-type(13) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cmt:nth-of-type(13) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cmt:nth-of-type(13) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14) > p.feature-card__text",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "21px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14) > div.feature-card__footer",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#smm:nth-of-type(14) > div.feature-card__footer > div.feature-card__count:nth-of-type(2)",
+        "backgroundColor": "rgb(246, 247, 248)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "14px",
+        "lineHeight": "17px",
+        "borderRadius": "6px",
+        "boxShadow": "none",
+        "padding": "5px 10px 7px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pr:nth-of-type(15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "10px",
+        "boxShadow": "none",
+        "padding": "24px 28px",
+        "borderColor": "rgb(209, 212, 219)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pr:nth-of-type(15) > h3.title.feature-card__title",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "\"Factor A\", Arial, Helvetica, sans-serif",
+        "fontWeight": "700",
+        "fontSize": "22px",
+        "lineHeight": "28.6px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pr:nth-of-type(15) > div.feature-card__footer.feature-card__footer--external-regular",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#pr:nth-of-type(15) > div.feature-card__footer.feature-card__footer--external-regular > div.feature-card__footer-link",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(87, 92, 102)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(87, 92, 102)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.main-get-trial.container:nth-of-type(2)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(23, 26, 34)",
+        "fontFamily": "Inter, sans-serif",
+        "fontWeight": "400",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px 48px",
+        "borderColor": "rgb(23, 26, 34)"
+      },
+      {
+        "where": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, sans-serif",
+        "fontWeight": "500",
+        "fontSize": "14px",
+        "lineHeight": "14px",
+        "borderRadius": "0px",
+        "boxShadow": "none",
+        "padding": "0px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-allow-all-btn:nth-of-type(1)",
+        "backgroundColor": "rgb(24, 30, 21)",
+        "color": "rgb(255, 255, 255)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "17px 24px",
+        "borderColor": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-deny-all-btn:nth-of-type(2)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "17px 24px",
+        "borderColor": "rgb(24, 30, 21)"
+      },
+      {
+        "where": "div.ch2.ch2-region-c1:nth-of-type(11) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-open-settings-btn:nth-of-type(3)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(24, 30, 21)",
+        "fontFamily": "Lazzer, Inter, sans-serif",
+        "fontWeight": "600",
+        "fontSize": "16px",
+        "lineHeight": "16px",
+        "borderRadius": "100px",
+        "boxShadow": "none",
+        "padding": "16px 24px",
+        "borderColor": "rgb(24, 30, 21)"
+      }
+    ],
+    "firstParagraph": "Your browser or operating system is out of date and Semrush might not be displayed correctly. Please update your browser or operating system."
+  }
+}

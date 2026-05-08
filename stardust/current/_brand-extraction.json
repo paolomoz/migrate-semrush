@@ -1,0 +1,760 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-05-08T13:08:08.101Z",
+    "readArtifacts": [
+      "https://www.semrush.com/",
+      "stardust/current/pages/company.json",
+      "stardust/current/pages/features.json",
+      "stardust/current/pages/features__keyword-magic-tool.json",
+      "stardust/current/pages/home.json",
+      "stardust/current/pages/pricing.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.3.0",
+    "notes": "Cross-page aggregation across 5 extracted pages: home, pricing, features, features/keyword-magic-tool, company. Palette uses rgba(*,0)/transparent filtering and ΔE<5 clustering. Logo source: apple-touch-icon Logo source updated to inline-svg from CSS background-image (data: URL) — v1 locator chain misses this pattern."
+  },
+  "site": {
+    "name": "Semrush",
+    "tagline": "Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.",
+    "originUrl": "https://www.semrush.com"
+  },
+  "logo": {
+    "source": "inline-svg",
+    "sourceSelector": "a.srf-header__logo (CSS background-image data:URL)",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": 150,
+    "intrinsicHeight": 36,
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "notes": "Logo encoded as base64 SVG inside CSS background-image of a.srf-header__logo. v1 locator chain (img/inline-svg DOM walk) misses this — extracted via targeted Playwright probe."
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 103,
+      "sources": [
+        "company",
+        "features",
+        "features__keyword-magic-tool"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "sourceSelectors": [
+        "body",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > footer#srf-footer",
+        "div.ch2.ch2-region-c1:nth-of-type(10) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-allow-all-btn:nth-of-type(1)",
+        "div.ch2.ch2-region-c1:nth-of-type(10) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-deny-all-btn:nth-of-type(2)",
+        "div.ch2.ch2-region-c1:nth-of-type(10) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-actions.ch2-dialog-actions-vertical:nth-of-type(2) > button.ch2-btn.ch2-open-settings-btn:nth-of-type(3)",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-buttons-container:nth-of-type(2) > div.srf-header__buttons > a.srf-header__link-button:nth-of-type(2) (cta)"
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#181e15",
+      "occurrences": 303,
+      "sources": [
+        "company",
+        "features",
+        "features__keyword-magic-tool"
+      ],
+      "usedAs": [
+        "text",
+        "border",
+        "background"
+      ],
+      "sourceSelectors": [
+        "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+        "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(1) > button.srf-header__menu-item",
+        "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+        "div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header > div#srf-header-desktop-menu-container:nth-of-type(1) > srf-header-menu > ul > li:nth-of-type(3) > button.srf-header__menu-item",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div#app > div.style__aboutUsWrapper--3owoD > section.style__background--2pxfp:nth-of-type(1)",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div#app > div.style__aboutUsWrapper--3owoD > section.style__background--2pxfp:nth-of-type(1)"
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#008ff8",
+      "occurrences": 2,
+      "sources": [
+        "pricing"
+      ],
+      "usedAs": [
+        "background"
+      ],
+      "sourceSelectors": [
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_",
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.pricing > div.pricing__layout > div#pricing > div#srf-skip-to-content:nth-of-type(2) > section.CustomPlanRequest-module__container--hQiYQ:nth-of-type(2) > button._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ (cta)"
+      ]
+    },
+    {
+      "role": "surface",
+      "value": "#000000",
+      "occurrences": 13,
+      "sources": [
+        "home",
+        "pricing"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "sourceSelectors": [
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.main-page:nth-of-type(2) > div.mp-promo-cards-wrapper > section.mp-promo-cards.mp-container:nth-of-type(2) > div.mp-promo-cards__container",
+        "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njcht_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njcht_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchu_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(3) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchu_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_",
+        "div#igc-ui-kit-r16-scroll-container > div > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_ > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(2) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(4) > div._inAfterOutline_false_1fjik_gg_.___SBox_1fjik_gg_:nth-of-type(1) > div#ui-kit-r15_ui-kit-r15_1njchv_0 > button._inAfterOutline_false_1fjik_gg_.___SBoxInline_1fjik_gg_"
+      ]
+    },
+    {
+      "role": "surface",
+      "value": "#dceeeb",
+      "occurrences": 11,
+      "sources": [
+        "company",
+        "home"
+      ],
+      "usedAs": [
+        "background"
+      ],
+      "sourceSelectors": [
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div#app > div.style__aboutUsWrapper--3owoD > section.style__bgMint--zCS75:nth-of-type(4)",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div#app > div.style__aboutUsWrapper--3owoD > section.style__mapSection--_mPcR:nth-of-type(7)",
+        "div.main-page:nth-of-type(2) > section.mp-section.mp-toolkits:nth-of-type(2) > div.mp-container > div.swiper.mp-toolkits-slider > div#swiper-wrapper-fbe9fd39fbbc59510:nth-of-type(2) > div.mp-toolkit.swiper-slide:nth-of-type(1) > div#toolkit-title-semrush-one:nth-of-type(1) > button.mp-toolkit__trigger.mp-button (cta)",
+        "div.main-page:nth-of-type(2) > section.mp-section.mp-toolkits:nth-of-type(2) > div.mp-container > div.swiper.mp-toolkits-slider > div#swiper-wrapper-fbe9fd39fbbc59510:nth-of-type(2) > div.mp-toolkit.swiper-slide:nth-of-type(2) > div.mp-toolkit__title-wrapper:nth-of-type(1) > button.mp-toolkit__trigger.mp-button (cta)",
+        "div.main-page:nth-of-type(2) > section.mp-section.mp-toolkits:nth-of-type(2) > div.mp-container > div.swiper.mp-toolkits-slider > div#swiper-wrapper-fbe9fd39fbbc59510:nth-of-type(2) > div.mp-toolkit.swiper-slide:nth-of-type(3) > div#toolkit-title-ai:nth-of-type(1) > button.mp-toolkit__trigger.mp-button (cta)",
+        "div.main-page:nth-of-type(2) > section.mp-section.mp-toolkits:nth-of-type(2) > div.mp-container > div.swiper.mp-toolkits-slider > div#swiper-wrapper-fbe9fd39fbbc59510:nth-of-type(2) > div.mp-toolkit.swiper-slide:nth-of-type(4) > div#toolkit-title-traffic:nth-of-type(1) > button.mp-toolkit__trigger.mp-button (cta)"
+      ]
+    },
+    {
+      "role": "border",
+      "value": "#171a22",
+      "occurrences": 271,
+      "sources": [
+        "features",
+        "features__keyword-magic-tool",
+        "pricing"
+      ],
+      "usedAs": [
+        "text",
+        "border"
+      ],
+      "sourceSelectors": [
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1)",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > section.container:nth-of-type(1)",
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#online-visibility:nth-of-type(2)",
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#ai:nth-of-type(3)",
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#market:nth-of-type(4)",
+        "div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content > div.features > div.interests > div.container > div.tabs:nth-of-type(1) > div#interests-tablist > button#local:nth-of-type(5)"
+      ]
+    },
+    {
+      "role": "accent-1",
+      "value": "#333333",
+      "occurrences": 30,
+      "sources": [
+        "company",
+        "features",
+        "features__keyword-magic-tool"
+      ],
+      "usedAs": [
+        "text",
+        "border"
+      ],
+      "sourceSelectors": [
+        "body",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout__header:nth-of-type(3) > srf-header-2026 > header#srf-header",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content",
+        "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > main#root-content",
+        "div.ch2.ch2-region-c1:nth-of-type(10) > div.ch2-container.ch2-theme-bar > div#ch2-dialog > div.ch2-dialog-content.h2-dialog-content-morespace:nth-of-type(1) > h2#ch2-dialog-title"
+      ]
+    },
+    {
+      "role": "accent-2",
+      "value": "#575c66",
+      "occurrences": 26,
+      "sources": [
+        "features"
+      ],
+      "usedAs": [
+        "text",
+        "border"
+      ],
+      "sourceSelectors": [
+        "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#kwrt:nth-of-type(2) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#cot:nth-of-type(4) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)",
+        "main#root-content > div.features > div.interests > div.container > div#interests-content:nth-of-type(2) > a#lbapt:nth-of-type(5) > div.feature-card__footer > div.feature-card__footer-link:nth-of-type(1)"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Lazzer",
+      "stack": "\"Lazzer\", system-ui, sans-serif",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "sizes": [
+        "84px",
+        "42px",
+        "46px",
+        "46px",
+        "28px"
+      ],
+      "lineHeights": [
+        "92.4px",
+        "50.4px",
+        "46px",
+        "33.6px"
+      ],
+      "letterSpacing": [
+        "-3.36px",
+        "normal",
+        "-1.84px",
+        "-0.56px"
+      ],
+      "sourceSelectors": [
+        "> h3.srf-header__menu-sublist-column-title",
+        "> h2.style__title--1vpSg.style__headlineL1--3tJhN",
+        "> h4.style__headlineH2--1uwXc"
+      ]
+    },
+    "bodyFamily": {
+      "name": "Inter",
+      "stack": "\"Inter\", system-ui, sans-serif",
+      "weights": [
+        400,
+        500,
+        600
+      ],
+      "sizes": [
+        "1rem"
+      ],
+      "lineHeights": [
+        "1.5"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li",
+        "label"
+      ]
+    },
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.826,
+        1,
+        1.095,
+        1.5
+      ],
+      "matchedScale": null
+    },
+    "loadStrategy": "unknown"
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "scale": [
+      0,
+      4,
+      5,
+      7,
+      8,
+      10,
+      12,
+      17,
+      24,
+      27,
+      28,
+      32
+    ],
+    "sectionPadding": "120px",
+    "containerMaxWidth": "1280px",
+    "gridGap": null
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "10px",
+      "secondary": "6px",
+      "pill": "100px",
+      "primarySources": [
+        "company",
+        "features",
+        "features__keyword-magic-tool"
+      ],
+      "occurrences": {
+        "100px": 35,
+        "10px": 25,
+        "6px": 18,
+        "12px": 11,
+        "20px": 7,
+        "5px": 4
+      }
+    },
+    "shadows": [
+      {
+        "value": "rgba(137, 141, 154, 0.3) 5px 5px 25px 0px",
+        "uses": "buttons"
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 2px 12px 0px",
+        "uses": "buttons"
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 4px 15px 0px inset",
+        "uses": "buttons"
+      }
+    ],
+    "gradients": [],
+    "patterns": [
+      {
+        "name": "card-grid",
+        "evidence": "company: 3 cards"
+      },
+      {
+        "name": "social-proof-logos",
+        "evidence": "company: logo strip detected"
+      },
+      {
+        "name": "stat-row",
+        "evidence": "company: 1 stats"
+      },
+      {
+        "name": "testimonial-grid",
+        "evidence": "home: 11 testimonials"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#008ff8",
+        "color": "#ffffff",
+        "borderRadius": "6px",
+        "padding": "0px",
+        "fontWeight": 500,
+        "shadow": null,
+        "hoverDelta": null
+      },
+      "secondary": null,
+      "ghost": null
+    },
+    "dualCTAPattern": null,
+    "cards": null,
+    "inputs": null
+  },
+  "systemComponents": [
+    {
+      "name": "sidebar-1",
+      "kind": "sidebar",
+      "occurrences": 5,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "4f53cda18c2baa0c",
+      "exampleSlug": "company",
+      "exampleSelector": "div",
+      "examplePages": [
+        "company",
+        "features",
+        "features__keyword-magic-tool",
+        "home",
+        "pricing"
+      ]
+    },
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 5,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "4f53cda18c2baa0c",
+      "exampleSlug": "company",
+      "exampleSelector": "header",
+      "examplePages": [
+        "company",
+        "features",
+        "features__keyword-magic-tool",
+        "home",
+        "pricing"
+      ]
+    },
+    {
+      "name": "other-3",
+      "kind": "other",
+      "occurrences": 3,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "4f53cda18c2baa0c",
+      "exampleSlug": "company",
+      "exampleSelector": "main",
+      "examplePages": [
+        "company",
+        "features__keyword-magic-tool",
+        "pricing"
+      ]
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 5,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "4f53cda18c2baa0c",
+      "exampleSlug": "company",
+      "exampleSelector": "footer",
+      "examplePages": [
+        "company",
+        "features",
+        "features__keyword-magic-tool",
+        "home",
+        "pricing"
+      ]
+    },
+    {
+      "name": "other-5",
+      "kind": "other",
+      "occurrences": 5,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "4f53cda18c2baa0c",
+      "exampleSlug": "company",
+      "exampleSelector": "div",
+      "examplePages": [
+        "company",
+        "features",
+        "features__keyword-magic-tool",
+        "home",
+        "pricing"
+      ]
+    },
+    {
+      "name": "nav-secondary-6",
+      "kind": "nav-secondary",
+      "occurrences": 2,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "4f53cda18c2baa0c",
+      "exampleSlug": "features__keyword-magic-tool",
+      "exampleSelector": "nav",
+      "examplePages": [
+        "features__keyword-magic-tool",
+        "pricing"
+      ]
+    },
+    {
+      "name": "bg-uJ5l5X7IjaYbWFbuITdd3I1l5Wa5xX",
+      "kind": "background-motif",
+      "occurrences": 5,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "domFingerprintHash": "807c7f29cb7e4bf4",
+      "exampleSlug": "company",
+      "exampleSelector": "div.srf-layout:nth-of-type(1) > div.srf-layout-main-content-wrapper:nth-of-type(5) > div.srf-layout__footer > div.srf-footer-reveal",
+      "examplePages": [
+        "company",
+        "features",
+        "features__keyword-magic-tool",
+        "home",
+        "pricing"
+      ],
+      "bgUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAYPCAMAAABfVEFjAAAARVBMVEUAAAC/j//Hj/+/j/+/j//Dj/+/j//Cj/+/j//Fj//Cj//Ekv/Dkf/Dkf/Ekv/Ckf/Dkv/Ckf/Dkv/Dkf/Ckf/Ckf/Ckf9k6gjCAAAAFnRSTlMAECAgMEBAUFBgYHCAkJ+gr7C/z9/vq3m4ogAAAb1JREFUeNrtyNGOnCAYhmEt6gwd1B0E7v9Sm910m6b5gKh/z97n8Bnwr1Huj9s7s2x3/e0NLNvdVe52eyPL9tbd38SyvZ3vb5ZbWLa33mAdy3Y2GOwkd2HZP1a5+6l9yvUs29losC+5gWU7mwx2Y9nOFoN9y40s+22U687tITexbHtni81yC8t+e8j1J3eU61j2t5fcYLILyzZ3N1nPss39kBtNNrBsc5PJbizb3Cy3mGxk2dY6m00s29rZZrPcwrKt9UbrWLaxwWgnuQvLflnl7qf3KdezbGOj0b7kBpb9cshNp3eVu7FsY4vRvuVGlv00ynXn95CbWPbTJHe22sKy9X3I9Rd2lOtYtrrBbBeWre5utp5lqxv/8waWrW4y241lq5vlFrONLFtbZ7eJZWs7222WW1i2tt5wHctWNhjuJHdh2WGVu1/ap1zPspWNhvuSG1h2OOSmS7vK3Vh2yHKL4b7lRpYd5bpre8hNLDvJnS23sKzeh1x/cUe5jmXlBtNdWFbuKne/uJ5l5X7IjaYbWFbuITdd3I1l5Wa5xXQjy6p1tptYVu1su1luYVm13ngdy4oNJ3b6+bdxGIZf9AyTQKv797YAAAAASUVORK5CYII="
+    }
+  ],
+  "voice": {
+    "heroHeadline": "Be found everywhere search happens",
+    "heroSubcopy": "The leading platform to grow and measure brand visibility across virtually every digital channel. Enter your website US Get insights",
+    "primaryCTALabel": "Sign Up",
+    "ctaSamples": [
+      "Skip to content",
+      "Products",
+      "Resources",
+      "Sign Up",
+      "Join Our Team",
+      "Contact Us",
+      "Start free trial",
+      "English",
+      "Allow all cookies",
+      "Deny all",
+      "Cookie settings",
+      "Try for free"
+    ],
+    "navItems": [
+      "Pricing",
+      "Log In",
+      "Sign Up"
+    ],
+    "footerHeadings": [],
+    "firstParagraph": "The leading platform to grow and measure brand visibility across virtually every digital channel. Enter your website US Get insights",
+    "tone": {
+      "guess": "professional-warm",
+      "evidence": "40 distinct CTA labels, 27% uppercase headings — language is action-oriented and approachable"
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Expand",
+        "total": 9,
+        "pageCount": 1,
+        "pages": [
+          "home"
+        ]
+      },
+      {
+        "label": "Skip to content",
+        "total": 5,
+        "pageCount": 5,
+        "pages": [
+          "company",
+          "features",
+          "features__keyword-magic-tool",
+          "home",
+          "pricing"
+        ]
+      },
+      {
+        "label": "Products",
+        "total": 5,
+        "pageCount": 5,
+        "pages": [
+          "company",
+          "features",
+          "features__keyword-magic-tool",
+          "home",
+          "pricing"
+        ]
+      },
+      {
+        "label": "Resources",
+        "total": 5,
+        "pageCount": 5,
+        "pages": [
+          "company",
+          "features",
+          "features__keyword-magic-tool",
+          "home",
+          "pricing"
+        ]
+      },
+      {
+        "label": "Sign Up",
+        "total": 5,
+        "pageCount": 5,
+        "pages": [
+          "company",
+          "features",
+          "features__keyword-magic-tool",
+          "home",
+          "pricing"
+        ]
+      },
+      {
+        "label": "Start free trial",
+        "total": 5,
+        "pageCount": 5,
+        "pages": [
+          "company",
+          "features",
+          "features__keyword-magic-tool",
+          "home",
+          "pricing"
+        ]
+      },
+      {
+        "label": "English",
+        "total": 5,
+        "pageCount": 5,
+        "pages": [
+          "company",
+          "features",
+          "features__keyword-magic-tool",
+          "home",
+          "pricing"
+        ]
+      },
+      {
+        "label": "Allow all cookies",
+        "total": 5,
+        "pageCount": 5,
+        "pages": [
+          "company",
+          "features",
+          "features__keyword-magic-tool",
+          "home",
+          "pricing"
+        ]
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "Start Here",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Find the Right Tools",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Platform",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Top Apps",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Grow with Semrush",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "Explore Free Tools",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "About Semrush",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3
+      },
+      {
+        "text": "GET STARTED WITH SEMRUSH TODAY",
+        "total": 5,
+        "pageCount": 5,
+        "level": 2
+      },
+      {
+        "text": "About cookies on this site",
+        "total": 5,
+        "pageCount": 5,
+        "level": 2
+      },
+      {
+        "text": "HOW WE HELP MARKETERS WIN",
+        "total": 2,
+        "pageCount": 2,
+        "level": 2
+      },
+      {
+        "text": "FAQ for Customers: Adobe Acquires Semrush",
+        "total": 2,
+        "pageCount": 2,
+        "level": 3
+      },
+      {
+        "text": "AI PR",
+        "total": 2,
+        "pageCount": 2,
+        "level": 3
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 175,
+      "headingsUppercasePercent": 27,
+      "distinctHeadings": 134,
+      "distinctCtaLabels": 40
+    }
+  },
+  "crossPromo": {
+    "detected": true,
+    "anchorHeading": "Start Here",
+    "cluster": [
+      {
+        "text": "Start Here",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3,
+        "overlap": 5
+      },
+      {
+        "text": "Find the Right Tools",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3,
+        "overlap": 5
+      },
+      {
+        "text": "Platform",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3,
+        "overlap": 5
+      },
+      {
+        "text": "Top Apps",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3,
+        "overlap": 5
+      },
+      {
+        "text": "Grow with Semrush",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3,
+        "overlap": 5
+      },
+      {
+        "text": "Explore Free Tools",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3,
+        "overlap": 5
+      },
+      {
+        "text": "About Semrush",
+        "total": 5,
+        "pageCount": 5,
+        "level": 3,
+        "overlap": 5
+      },
+      {
+        "text": "GET STARTED WITH SEMRUSH TODAY",
+        "total": 5,
+        "pageCount": 5,
+        "level": 2,
+        "overlap": 5
+      }
+    ],
+    "pages": [
+      "company",
+      "features",
+      "features__keyword-magic-tool",
+      "home",
+      "pricing"
+    ],
+    "pageCount": 5,
+    "totalPages": 5
+  },
+  "register": "brand"
+}

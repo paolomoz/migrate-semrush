@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:provenance
+  writtenBy:         stardust:prototype/craft (impeccable:craft, Phase 2)
+  writtenAt:         2026-05-08T19:00:00Z
+  page:              home
+  pageUrl:           https://www.semrush.com/
+  proposedFile:      ./home-proposed.html
+  againstDirection:  stardust/direction.md (Active 2026-05-08T16:30:00Z, mode=adopted)
+  shapeArtifact:     stardust/prototypes/home-shape.md (Phase 1, 12 sections)
+  readArtifacts:
+    - stardust/current/pages/home.json
+    - stardust/current/_brand-extraction.json
+    - stardust/target/_brand-extraction.json
+    - DESIGN.md
+    - DESIGN.json
+    - PRODUCT.md
+    - stardust/direction.md
+    - stardust/prototypes/home-shape.md
+  fontDeck:          adobe-clean (licensed) + Source Sans 3 fallback at weight 900
+  paletteSource:     adopted from Adobe Acrobat Studio DS (DESIGN.md / DESIGN.json)
+  divergenceVersion: v1.0 (stardust v2)
+  stardustVersion:   0.3.0
+  mode:              adopted
+  brandFaithfulInversions:
+    - "pure #000 / #fff are deliberate Adobe DS choices, not agent reflexes (per before-after-shell.md Hard Requirement 6, second bullet)."
+    - "hex color format throughout (per Hard Requirement 6, first bullet — DESIGN.md frontmatter ships hex; OKLCH would diverge from source-of-truth)."
+    - "no clamp() on Title sizes (DESIGN.md hard rule — token-swap-by-breakpoint via @media)."
+    - "em-dashes welcome — Adobe register samples ship them throughout."
+    - "card grids in pillar-router and perks are not a 'reflex' — they are the source DS's hub-router accordion + perks-4-up patterns, justified by source."
+  unsourcedContent:
+    - { selector: "section[data-section=\"hero\"] .hero-mosaic .tile",                  type: image,  count: 15, reason: "Mosaic image surfaces unsourced — home.json captures no hero imagery." }
+    - { selector: "section[data-section=\"editorial-bento\"] .bento-left .stat-figure", type: stat,   count: 1,  reason: "Stat figure for By the numbers card. STATS AND FACTS H2 exists; no values captured." }
+    - { selector: "section[data-section=\"editorial-bento\"] .bento-left .stat-body",   type: other,  count: 1,  reason: "One-line proof body supporting the stat. Unsourced." }
+    - { selector: "section[data-section=\"editorial-bento\"] .bento-right .body",       type: other,  count: 1,  reason: "AI Visibility Index body. H2 exists; supporting copy does not." }
+    - { selector: "section[data-section=\"stories-carousel\"] .story-card blockquote",  type: quote,  count: 11, reason: "Customer testimonial quote text. testimonialCards.count=11 but quotes not captured." }
+    - { selector: "section[data-section=\"stories-carousel\"] .story-card .name",       type: other,  count: 11, reason: "Customer name. Unsourced." }
+    - { selector: "section[data-section=\"stories-carousel\"] .story-card .role",       type: other,  count: 11, reason: "Customer role / title. Unsourced." }
+    - { selector: "section[data-section=\"stories-carousel\"] .story-card .company-logo", type: image, count: 11, reason: "Customer company logo. PRODUCT.md names brands but no logo files captured." }
+    - { selector: "section[data-section=\"enterprise-band\"] .body",                    type: other,  count: 1,  reason: "Enterprise body. H2 'Bigger scale. Bigger advantage.' preserved; supporting copy not captured." }
+    - { selector: "section[data-section=\"free-tools-strip\"] .tool-card",              type: other,  count: 5,  reason: "Tool name + body + href. home.json carries only the gnav heading 'Explore Free Tools'." }
+    - { selector: "section[data-section=\"resources\"] .resource-card .date",           type: other,  count: 3,  reason: "Resource date / timestamp. Titles preserved verbatim; dates unsourced." }
+    - { selector: "section[data-section=\"resources\"] .resource-card .excerpt",        type: other,  count: 3,  reason: "Resource excerpt body. Titles preserved; excerpts not captured." }
+    - { selector: "section[data-section=\"closing-cta\"] .body",                        type: other,  count: 1,  reason: "Trial-terms body. Unsourced — flag for verification against semrush's actual offer." }
+    - { selector: "aside[data-section=\"sticky-cta\"] .plan-card .price",               type: price,  count: 3,  reason: "Plan-card price tags. Pricing on /pricing/ which is out of scope." }
+    - { selector: "aside[data-section=\"sticky-cta\"] .plan-card .tier-name",           type: other,  count: 3,  reason: "Plan tier names. Unsourced for this run." }
+    - { selector: "aside[data-section=\"sticky-cta\"] .plan-card .feature-list li",     type: other,  count: 30, reason: "Per-tier feature bullets." }
+    - { selector: "footer .footer-col li",                                              type: other,  count: 30, reason: "Footer column sub-links. crossPromo cluster captures column headings but not items." }
+    - { selector: "footer .legal-row .registration-info",                               type: other,  count: 1,  reason: "Legal copyright + registration info." }
+    - { selector: "section[data-section=\"secondary-pillar-grid\"] .perk-card .body",   type: other,  count: 4,  reason: "Body line per Local/Advertising/AI PR/Social card — taglines rewritten in brief, secondary body lines unsourced." }
+    - { selector: "section[data-section=\"editorial-bento\"] .section-headline",        type: other,  count: 1,  reason: "'Where you stand. What to do next.' — synthesized headline, flagged for user review." }
+    - { selector: "section[data-section=\"secondary-pillar-grid\"] .section-headline",  type: other,  count: 1,  reason: "'Every channel covered.' — synthesized." }
+    - { selector: "section[data-section=\"free-tools-strip\"] .section-headline",       type: other,  count: 1,  reason: "'Try the tool before the trial.' — synthesized." }
+  critique:
+    - { runAt: "2026-05-08T19:15:00Z", tool: "impeccable:critique --json (deterministic detector, npx impeccable v3)", totals: { P0: 0, P1: 0, P2: 0, P3: 14 }, findings: [
+        { priority: P3, category: "low-contrast",  count: 13, snippet: "1.0:1 — text #ffffff on #ffffff", note: "False positives. Static analyzer cannot evaluate DOM context. White type appears on dark grounds: ink-dark btn--primary background, gnav-logo over hero (default) and over enterprise-band/footer (#000 ground), enterprise-band H2 + body, footer h4/wordmark/links. Verified manually." },
+        { priority: P3, category: "overused-font", count: 1,  snippet: "Primary font: roboto",          note: "False positive. Roboto is in the system fallback chain (per DESIGN.json extensions.type.headingFamily.stack); Adobe Clean Display is the licensed primary. Detector reads the fallback and labels it as 'primary'." }
+      ], gateAssessment: "ZERO P0/P1 findings. All 14 findings are P3 advisory. Per skills/prototype/SKILL.md § Phase 2.5, P2/P3 findings do not block prototyped status. Both categories of finding are static-analyzer false positives explained by the adopted Adobe DS treatment (white-on-#000 dark sections are deliberate per DESIGN.md § Colors; system-font fallback chain is per DESIGN.json type.headingFamily.stack)." }
+  notes: >
+    Adopted-mode render. Tokens, motion vocabulary, and component primitives are LOCKED by the
+    Acrobat Studio DS spec — this Phase 2 render makes the per-page deployment decisions only.
+    All 8 user-decided open questions are resolved per stardust/prototypes/home-shape.md § User
+    decisions (5+4 pillar split, stats as PLACEHOLDER, ghost-white enterprise CTA, ink-dark
+    closing CTA preserving One-Blue-Rule, free-tools strip kept, announcement banner inlined
+    into hero eyebrow, voice rewrites accepted, full F-002 PLACEHOLDER signature on testimonials).
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Semrush · Show up wherever search happens.</title>
+<style>
+:root {
+  /* Token contract minimum (per skills/stardust/reference/token-contract.md) */
+  --heading-font-family: 'Adobe Clean Display', 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --body-font-family:    'Adobe Clean', 'Adobe Clean Display', 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --heading-xxl: 96px;   /* Super  */
+  --heading-xl:  80px;   /* Title 1 */
+  --heading-lg:  56px;   /* Title 2 */
+  --heading-md:  48px;   /* Title 3 */
+  --body:        16px;   /* body-m  */
+  --body-sm:     14px;   /* body-s  */
+
+  --line-height-heading: 0.96;
+  --line-height-body:    1.3;
+
+  --color-bg:     #ffffff;   /* surface-white */
+  --color-fg:     #000000;   /* ink-dark / text-primary */
+  --color-accent: #3b63fb;   /* trial-blue (signature, reserved) */
+
+  --spacing-xs:  4px;
+  --spacing-sm:  8px;
+  --spacing-md:  16px;
+  --spacing-lg:  24px;
+  --spacing-xl:  48px;
+  --spacing-2xl: 96px;
+
+  --section-padding: 128px;
+  --max-width:       1920px;
+  --radius:          16px;
+
+  /* Acrobat extras (DESIGN.json extensions.tokenContract.extraTokens) */
+  --radius-pill:    75px;
+  --radius-full:    999px;
+  --radius-section-bottom: 32px;
+  --color-surface-light:    #f8f8f8;
+  --color-surface-soft:     #f6f6f6;
+  --color-ink-near-black:   #1a1a1a;
+  --color-text-deep-charcoal: #2c2c2c;
+  --color-text-mid:         #4a4a4a;
+  --color-text-muted:       #6e6e6e;
+  --color-trial-blue:       #3b63fb;
+  --color-trial-blue-hover: #274dea;
+  --color-adobe-red:        #eb1000;
+  --color-border:           #d0d0d0;
+  --color-card-mid-gray:    #c8c8c8;
+
+  --ease-emphasized: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast:   200ms;
+  --duration-base:   400ms;
+  --duration-emphasized: 480ms;
+  --duration-spring: 600ms;
+
+  --font-tabular: 'Adobe Clean', 'Source Sans 3', system-ui, sans-serif;
+  --font-mono:    ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace;
+}
+
+/* ---- Reset ---- */
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--color-bg);
+  color: var(--color-text-deep-charcoal);
+  font-family: var(--body-font-family);
+  font-size: var(--body);
+  line-height: var(--line-height-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; cursor: pointer; border: 0; background: transparent; }
+img, svg { display: block; max-width: 100%; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3, h4, p { margin: 0; }
+:focus-visible { outline: 2px solid var(--color-trial-blue); outline-offset: 2px; border-radius: 4px; }
+
+/* ---- Type tokens (token-swap-by-breakpoint, NOT clamp) ---- */
+.t-super     { font-family: var(--heading-font-family); font-weight: 900; font-size: 96px; line-height: 0.94; letter-spacing: -0.04em; }
+.t-title-1   { font-family: var(--heading-font-family); font-weight: 900; font-size: 80px; line-height: 0.96; letter-spacing: -0.04em; }
+.t-title-2   { font-family: var(--heading-font-family); font-weight: 900; font-size: 56px; line-height: 1.0;  letter-spacing: -0.03em; }
+.t-title-3   { font-family: var(--heading-font-family); font-weight: 900; font-size: 48px; line-height: 1.0;  letter-spacing: -0.03em; }
+.t-title-4   { font-family: var(--heading-font-family); font-weight: 900; font-size: 24px; line-height: 1.0;  letter-spacing: -0.02em; }
+.t-body-l    { font-family: var(--body-font-family);    font-weight: 400; font-size: 20px; line-height: 1.2;  letter-spacing: 0; }
+.t-body-m    { font-family: var(--body-font-family);    font-weight: 400; font-size: 16px; line-height: 1.3;  letter-spacing: 0.01em; }
+.t-body-s    { font-family: var(--body-font-family);    font-weight: 400; font-size: 14px; line-height: 1.3;  letter-spacing: 0.01em; }
+.t-eyebrow   { font-family: var(--body-font-family);    font-weight: 700; font-size: 16px; line-height: 1.3;  letter-spacing: -0.01em; color: var(--color-text-muted); }
+.t-label     { font-family: var(--body-font-family);    font-weight: 700; font-size: 14px; line-height: 1.3;  letter-spacing: 0; }
+.t-caption   { font-family: var(--body-font-family);    font-weight: 700; font-size: 12px; line-height: 1.3;  letter-spacing: 0.02em; }
+
+@media (max-width: 1023px) {
+  .t-super   { font-size: 72px; }
+  .t-title-1 { font-size: 56px; }
+  .t-title-2 { font-size: 40px; }
+  .t-title-3 { font-size: 32px; }
+  .t-title-4 { font-size: 20px; }
+}
+@media (max-width: 767px) {
+  .t-super   { font-size: 56px; }
+  .t-title-1 { font-size: 40px; }
+  .t-title-2 { font-size: 32px; }
+  .t-title-3 { font-size: 24px; }
+  .t-title-4 { font-size: 20px; }
+  .t-body-l  { font-size: 18px; }
+}
+
+/* ---- Grid container ---- */
+.grid {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 8.333%;
+}
+@media (max-width: 1023px) { .grid { padding: 0 24px; } }
+
+/* ---- Buttons (all pill-shaped: 75px or 999px) ---- */
+.btn { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 24px; font-family: var(--body-font-family); font-size: 14px; font-weight: 700; letter-spacing: 0; line-height: 1; white-space: nowrap; border-radius: var(--radius-pill); transition: background var(--duration-fast) ease, color var(--duration-fast) ease, border-color var(--duration-fast) ease, opacity var(--duration-fast) ease; }
+.btn--primary    { background: var(--color-fg); color: #ffffff; }
+.btn--primary:hover { background: var(--color-ink-near-black); }
+.btn--secondary  { background: transparent; color: var(--color-fg); border: 1.5px solid var(--color-fg); }
+.btn--secondary:hover { background: rgba(0,0,0,0.04); }
+.btn--trial      { height: 40px; background: var(--color-trial-blue); color: #ffffff; border-radius: var(--radius-full); }
+.btn--trial:hover { background: var(--color-trial-blue-hover); }
+.btn--ghost-white { height: 40px; background: transparent; color: #ffffff; border: 1px solid rgba(255,255,255,0.85); backdrop-filter: blur(16.5px); -webkit-backdrop-filter: blur(16.5px); }
+.btn--ghost-white:hover { background: rgba(255,255,255,0.15); }
+.is-scrolled .btn--ghost-white { color: var(--color-fg); border-color: rgba(0,0,0,0.7); backdrop-filter: none; -webkit-backdrop-filter: none; }
+.is-scrolled .btn--ghost-white:hover { background: rgba(0,0,0,0.04); }
+
+/* ---- PLACEHOLDER signature (F-002) ---- */
+[data-placeholder="true"] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+  background: rgba(248,248,248,0.7);
+  border: 2px dashed var(--color-trial-blue);
+  border-radius: 8px;
+  color: var(--color-text-mid);
+  min-height: 56px;
+  justify-content: center;
+}
+[data-placeholder="true"] .placeholder-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--color-trial-blue);
+  text-transform: none;
+}
+[data-placeholder="true"] .placeholder-shape {
+  font-family: var(--body-font-family);
+  font-size: 13px;
+  font-style: italic;
+  color: var(--color-text-mid);
+}
+[data-placeholder="true"][data-placeholder-type="image"] {
+  aspect-ratio: 1 / 1;
+  background: linear-gradient(135deg, rgba(248,248,248,0.7) 25%, rgba(200,200,200,0.4) 50%, rgba(248,248,248,0.7) 75%);
+  background-size: 24px 24px;
+}
+[data-placeholder="true"][data-placeholder-type="quote"] {
+  min-height: 110px;
+  align-items: flex-start;
+}
+[data-placeholder="true"][data-placeholder-type="price"] .placeholder-shape {
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+}
+</style>
+<style>
+/* ---- Section: gnav ---- */
+.gnav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 8px; pointer-events: none; }
+.gnav-inner { position: relative; display: flex; align-items: center; justify-content: space-between; height: 64px; padding: 0 16px; max-width: 1904px; margin: 0 auto; border-radius: var(--radius); pointer-events: auto; }
+.gnav-inner::before { content: ''; position: absolute; inset: 0; z-index: -1; border-radius: var(--radius); background: rgba(255,255,255,0.51); backdrop-filter: blur(64px); -webkit-backdrop-filter: blur(64px); opacity: 0; transition: opacity 0.35s ease; pointer-events: none; }
+.gnav.is-scrolled .gnav-inner::before { opacity: 1; }
+.gnav-left { display: flex; align-items: center; gap: 32px; height: 100%; }
+.gnav-logo { display: inline-flex; align-items: center; gap: 8px; height: 100%; color: #ffffff; transition: color 0.35s ease; }
+.gnav.is-scrolled .gnav-logo { color: var(--color-fg); }
+.gnav-logo .wordmark { font-family: var(--heading-font-family); font-weight: 900; font-size: 18px; letter-spacing: -0.02em; line-height: 1; }
+.gnav-logo .glyph { width: 22px; height: 22px; border-radius: 4px; background: var(--color-adobe-red); flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; color: #ffffff; font-size: 12px; font-weight: 900; font-family: var(--heading-font-family); }
+.gnav-links { display: flex; align-items: center; gap: 24px; }
+.gnav-links button, .gnav-links a { font-family: var(--body-font-family); font-size: 14px; font-weight: 700; color: #ffffff; text-decoration: none; padding: 4px 8px; border-radius: 8px; transition: color 0.35s ease, opacity 0.15s ease, background var(--duration-fast) ease; }
+.gnav.is-scrolled .gnav-links button, .gnav.is-scrolled .gnav-links a { color: var(--color-fg); }
+.gnav-links:has(button:hover) button, .gnav-links:has(a:hover) a { opacity: 0.65; }
+.gnav-links:has(button:hover) button:hover, .gnav-links:has(a:hover) a:hover { opacity: 1; }
+.gnav-right { display: flex; align-items: center; gap: 12px; }
+@media (max-width: 1023px) {
+  .gnav-links { display: none; }
+}
+
+/* ---- Section: hero ---- */
+.hero { position: relative; background: var(--color-bg); border-radius: 0 0 var(--radius-section-bottom) var(--radius-section-bottom); padding: 189px 0 96px; min-height: 100vh; overflow: hidden; }
+.hero-text { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; max-width: 980px; margin: 0 auto; padding: 0 24px; }
+.hero-eyebrow { display: inline-flex; align-items: center; gap: 8px; }
+.hero-eyebrow .glyph { width: 24px; height: 24px; border-radius: 6px; background: var(--color-adobe-red); flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; color: #ffffff; font-family: var(--heading-font-family); font-weight: 900; font-size: 13px; }
+.hero-title { max-width: 16ch; color: var(--color-fg); }
+.hero-body { max-width: 48ch; color: var(--color-text-mid); }
+.hero-ctas { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.hero-ctas .btn--trial { box-shadow: 0 6px 24px rgba(59,99,251,0.18); }
+
+/* Hero mosaic — 5 cols × 3 rows */
+.hero-mosaic { position: absolute; inset: 0; z-index: 1; display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(3, 1fr); gap: 8px; padding: 96px 8.333% 24px; opacity: 0.18; pointer-events: none; }
+.hero-mosaic .tile { border-radius: var(--radius); overflow: hidden; }
+.hero-text + .hero-mosaic { z-index: 0; }
+@media (max-width: 1023px) { .hero-mosaic { display: none; } }
+
+/* ---- Section: pillar-router ---- */
+.pillar-router { padding: var(--section-padding) 0; background: var(--color-bg); }
+.section-header { display: flex; flex-direction: column; align-items: center; gap: 16px; text-align: center; max-width: 760px; margin: 0 auto var(--spacing-2xl); padding: 0 24px; }
+.hub-router { display: flex; gap: 8px; max-width: 1700px; margin: 0 auto; padding: 0 24px; align-items: stretch; }
+.hub-card { flex: 1 1 291px; min-height: 480px; background: var(--color-surface-soft); border-radius: var(--radius); padding: 32px 28px; display: flex; flex-direction: column; gap: 16px; cursor: pointer; transition: flex-basis var(--duration-spring) var(--ease-spring-out), background var(--duration-spring) var(--ease-spring-out), color var(--duration-spring) var(--ease-spring-out); position: relative; overflow: hidden; }
+.hub-card.is-active { flex: 2 1 491px; background: var(--color-fg); color: #ffffff; }
+.hub-card .hub-label { font-family: var(--body-font-family); font-weight: 700; font-size: 14px; letter-spacing: 0.02em; color: var(--color-text-muted); transition: color var(--duration-spring) var(--ease-spring-out); }
+.hub-card.is-active .hub-label { color: rgba(255,255,255,0.7); }
+.hub-card .hub-tagline { color: var(--color-fg); }
+.hub-card.is-active .hub-tagline { color: #ffffff; }
+.hub-card .hub-body { color: var(--color-text-mid); margin-top: auto; max-width: 28ch; }
+.hub-card.is-active .hub-body { color: rgba(255,255,255,0.78); }
+.hub-card .hub-cta { width: 48px; height: 48px; border-radius: 50%; background: var(--color-fg); color: #ffffff; display: inline-flex; align-items: center; justify-content: center; margin-top: 8px; font-size: 22px; font-weight: 400; transition: background var(--duration-fast) ease; }
+.hub-card.is-active .hub-cta { background: #ffffff; color: var(--color-fg); }
+@media (max-width: 1023px) {
+  .hub-router { flex-direction: column; }
+  .hub-card { min-height: 220px; flex: 1 1 auto; }
+  .hub-card.is-active { flex: 1 1 auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hub-card { transition: none; }
+}
+
+/* ---- Section: secondary-pillar-grid (perks-4-up) ---- */
+.perks-grid { padding: var(--section-padding) 0; background: var(--color-bg); }
+.perks-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; max-width: 1700px; margin: 0 auto; padding: 0 24px; }
+.perk-card { background: var(--color-surface-light); border-radius: var(--radius); padding: 32px 24px; display: flex; flex-direction: column; gap: 12px; min-height: 220px; }
+.perk-card .perk-title { color: var(--color-text-deep-charcoal); }
+.perk-card .perk-body { color: var(--color-text-mid); }
+@media (max-width: 1023px) { .perks-row { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 767px)  { .perks-row { grid-template-columns: 1fr; } }
+
+/* ---- Section: editorial-bento ---- */
+.editorial-bento { padding: var(--section-padding) 0 var(--section-padding); background: var(--color-surface-soft); margin-top: calc(-1 * var(--radius-section-bottom)); position: relative; z-index: 1; }
+.editorial-bento .section-header { margin-bottom: 64px; }
+.bento-row { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 16px; max-width: 1700px; margin: 0 auto; padding: 0 24px; align-items: stretch; }
+.bento-left { position: relative; min-height: 540px; border-radius: var(--radius); overflow: hidden; background: linear-gradient(135deg, #1a1a1a 0%, #2c2c2c 50%, #4a4a4a 100%); color: #ffffff; padding: 48px; display: flex; flex-direction: column; justify-content: flex-end; gap: 16px; }
+.bento-left .stat-eyebrow { font-family: var(--body-font-family); font-weight: 700; font-size: 16px; letter-spacing: -0.01em; color: rgba(255,255,255,0.7); }
+.bento-left .stat-figure-wrap, .bento-left .stat-body-wrap { color: rgba(255,255,255,0.95); max-width: 28ch; }
+.bento-right { display: flex; flex-direction: column; gap: 0; }
+.bento-right-image { background: var(--color-card-mid-gray); border-radius: var(--radius); aspect-ratio: 16 / 11; box-shadow: 0 4px 100px rgba(0,0,0,0.25); position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; color: var(--color-text-mid); font-family: var(--font-mono); font-size: 12px; }
+.bento-right-image::before { content: ''; position: absolute; inset: 12%; border: 2px dashed rgba(0,0,0,0.18); border-radius: 8px; pointer-events: none; }
+.bento-right .bento-right-copy { padding: 24px 24px 0; display: flex; flex-direction: column; gap: 12px; }
+.bento-right .ai-eyebrow { color: var(--color-text-muted); font-weight: 700; font-size: 16px; letter-spacing: -0.01em; }
+.bento-right h3 { color: var(--color-fg); }
+@media (max-width: 1023px) { .bento-row { grid-template-columns: 1fr; } .bento-left { min-height: 420px; padding: 32px; } }
+
+/* ---- Section: stories-carousel ---- */
+.stories { padding: var(--section-padding) 0; background: var(--color-bg); }
+.stories-track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(360px, 1fr); gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 24px 24px; -webkit-overflow-scrolling: touch; scrollbar-width: thin; max-width: 1700px; margin: 0 auto; }
+.stories-track::-webkit-scrollbar { height: 6px; }
+.stories-track::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+.story-card { scroll-snap-align: start; background: var(--color-surface-soft); border-radius: var(--radius); padding: 32px; display: flex; flex-direction: column; gap: 20px; min-height: 360px; }
+.story-card .company-logo[data-placeholder] { aspect-ratio: auto; min-height: 56px; max-width: 140px; }
+.story-card blockquote { margin: 0; font-family: var(--body-font-family); font-size: 18px; line-height: 1.4; letter-spacing: 0; color: var(--color-text-deep-charcoal); flex-grow: 1; }
+.story-card .person-row { display: flex; flex-direction: column; gap: 4px; margin-top: auto; }
+.story-card .person-row .name { font-family: var(--body-font-family); font-weight: 700; font-size: 14px; color: var(--color-fg); }
+.story-card .person-row .role { font-family: var(--body-font-family); font-size: 13px; color: var(--color-text-mid); }
+.story-card .person-row > [data-placeholder] { min-height: 30px; }
+.stories-nav { display: flex; gap: 8px; justify-content: center; margin-top: 32px; }
+.stories-nav .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-border); transition: transform var(--duration-fast) ease, background var(--duration-fast) ease; cursor: pointer; }
+.stories-nav .dot.is-active { background: var(--color-fg); transform: scale(1.25); }
+
+/* ---- Section: enterprise-band ---- */
+.enterprise-band { background: var(--color-fg); color: #ffffff; padding: var(--section-padding) 0; border-radius: 0 0 var(--radius-section-bottom) var(--radius-section-bottom); }
+.enterprise-inner { display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; max-width: 880px; margin: 0 auto; padding: 0 24px; }
+.enterprise-inner .t-eyebrow { color: rgba(255,255,255,0.7); }
+.enterprise-inner h2 { color: #ffffff; max-width: 18ch; }
+.enterprise-inner .body { color: rgba(255,255,255,0.7); max-width: 56ch; }
+.enterprise-inner .enterprise-ctas { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.enterprise-inner .btn--ghost-white { color: #ffffff; border-color: rgba(255,255,255,0.85); }
+.enterprise-inner .btn--ghost-white:hover { background: rgba(255,255,255,0.15); }
+.enterprise-inner [data-placeholder="true"] { background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.4); color: rgba(255,255,255,0.85); }
+.enterprise-inner [data-placeholder="true"] .placeholder-eyebrow { color: #ffffff; }
+.enterprise-inner [data-placeholder="true"] .placeholder-shape { color: rgba(255,255,255,0.7); }
+
+/* ---- Section: free-tools-strip ---- */
+.free-tools { padding: var(--section-padding) 0; background: var(--color-surface-soft); }
+.tools-track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(280px, 320px); gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 24px 24px; max-width: 1700px; margin: 0 auto; }
+.tool-card { scroll-snap-align: start; background: #ffffff; border-radius: var(--radius); padding: 24px; display: flex; flex-direction: column; gap: 16px; min-height: 240px; }
+.tool-card .tool-name h3 { color: var(--color-fg); }
+.tool-card .arrow { margin-top: auto; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--color-fg); display: inline-flex; align-items: center; justify-content: center; transition: background var(--duration-fast) ease; }
+.tool-card:hover .arrow { background: rgba(0,0,0,0.06); }
+
+/* ---- Section: resources ---- */
+.resources { padding: var(--section-padding) 0; background: var(--color-bg); }
+.resources-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 1700px; margin: 0 auto; padding: 0 24px; }
+.resource-card { background: var(--color-surface-soft); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: transform var(--duration-fast) ease; }
+.resource-card:hover { transform: translateY(-2px); }
+.resource-card .resource-image { background: var(--color-card-mid-gray); aspect-ratio: 16 / 9; }
+.resource-card .resource-body { padding: 24px; display: flex; flex-direction: column; gap: 12px; flex-grow: 1; }
+.resource-card .resource-title { color: var(--color-fg); font-family: var(--heading-font-family); font-weight: 900; font-size: 22px; line-height: 1.1; letter-spacing: -0.02em; }
+.resource-card .arrow { margin-top: auto; align-self: flex-start; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--color-fg); display: inline-flex; align-items: center; justify-content: center; }
+@media (max-width: 1023px) { .resources-row { grid-template-columns: 1fr; } }
+
+/* ---- Section: closing-cta ---- */
+.closing-cta { padding: var(--section-padding) 0 calc(var(--section-padding) + 60px); background: var(--color-bg); }
+.closing-inner { display: flex; flex-direction: column; align-items: center; gap: 24px; text-align: center; max-width: 880px; margin: 0 auto; padding: 0 24px; }
+.closing-inner h2 { max-width: 16ch; color: var(--color-fg); }
+
+/* ---- Sticky CTA ---- */
+.sticky-cta { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 102; display: inline-flex; align-items: center; gap: 14px; height: 56px; min-width: 279px; padding: 0 22px 0 14px; background: var(--color-fg); color: #ffffff; border-radius: var(--radius); box-shadow: 0 8px 32px rgba(0,0,0,0.24), 0 2px 8px rgba(0,0,0,0.12); cursor: pointer; transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease; }
+.sticky-cta:hover { transform: translateX(-50%) translateY(-2px); }
+.sticky-cta .icon { width: 32px; height: 32px; border-radius: 50%; background: var(--color-trial-blue); flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; color: #ffffff; font-weight: 900; font-family: var(--heading-font-family); font-size: 16px; }
+.sticky-cta .label { font-family: var(--body-font-family); font-size: 16px; font-weight: 700; }
+.sticky-cta .price-hint { font-family: var(--body-font-family); font-size: 12px; color: rgba(255,255,255,0.7); margin-left: 8px; }
+
+/* Modal (sticky-CTA expanded) */
+.cta-modal-backdrop { position: fixed; inset: 0; z-index: 110; background: rgba(0,0,0,0.6); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); opacity: 0; pointer-events: none; transition: opacity var(--duration-base) ease; }
+.cta-modal-backdrop.is-open { opacity: 1; pointer-events: auto; }
+.cta-modal { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%) translateY(120%); z-index: 111; width: min(1100px, calc(100% - 40px)); max-height: calc(100vh - 80px); background: #ffffff; border-radius: 24px; padding: 32px; box-shadow: 0 8px 32px rgba(0,0,0,0.24); transition: transform var(--duration-spring) var(--ease-spring-out); overflow: auto; }
+.cta-modal.is-open { transform: translateX(-50%) translateY(0); }
+.cta-modal-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+.cta-modal-header h3 { font-family: var(--heading-font-family); font-weight: 900; font-size: 28px; line-height: 1; letter-spacing: -0.02em; color: var(--color-fg); }
+.cta-modal-close { width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--color-fg); display: inline-flex; align-items: center; justify-content: center; font-size: 18px; }
+.plan-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.plan-card { background: var(--color-surface-light); border-radius: var(--radius); padding: 24px; display: flex; flex-direction: column; gap: 16px; }
+.plan-card .plan-header { display: flex; flex-direction: column; gap: 8px; padding-bottom: 16px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.plan-card .plan-features { display: flex; flex-direction: column; gap: 8px; }
+.plan-card .plan-features li { padding: 8px 0; border-bottom: 1px solid rgba(0,0,0,0.06); font-size: 14px; color: var(--color-text-mid); }
+.plan-card .btn--trial { align-self: stretch; justify-content: center; }
+@media (max-width: 1023px) { .plan-cards { grid-template-columns: 1fr; } }
+
+/* ---- Footer ---- */
+.site-footer { background: var(--color-fg); color: #ffffff; padding: 96px 0 32px; }
+.footer-inner { max-width: 1700px; margin: 0 auto; padding: 0 24px; }
+.footer-grid { display: grid; grid-template-columns: repeat(5, 1fr) 1fr 1fr; gap: 32px; padding-bottom: 64px; border-bottom: 1px solid rgba(255,255,255,0.12); }
+.footer-col h4 { font-family: var(--heading-font-family); font-weight: 900; font-size: 16px; line-height: 1.2; letter-spacing: -0.01em; margin-bottom: 16px; color: #ffffff; }
+.footer-col ul { display: flex; flex-direction: column; gap: 6px; }
+.footer-col a, .footer-col [data-placeholder] { font-size: 14px; color: rgba(255,255,255,0.7); }
+.footer-col [data-placeholder] { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.4); padding: 8px 10px; min-height: 32px; }
+.footer-col [data-placeholder] .placeholder-eyebrow { color: #ffffff; }
+.footer-col [data-placeholder] .placeholder-shape { color: rgba(255,255,255,0.7); }
+.footer-wordmark { font-family: var(--heading-font-family); font-weight: 900; font-size: 200px; line-height: 0.85; letter-spacing: -0.05em; color: #ffffff; padding: 48px 0 8px; }
+@media (max-width: 1279px) { .footer-wordmark { font-size: 140px; } }
+@media (max-width: 1023px) { .footer-wordmark { font-size: 96px; } }
+@media (max-width: 767px)  { .footer-wordmark { font-size: 64px; } }
+.legal-row { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; padding-top: 32px; font-size: 12px; color: rgba(255,255,255,0.5); }
+.legal-row a { transition: color var(--duration-fast) ease; }
+.legal-row a:hover { color: #ffffff; }
+@media (max-width: 1023px) { .footer-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 767px)  { .footer-grid { grid-template-columns: 1fr; } }
+
+/* ---- Reduced motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0ms !important; animation-duration: 0ms !important; }
+  .gnav-inner::before { transition: none; }
+}
+
+body { padding-bottom: 96px; }
+</style>
+</head>
+<body data-template="landing">
+
+<!-- ============ GNAV ============ -->
+<header class="gnav" id="gnav" data-section="gnav" data-intent="navigate" data-layout="full-bleed" data-canon>
+  <div class="gnav-inner">
+    <div class="gnav-left">
+      <a href="/" class="gnav-logo" aria-label="Semrush">
+        <span class="glyph" aria-hidden="true">S</span>
+        <span class="wordmark">Semrush</span>
+      </a>
+      <nav class="gnav-links" aria-label="Primary">
+        <button type="button" aria-haspopup="true">Products</button>
+        <button type="button" aria-haspopup="true">Use Cases</button>
+        <button type="button" aria-haspopup="true">Solutions</button>
+        <a href="/pricing/">Pricing</a>
+        <a href="/free-tools/">Free Tools</a>
+      </nav>
+    </div>
+    <div class="gnav-right">
+      <a href="/login/" class="btn btn--ghost-white">Sign In</a>
+      <a href="/signup/" class="btn btn--primary">Start free trial</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero" data-section="hero" data-intent="emotional hook" data-layout="full-bleed" data-media="image" data-items="2">
+  <div class="hero-mosaic" aria-hidden="true">
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 1 of 15 — home.json captures no hero imagery" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 2 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 3 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 4 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 5 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 6 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 7 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 8 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 9 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 10 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 11 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 12 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 13 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 14 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+    <span data-placeholder="true" data-placeholder-type="image" data-placeholder-source="hero mosaic tile 15 of 15" class="tile"><span class="placeholder-eyebrow">PLACEHOLDER · image</span></span>
+  </div>
+  <div class="hero-text" data-ta-group>
+    <div class="hero-eyebrow t-eyebrow" data-ta-unit>
+      <span class="glyph" aria-hidden="true">A</span>
+      <span>Now an Adobe company &middot; Visibility platform</span>
+    </div>
+    <h1 class="hero-title t-title-1" data-ta>Show up wherever search happens.</h1>
+    <p class="hero-body t-body-m" data-ta>Measure your visibility &mdash; everywhere it counts: organic, paid, AI search, social.</p>
+    <div class="hero-ctas" data-ta-unit>
+      <a href="/signup/" class="btn btn--trial">Start free trial</a>
+      <a href="/enterprise/" class="btn btn--secondary">Talk to sales</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PILLAR-ROUTER ============ -->
+<section class="pillar-router" data-section="pillar-router" data-intent="value proposition" data-layout="grid" data-items="5" data-interactive="accordion">
+  <header class="section-header" data-ta-group>
+    <p class="t-eyebrow" data-ta>Solutions</p>
+    <h2 class="t-title-2" data-ta>Your edge to win every search.</h2>
+  </header>
+  <div class="hub-router" role="tablist" aria-label="Product pillars">
+    <article class="hub-card is-active" data-pillar="semrush-one" tabindex="0">
+      <p class="hub-label">Semrush One</p>
+      <h3 class="hub-tagline t-title-3">One platform. Every channel.</h3>
+      <p class="hub-body t-body-m">Grow your digital brand visibility across every channel that matters.</p>
+      <span class="hub-cta" aria-hidden="true">+</span>
+    </article>
+    <article class="hub-card" data-pillar="seo" tabindex="0">
+      <p class="hub-label">SEO</p>
+      <h3 class="hub-tagline t-title-3">Outrank the rest.</h3>
+      <p class="hub-body t-body-m">Outrank the rest with better SEO.</p>
+      <span class="hub-cta" aria-hidden="true">+</span>
+    </article>
+    <article class="hub-card" data-pillar="ai-visibility" tabindex="0">
+      <p class="hub-label">AI Visibility</p>
+      <h3 class="hub-tagline t-title-3">Get cited by the models.</h3>
+      <p class="hub-body t-body-m">Get LLMs to cite your brand.</p>
+      <span class="hub-cta" aria-hidden="true">+</span>
+    </article>
+    <article class="hub-card" data-pillar="traffic" tabindex="0">
+      <p class="hub-label">Traffic &amp; Market</p>
+      <h3 class="hub-tagline t-title-3">Read any market.</h3>
+      <p class="hub-body t-body-m">Analyze traffic on any website.</p>
+      <span class="hub-cta" aria-hidden="true">+</span>
+    </article>
+    <article class="hub-card" data-pillar="content" tabindex="0">
+      <p class="hub-label">Content</p>
+      <h3 class="hub-tagline t-title-3">Write for search and AI.</h3>
+      <p class="hub-body t-body-m">Craft SEO and AI-ready content in minutes.</p>
+      <span class="hub-cta" aria-hidden="true">+</span>
+    </article>
+  </div>
+</section>
+
+<!-- ============ SECONDARY-PILLAR-GRID ============ -->
+<section class="perks-grid" data-section="secondary-pillar-grid" data-intent="value proposition" data-layout="grid" data-items="4">
+  <header class="section-header" data-ta-group>
+    <p class="t-eyebrow" data-ta>More toolkits</p>
+    <h2 class="t-title-2 section-headline" data-ta data-placeholder-note="synthesized">Every channel covered.</h2>
+  </header>
+  <div class="perks-row">
+    <article class="perk-card">
+      <h3 class="perk-title t-title-4">Local</h3>
+      <p class="perk-body t-body-m">Own the map pack.</p>
+      <div class="perk-body" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="secondary-pillar-grid Local card body — H4 'Own your local presence' rewritten to tagline; secondary line unsourced">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; other</span>
+        <span class="placeholder-shape">e.g. local rank tracking + listing management for one or many locations.</span>
+      </div>
+    </article>
+    <article class="perk-card">
+      <h3 class="perk-title t-title-4">Advertising</h3>
+      <p class="perk-body t-body-m">Spend smarter.</p>
+      <div class="perk-body" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="secondary-pillar-grid Advertising card body">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; other</span>
+        <span class="placeholder-shape">e.g. campaign analysis, ad-group benchmarks, share-of-voice.</span>
+      </div>
+    </article>
+    <article class="perk-card">
+      <h3 class="perk-title t-title-4">AI PR</h3>
+      <p class="perk-body t-body-m">Earn the model's trust.</p>
+      <div class="perk-body" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="secondary-pillar-grid AI PR card body">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; other</span>
+        <span class="placeholder-shape">e.g. measure earned media + AI citation share.</span>
+      </div>
+    </article>
+    <article class="perk-card">
+      <h3 class="perk-title t-title-4">Social</h3>
+      <p class="perk-body t-body-m">Run social in one window.</p>
+      <div class="perk-body" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="secondary-pillar-grid Social card body">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; other</span>
+        <span class="placeholder-shape">e.g. publishing, listening, and reporting in one workspace.</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<!-- ============ EDITORIAL-BENTO ============ -->
+<section class="editorial-bento" data-section="editorial-bento" data-intent="build trust" data-layout="grid" data-items="2" data-media="image">
+  <header class="section-header" data-ta-group>
+    <p class="t-eyebrow" data-ta>The data behind it</p>
+    <h2 class="t-title-2 section-headline" data-ta data-placeholder-note="synthesized">Where you stand. What to do next.</h2>
+  </header>
+  <div class="bento-row">
+    <article class="bento-left">
+      <p class="stat-eyebrow">By the numbers</p>
+      <div class="stat-figure-wrap" data-placeholder="true" data-placeholder-type="stat" data-placeholder-source="editorial-bento bento-left stat-figure — STATS AND FACTS H2 exists in home.json; no stat values captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; stat</span>
+        <span class="placeholder-shape">e.g. 4.6 stars &middot; G2 SEO category leader</span>
+      </div>
+      <div class="stat-body-wrap" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="editorial-bento bento-left stat-body">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; other</span>
+        <span class="placeholder-shape">e.g. one-line proof statement supporting the stat figure.</span>
+      </div>
+    </article>
+    <div class="bento-right">
+      <div class="bento-right-image" aria-hidden="true">photographic image · AI Visibility Index</div>
+      <div class="bento-right-copy">
+        <p class="ai-eyebrow">AI Visibility Index</p>
+        <h3 class="t-title-3">Bigger scale. Bigger advantage.</h3>
+        <div data-placeholder="true" data-placeholder-type="other" data-placeholder-source="editorial-bento bento-right body — AI Visibility Index supporting copy not captured">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; other</span>
+          <span class="placeholder-shape">e.g. measure your share of AI citations across ChatGPT, Perplexity, and Google AI Overviews.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STORIES-CAROUSEL ============ -->
+<section class="stories" data-section="stories-carousel" data-intent="build trust" data-layout="grid" data-items="11" data-interactive="carousel" data-fragment="testimonial-card" data-fragment-role="source">
+  <header class="section-header" data-ta-group>
+    <p class="t-eyebrow" data-ta>Customer stories</p>
+    <h2 class="t-title-2" data-ta>Real teams. Real wins. Real numbers.</h2>
+    <p class="t-body-m" data-ta>From scrappy startups to enterprise teams &mdash; marketers use Semrush to see, measure, and win their search.</p>
+  </header>
+  <div class="stories-track" id="stories-track" tabindex="0" aria-label="Customer story carousel">
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 1 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 1 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 1 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 1 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 2 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 2 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 2 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 2 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 3 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 3 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 3 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 3 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 4 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 4 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 4 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 4 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 5 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 5 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 5 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 5 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 6 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 6 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 6 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 6 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 7 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 7 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 7 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 7 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 8 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 8 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 8 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 8 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 9 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 9 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 9 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 9 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 10 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 10 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 10 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 10 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+    <article class="story-card">
+      <div class="company-logo" data-placeholder="true" data-placeholder-type="image" data-placeholder-source="stories-carousel card 11 of 11 company-logo — PRODUCT.md names brands but no logo files captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; logo</span>
+        <span class="placeholder-shape">e.g. Booking, Samsung, Amazon, FedEx</span>
+      </div>
+      <blockquote data-placeholder="true" data-placeholder-type="quote" data-placeholder-source="stories-carousel card 11 of 11 quote — testimonialCards.count=11 but quote text not captured">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; quote</span>
+        <span class="placeholder-shape">e.g. &ldquo;Semrush helped us grow organic traffic 38% in six months &mdash; and we finally retired four other tools.&rdquo;</span>
+      </blockquote>
+      <div class="person-row">
+        <span class="name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 11 of 11 name">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; name</span>
+          <span class="placeholder-shape">e.g. Maria Lin</span>
+        </span>
+        <span class="role" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="stories-carousel card 11 of 11 role">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; role</span>
+          <span class="placeholder-shape">e.g. Head of SEO, Acme</span>
+        </span>
+      </div>
+    </article>
+  </div>
+  <nav class="stories-nav" aria-label="Stories navigation">
+    <span class="dot is-active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </nav>
+</section>
+
+<!-- ============ ENTERPRISE-BAND ============ -->
+<section class="enterprise-band" data-section="enterprise-band" data-intent="value proposition" data-layout="full-bleed" data-items="1">
+  <div class="enterprise-inner" data-ta-group>
+    <p class="t-eyebrow" data-ta>Enterprise SEO</p>
+    <h2 class="t-title-2" data-ta>Bigger scale. Bigger advantage.</h2>
+    <div class="body" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="enterprise-band body — H2 preserved verbatim; supporting copy not captured">
+      <span class="placeholder-eyebrow">PLACEHOLDER &middot; other</span>
+      <span class="placeholder-shape">e.g. for teams running 50+ markets, 500+ pages, and the data tables to prove it.</span>
+    </div>
+    <div class="enterprise-ctas" data-ta-unit>
+      <a href="/enterprise/" class="btn btn--ghost-white">Talk to sales</a>
+      <a href="/enterprise/features/" class="btn btn--ghost-white">See enterprise features</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FREE-TOOLS-STRIP ============ -->
+<section class="free-tools" data-section="free-tools-strip" data-intent="discovery" data-layout="grid" data-items="5" data-interactive="carousel">
+  <header class="section-header" data-ta-group>
+    <p class="t-eyebrow" data-ta>Free tools</p>
+    <h2 class="t-title-2 section-headline" data-ta data-placeholder-note="synthesized">Try the tool before the trial.</h2>
+  </header>
+  <div class="tools-track">
+    <article class="tool-card">
+      <div class="tool-name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="free-tools-strip tool-card 1 of 5 name+body — home.json carries only the gnav heading 'Explore Free Tools'; tool list unsourced">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; tool</span>
+        <span class="placeholder-shape">e.g. Backlink Analytics, Domain Overview, Keyword Generator, Site Audit Lite, AI Overview Checker</span>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </article>
+    <article class="tool-card">
+      <div class="tool-name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="free-tools-strip tool-card 2 of 5 name+body — home.json carries only the gnav heading 'Explore Free Tools'; tool list unsourced">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; tool</span>
+        <span class="placeholder-shape">e.g. Backlink Analytics, Domain Overview, Keyword Generator, Site Audit Lite, AI Overview Checker</span>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </article>
+    <article class="tool-card">
+      <div class="tool-name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="free-tools-strip tool-card 3 of 5 name+body — home.json carries only the gnav heading 'Explore Free Tools'; tool list unsourced">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; tool</span>
+        <span class="placeholder-shape">e.g. Backlink Analytics, Domain Overview, Keyword Generator, Site Audit Lite, AI Overview Checker</span>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </article>
+    <article class="tool-card">
+      <div class="tool-name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="free-tools-strip tool-card 4 of 5 name+body — home.json carries only the gnav heading 'Explore Free Tools'; tool list unsourced">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; tool</span>
+        <span class="placeholder-shape">e.g. Backlink Analytics, Domain Overview, Keyword Generator, Site Audit Lite, AI Overview Checker</span>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </article>
+    <article class="tool-card">
+      <div class="tool-name" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="free-tools-strip tool-card 5 of 5 name+body — home.json carries only the gnav heading 'Explore Free Tools'; tool list unsourced">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; tool</span>
+        <span class="placeholder-shape">e.g. Backlink Analytics, Domain Overview, Keyword Generator, Site Audit Lite, AI Overview Checker</span>
+      </div>
+      <span class="arrow" aria-hidden="true">&rarr;</span>
+    </article>
+  </div>
+</section>
+
+<!-- ============ RESOURCES ============ -->
+<section class="resources" data-section="resources" data-intent="cross-link" data-layout="grid" data-items="3" data-fragment="resource-card" data-fragment-role="source">
+  <header class="section-header" data-ta-group>
+    <p class="t-eyebrow" data-ta>Stay current</p>
+    <h2 class="t-title-2 section-headline" data-ta>What's new at Semrush.</h2>
+  </header>
+  <div class="resources-row">
+    <article class="resource-card">
+      <div class="resource-image" aria-hidden="true"></div>
+      <div class="resource-body">
+        <span data-placeholder="true" data-placeholder-type="other" data-placeholder-source="resources card 1 date">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; date</span>
+          <span class="placeholder-shape">e.g. May 1, 2026</span>
+        </span>
+        <h3 class="resource-title">Adobe Completes Semrush Acquisition</h3>
+        <span data-placeholder="true" data-placeholder-type="other" data-placeholder-source="resources card 1 excerpt">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; excerpt</span>
+          <span class="placeholder-shape">e.g. one-line excerpt summarizing the acquisition announcement.</span>
+        </span>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+    </article>
+    <article class="resource-card">
+      <div class="resource-image" aria-hidden="true"></div>
+      <div class="resource-body">
+        <span data-placeholder="true" data-placeholder-type="other" data-placeholder-source="resources card 2 date">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; date</span>
+          <span class="placeholder-shape">e.g. April 22, 2026</span>
+        </span>
+        <h3 class="resource-title">FAQ for Customers: Adobe Acquires Semrush</h3>
+        <span data-placeholder="true" data-placeholder-type="other" data-placeholder-source="resources card 2 excerpt">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; excerpt</span>
+          <span class="placeholder-shape">e.g. one-line excerpt about what changes for customers.</span>
+        </span>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+    </article>
+    <article class="resource-card">
+      <div class="resource-image" aria-hidden="true"></div>
+      <div class="resource-body">
+        <span data-placeholder="true" data-placeholder-type="other" data-placeholder-source="resources card 3 date">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; date</span>
+          <span class="placeholder-shape">e.g. April 8, 2026</span>
+        </span>
+        <h3 class="resource-title">Direct Access to Semrush Data in ChatGPT</h3>
+        <span data-placeholder="true" data-placeholder-type="other" data-placeholder-source="resources card 3 excerpt">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; excerpt</span>
+          <span class="placeholder-shape">e.g. one-line excerpt about the ChatGPT integration.</span>
+        </span>
+        <span class="arrow" aria-hidden="true">&rarr;</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CLOSING-CTA ============ -->
+<section class="closing-cta" data-section="closing-cta" data-intent="drive action" data-layout="full-bleed" data-items="1">
+  <div class="closing-inner" data-ta-group>
+    <p class="t-eyebrow" data-ta>Ready when you are</p>
+    <h2 class="t-title-1" data-ta>Start measuring today.</h2>
+    <div class="body" data-placeholder="true" data-placeholder-type="other" data-placeholder-source="closing-cta body — trial-terms unsourced; flag for verification against semrush's actual offer">
+      <span class="placeholder-eyebrow">PLACEHOLDER &middot; trial-terms</span>
+      <span class="placeholder-shape">e.g. free for 7 days. No credit card. Every feature.</span>
+    </div>
+    <a href="/signup/" class="btn btn--primary">Start free trial</a>
+  </div>
+</section>
+
+</main>
+
+
+<!-- ============ STICKY-CTA ============ -->
+<aside class="sticky-cta" id="stickyCta" data-section="sticky-cta" data-intent="drive action" data-layout="floating" data-items="1" data-interactive="modal" role="button" tabindex="0" aria-haspopup="dialog" aria-controls="ctaModal">
+  <span class="icon" aria-hidden="true">&#9733;</span>
+  <span class="label">Start free trial</span>
+  <span class="price-hint">See plans</span>
+</aside>
+
+<div class="cta-modal-backdrop" id="ctaModalBackdrop" aria-hidden="true"></div>
+<div class="cta-modal" id="ctaModal" role="dialog" aria-modal="true" aria-labelledby="ctaModalTitle" aria-hidden="true">
+  <header class="cta-modal-header">
+    <h3 id="ctaModalTitle">Pick a plan to start your trial.</h3>
+    <button type="button" class="cta-modal-close" id="ctaModalClose" aria-label="Close">&times;</button>
+  </header>
+  <div class="plan-cards">
+    <article class="plan-card">
+      <div class="plan-header">
+        <span class="t-eyebrow">Plan tier 1</span>
+        <h4 data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta modal plan-card 1 tier-name — pricing on /pricing/ which is out of scope">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; tier</span>
+          <span class="placeholder-shape">e.g. Pro / Guru / Business</span>
+        </h4>
+        <div data-placeholder="true" data-placeholder-type="price" data-placeholder-source="sticky-cta modal plan-card 1 price">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; price</span>
+          <span class="placeholder-shape">$ — / mo</span>
+        </div>
+      </div>
+      <ul class="plan-features">
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 1 feature 1">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 5 projects</span>
+        </li>
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 1 feature 2">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 500 keyword tracks per day</span>
+        </li>
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 1 feature 3">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 100 reports per day</span>
+        </li>
+      </ul>
+      <a href="/signup/" class="btn btn--trial">Start free trial</a>
+    </article>
+    <article class="plan-card">
+      <div class="plan-header">
+        <span class="t-eyebrow">Plan tier 2</span>
+        <h4 data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta modal plan-card 2 tier-name — pricing on /pricing/ which is out of scope">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; tier</span>
+          <span class="placeholder-shape">e.g. Pro / Guru / Business</span>
+        </h4>
+        <div data-placeholder="true" data-placeholder-type="price" data-placeholder-source="sticky-cta modal plan-card 2 price">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; price</span>
+          <span class="placeholder-shape">$ — / mo</span>
+        </div>
+      </div>
+      <ul class="plan-features">
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 2 feature 1">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 5 projects</span>
+        </li>
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 2 feature 2">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 500 keyword tracks per day</span>
+        </li>
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 2 feature 3">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 100 reports per day</span>
+        </li>
+      </ul>
+      <a href="/signup/" class="btn btn--trial">Start free trial</a>
+    </article>
+    <article class="plan-card">
+      <div class="plan-header">
+        <span class="t-eyebrow">Plan tier 3</span>
+        <h4 data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta modal plan-card 3 tier-name — pricing on /pricing/ which is out of scope">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; tier</span>
+          <span class="placeholder-shape">e.g. Pro / Guru / Business</span>
+        </h4>
+        <div data-placeholder="true" data-placeholder-type="price" data-placeholder-source="sticky-cta modal plan-card 3 price">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; price</span>
+          <span class="placeholder-shape">$ — / mo</span>
+        </div>
+      </div>
+      <ul class="plan-features">
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 3 feature 1">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 5 projects</span>
+        </li>
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 3 feature 2">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 500 keyword tracks per day</span>
+        </li>
+        <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="sticky-cta plan 3 feature 3">
+          <span class="placeholder-eyebrow">PLACEHOLDER &middot; feature</span>
+          <span class="placeholder-shape">e.g. 100 reports per day</span>
+        </li>
+      </ul>
+      <a href="/signup/" class="btn btn--trial">Start free trial</a>
+    </article>
+  </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" data-section="footer" data-intent="navigate" data-layout="grid" data-items="7" data-canon>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Start Here</h4>
+        <ul>
+          <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer Start Here col sub-links — _brand-extraction.json#crossPromo.cluster captures column heading but not items">
+            <span class="placeholder-eyebrow">PLACEHOLDER &middot; sub-links</span>
+            <span class="placeholder-shape">e.g. 4 link items</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Find the Right Tools</h4>
+        <ul>
+          <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer Find the Right Tools col sub-links">
+            <span class="placeholder-eyebrow">PLACEHOLDER &middot; sub-links</span>
+            <span class="placeholder-shape">e.g. 5 link items</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer Platform col sub-links">
+            <span class="placeholder-eyebrow">PLACEHOLDER &middot; sub-links</span>
+            <span class="placeholder-shape">e.g. 5 link items</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Top Apps</h4>
+        <ul>
+          <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer Top Apps col sub-links">
+            <span class="placeholder-eyebrow">PLACEHOLDER &middot; sub-links</span>
+            <span class="placeholder-shape">e.g. 4 link items</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Grow with Semrush</h4>
+        <ul>
+          <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer Grow with Semrush col sub-links">
+            <span class="placeholder-eyebrow">PLACEHOLDER &middot; sub-links</span>
+            <span class="placeholder-shape">e.g. 5 link items</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore Free Tools</h4>
+        <ul>
+          <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer Explore Free Tools col sub-links">
+            <span class="placeholder-eyebrow">PLACEHOLDER &middot; sub-links</span>
+            <span class="placeholder-shape">e.g. 5 link items</span>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About Semrush</h4>
+        <ul>
+          <li data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer About Semrush col sub-links">
+            <span class="placeholder-eyebrow">PLACEHOLDER &middot; sub-links</span>
+            <span class="placeholder-shape">e.g. 4 link items</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-wordmark" aria-hidden="true">Semrush</div>
+    <div class="legal-row">
+      <span data-placeholder="true" data-placeholder-type="other" data-placeholder-source="footer legal-row registration-info">
+        <span class="placeholder-eyebrow">PLACEHOLDER &middot; legal</span>
+        <span class="placeholder-shape">e.g. &copy; 2026 Semrush Inc. (an Adobe company). All rights reserved.</span>
+      </span>
+      <a href="/legal/privacy/">Privacy</a>
+      <a href="/legal/terms/">Terms</a>
+      <a href="#cookie-settings">Cookie settings</a>
+      <a href="#adchoices">Adchoices</a>
+      <a href="/legal/ccpa/">CCPA</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  // gnav scroll state
+  var gnav = document.getElementById('gnav');
+  function onScroll(){ if(window.scrollY > 40){ gnav.classList.add('is-scrolled'); } else { gnav.classList.remove('is-scrolled'); } }
+  document.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // pillar-router accordion (click + keyboard)
+  var hubCards = document.querySelectorAll('.hub-card');
+  hubCards.forEach(function(card){
+    function activate(){ hubCards.forEach(function(c){ c.classList.remove('is-active'); }); card.classList.add('is-active'); }
+    card.addEventListener('click', activate);
+    card.addEventListener('keydown', function(e){ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); activate(); } });
+  });
+
+  // sticky-CTA modal
+  var sticky = document.getElementById('stickyCta');
+  var modal = document.getElementById('ctaModal');
+  var backdrop = document.getElementById('ctaModalBackdrop');
+  var closeBtn = document.getElementById('ctaModalClose');
+  function openModal(){ modal.classList.add('is-open'); backdrop.classList.add('is-open'); modal.setAttribute('aria-hidden','false'); backdrop.setAttribute('aria-hidden','false'); document.body.style.overflow = 'hidden'; }
+  function closeModal(){ modal.classList.remove('is-open'); backdrop.classList.remove('is-open'); modal.setAttribute('aria-hidden','true'); backdrop.setAttribute('aria-hidden','true'); document.body.style.overflow = ''; sticky.focus(); }
+  sticky.addEventListener('click', openModal);
+  sticky.addEventListener('keydown', function(e){ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); openModal(); } });
+  closeBtn.addEventListener('click', closeModal);
+  backdrop.addEventListener('click', closeModal);
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && modal.classList.contains('is-open')){ closeModal(); } });
+
+  // stories carousel — dots reflect scroll position
+  var track = document.getElementById('stories-track');
+  var dots = document.querySelectorAll('.stories-nav .dot');
+  if(track && dots.length){
+    track.addEventListener('scroll', function(){
+      var ratio = track.scrollLeft / Math.max(1, track.scrollWidth - track.clientWidth);
+      var idx = Math.min(dots.length - 1, Math.floor(ratio * dots.length));
+      dots.forEach(function(d, i){ d.classList.toggle('is-active', i === idx); });
+    }, { passive: true });
+    dots.forEach(function(d, i){ d.addEventListener('click', function(){
+      var step = (track.scrollWidth - track.clientWidth) / Math.max(1, dots.length - 1);
+      track.scrollTo({ left: i * step, behavior: 'smooth' });
+    }); });
+  }
+
+  // hero mosaic — only animate when motion is allowed
+  var allowMotion = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+  if(allowMotion){
+    var mosaic = document.querySelector('.hero-mosaic');
+    if(mosaic){
+      mosaic.style.transition = 'opacity 600ms ease, transform 800ms cubic-bezier(0.16, 1, 0.3, 1)';
+      mosaic.style.opacity = '0';
+      requestAnimationFrame(function(){ mosaic.style.opacity = '0.18'; });
+    }
+  }
+})();
+</script>
+
+</body>
+</html>

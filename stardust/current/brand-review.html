@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Semrush · Current state</title>
+<style>
+:root {
+  --primary:        #008ff8;
+  --primary-dark:   #0064ae;
+  --accent:         #89ff75;
+  --secondary:      #dceeeb;
+  --text:           #181e15;
+  --text-muted:     #333333;
+  --surface:        #ffffff;
+  --surface-alt:    #dceeeb;
+  --border:         #171a22;
+  --display:        "Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --body:           "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; background: var(--surface); color: var(--text); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+nav.top {
+  position: sticky; top: 0; z-index: 99;
+  background: var(--primary-dark); color: #fff;
+  padding: 14px 32px;
+  display: flex; flex-wrap: wrap; gap: 18px; align-items: center;
+  font-family: var(--display);
+  font-size: 12px; text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+nav.top strong { font-weight: 700; margin-right: 32px; }
+nav.top a { color: rgba(255,255,255,0.8); text-decoration: none; padding: 6px 12px; border-radius: 150px; transition: background 200ms ease; }
+nav.top a:hover { background: rgba(255,255,255,0.18); color: #fff; }
+main { max-width: 1280px; margin: 0 auto; padding: 64px 32px; }
+section { padding: 56px 0; border-top: 1px solid var(--border); }
+section:first-of-type { border-top: 0; padding-top: 24px; }
+h1, h2, h3, h4 { font-family: var(--display); color: var(--text); text-transform: uppercase; margin-top: 0; letter-spacing: -0.01em; }
+h1 { font-size: 56px; line-height: 1.05; margin-bottom: 12px; letter-spacing: -0.02em;  }
+h2 { font-size: 32px; margin-bottom: 24px; }
+h3 { font-size: 22px; margin-bottom: 12px; }
+h4 { font-size: 16px; margin-top: 24px; margin-bottom: 12px; }
+p { margin-top: 0; }
+code { font-family: ui-monospace, "SFMono-Regular", Menlo, monospace; font-size: 13px; background: var(--surface-alt); padding: 2px 6px; border-radius: 4px; color: var(--text); }
+.badge { display: inline-block; padding: 4px 10px; border-radius: 150px; background: var(--primary); color: #fff; font-family: var(--display); text-transform: uppercase; font-size: 11px; letter-spacing: 1px; }
+.badge-warn { background: var(--accent); color: var(--text); }
+.tag { display: inline-block; padding: 2px 8px; border-radius: 4px; background: rgba(0,143,248,0.1); color: var(--primary); font-family: ui-monospace, monospace; font-size: 11px; }
+.muted { color: var(--text-muted); }
+.small { font-size: 12px; }
+.pill { display: inline-block; padding: 6px 14px; border-radius: 150px; background: var(--primary); color: #fff; font-size: 13px; font-weight: 500;  }
+
+/* masthead */
+.masthead { padding: 64px 0 24px; }
+.hero-line { font-family: var(--display); font-size: 36px; font-weight: 600; margin: 0 0 16px; color: var(--accent); line-height: 1.1; letter-spacing: -0.02em; }
+.tagline { font-size: 18px; color: var(--text-muted); max-width: 720px; }
+.origin { font-family: ui-monospace, monospace; font-size: 13px; color: var(--text-muted); margin-top: 8px; }
+
+/* coverage */
+.stats-row { display: flex; flex-wrap: wrap; gap: 16px; margin: 16px 0; }
+.stat-box { flex: 1 1 220px; background: var(--surface-alt); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; }
+.stat-num { font-family: var(--display); font-size: 32px; font-weight: 600; color: var(--primary-dark); line-height: 1; }
+.stat-label { font-size: 13px; color: var(--text-muted); margin-top: 4px;  }
+
+/* pages thumbnails */
+.thumbs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; }
+.thumb { margin: 0; border: 1px solid var(--border); border-radius: 16px; overflow: hidden; background: var(--surface); }
+.thumb img { display: block; width: 100%; height: 200px; object-fit: cover; object-position: top; }
+.thumb figcaption { padding: 12px 16px; }
+.thumb-title { font-family: var(--display); font-weight: 600; font-size: 14px; line-height: 1.3; margin-bottom: 4px; }
+.thumb code { font-size: 11px; background: transparent; padding: 0; color: var(--text-muted); }
+
+/* palette */
+.swatch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+.swatch { border: 1px solid var(--border); border-radius: 16px; overflow: hidden; background: var(--surface); }
+.chip { padding: 32px 16px; font-family: var(--display); text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 1px; }
+.swatch-meta { padding: 16px; }
+.swatch-meta code { background: transparent; padding: 0; }
+.chips-row { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0; }
+.chip-mini { display: inline-block; padding: 2px 8px; border-radius: 8px; background: var(--surface-alt); font-size: 11px; color: var(--text-muted);  }
+
+/* typography */
+.spec-row { padding: 16px 0; border-bottom: 1px solid var(--border); }
+.spec-row:last-child { border-bottom: 0; }
+.spec-meta { font-size: 11px; color: var(--text-muted); display: block; margin-bottom: 8px; background: transparent; padding: 0; }
+.spec { color: var(--text); }
+.body-spec { font-family: var(--body); font-size: 16px; line-height: 1.5; max-width: 65ch; }
+.audit-row { margin-top: 16px; }
+
+/* voice */
+.voice-grid { display: grid; gap: 16px; grid-template-columns: 1fr 1fr 1fr; }
+.voice-card { background: var(--surface-alt); border-radius: 16px; padding: 20px 24px; }
+.voice-label { font-family: var(--display); text-transform: uppercase; font-size: 11px; letter-spacing: 1px; color: var(--text-muted); margin-bottom: 8px; }
+.voice-text { font-size: 16px; line-height: 1.5; color: var(--text); }
+@media (max-width: 800px) { .voice-grid { grid-template-columns: 1fr; } }
+
+.cta-table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+.cta-table th { text-align: left; font-family: var(--display); text-transform: uppercase; font-size: 11px; letter-spacing: 1px; color: var(--text-muted); padding: 8px 0; border-bottom: 1px solid var(--border); }
+.cta-table td { padding: 12px 0; border-bottom: 1px solid var(--border); font-size: 14px; }
+
+.head-grid { display: grid; gap: 8px; grid-template-columns: 1fr 1fr; }
+@media (max-width: 700px) { .head-grid { grid-template-columns: 1fr; } }
+.head-row { display: flex; justify-content: space-between; gap: 12px; padding: 8px 12px; background: var(--surface-alt); border-radius: 8px; }
+.head-text { font-family: var(--display); font-weight: 500; }
+
+/* tensions */
+.tensions-grid { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; }
+@media (max-width: 720px) { .tensions-grid { grid-template-columns: 1fr; } }
+.tension { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 12px; padding: 16px 20px; }
+.tension-head { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+.tension h4 { margin: 0 0 8px; font-size: 16px; }
+.tension-body { font-size: 14px; line-height: 1.5; }
+.tension-body ul { margin: 8px 0 0; padding-left: 20px; }
+.tension-src { font-size: 11px; color: var(--text-muted); margin-top: 12px; }
+
+/* motifs */
+.motifs-row { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 16px; }
+.motif-card { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.motif-card code { background: transparent; padding: 0; }
+
+/* components */
+.comp-list { padding-left: 16px; line-height: 2; border-left: 3px solid var(--primary); margin: 12px 0; }
+
+/* cross-promo */
+.crosspromo-tag { display: inline-block; padding: 4px 12px; border-radius: 8px; background: var(--accent); color: var(--text); text-transform: uppercase; font-size: 11px; letter-spacing: 1px; margin-bottom: 16px; }
+.crosspromo-block { background: var(--primary-dark); border: 4px dashed var(--primary); padding: 32px; border-radius: 16px; }
+.crosspromo-block h3 { color: #fff; font-size: 28px; margin-bottom: 16px; }
+.crosspromo-tiles { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.crosspromo-tile { padding: 12px 16px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.9); border-radius: 8px; font-size: 14px; }
+
+/* syscomp */
+.syscomp-list { display: grid; gap: 12px; }
+.syscomp { background: var(--surface-alt); border-radius: 12px; padding: 14px 18px; }
+.syscomp header { margin-bottom: 6px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+/* logo */
+.logo-row { display: flex; gap: 32px; align-items: center; flex-wrap: wrap; }
+.logo-img { background: var(--surface-alt); padding: 24px; border-radius: 16px; }
+.logo-meta { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; font-size: 14px; }
+.logo-meta dt { font-family: var(--display); text-transform: uppercase; font-size: 11px; letter-spacing: 1px; color: var(--text-muted); }
+.logo-meta dd { margin: 0; }
+
+/* spacing */
+.space-row { display: flex; gap: 12px; align-items: end; margin: 16px 0; flex-wrap: wrap; }
+.space-bar { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.bar { width: 24px; background: var(--primary); border-radius: 4px 4px 0 0; }
+.radii-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px; }
+
+/* footer */
+footer.review-footer { margin-top: 64px; padding: 32px 0; border-top: 1px solid var(--border); font-size: 13px; color: var(--text-muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 12px; align-items: center; }
+
+/* print */
+@media print {
+  nav.top { display: none; }
+  section { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<nav class="top">
+  <strong>Semrush · Current state</strong>
+  <a href="#coverage">Coverage</a>
+  <a href="#pages">Pages</a>
+  <a href="#palette">Palette</a>
+  <a href="#typography">Type</a>
+  <a href="#voice">Voice</a>
+  <a href="#tensions">Tensions</a>
+  <a href="#motifs">Motifs</a>
+  <a href="#components">Components</a>
+  <a href="#crosspromo">Cross-promo</a>
+  <a href="#syscomp">System</a>
+  <a href="#logo">Logo</a>
+  <a href="#spacing">Spacing</a>
+</nav>
+
+<main>
+  <header class="masthead">
+    <h1>Semrush</h1>
+    <p class="hero-line">Be found everywhere search happens</p>
+    <p class="tagline">Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.</p>
+    <p class="origin">https://www.semrush.com</p>
+  </header>
+
+  <section id="coverage">
+    <h2>Coverage</h2>
+    <div class="stats-row">
+      <div class="stat-box"><div class="stat-num">5/5</div><div class="stat-label">Pages extracted</div></div>
+      <div class="stat-box"><div class="stat-num">medium</div><div class="stat-label">Wait mode · 9650ms avg</div></div>
+      <div class="stat-box"><div class="stat-num">8</div><div class="stat-label">Palette colors · 4 weights captured</div></div>
+    </div>
+    
+  </section>
+
+  <section id="pages">
+    <h2>Pages <span class="badge">cross-page</span></h2>
+    <div class="thumbs-grid">
+    <figure class="thumb">
+      <img src="assets/screenshots/company.png" alt="About us screenshot" loading="lazy" />
+      <figcaption>
+        <div class="thumb-title">About us</div>
+        <code>/company/</code>
+      </figcaption>
+    </figure>
+    <figure class="thumb">
+      <img src="assets/screenshots/features.png" alt="Features | Semrush screenshot" loading="lazy" />
+      <figcaption>
+        <div class="thumb-title">Features | Semrush</div>
+        <code>/features/</code>
+      </figcaption>
+    </figure>
+    <figure class="thumb">
+      <img src="assets/screenshots/features__keyword-magic-tool.png" alt="Perform keyword research and analysis with Keyword Magic Tool | Semrush screenshot" loading="lazy" />
+      <figcaption>
+        <div class="thumb-title">Perform keyword research and analysis with Keyword Magic Tool | Semrush</div>
+        <code>/features/keyword-magic-tool/</code>
+      </figcaption>
+    </figure>
+    <figure class="thumb">
+      <img src="assets/screenshots/home.png" alt="Semrush: Your Unfair Advantage for Growing Brand Visibility screenshot" loading="lazy" />
+      <figcaption>
+        <div class="thumb-title">Semrush: Your Unfair Advantage for Growing Brand Visibility</div>
+        <code>/</code>
+      </figcaption>
+    </figure>
+    <figure class="thumb">
+      <img src="assets/screenshots/pricing.png" alt="Plans &amp; Pricing screenshot" loading="lazy" />
+      <figcaption>
+        <div class="thumb-title">Plans &amp; Pricing</div>
+        <code>/pricing/</code>
+      </figcaption>
+    </figure></div>
+  </section>
+
+  <section id="palette">
+    <h2>Palette <span class="badge">cross-page</span></h2>
+    <div class="swatch-grid">
+    <div class="swatch">
+      <div class="chip" style="background:#ffffff; color:#181e15">background</div>
+      <div class="swatch-meta">
+        <code>#ffffff</code>
+        <div class="muted">103 uses</div>
+        <div class="chips-row"><span class="chip-mini">background</span><span class="chip-mini">text</span><span class="chip-mini">border</span></div>
+        <div class="muted small">on: company, features, features__keyword-magic-tool</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:#181e15; color:#fff">text-primary</div>
+      <div class="swatch-meta">
+        <code>#181e15</code>
+        <div class="muted">303 uses</div>
+        <div class="chips-row"><span class="chip-mini">text</span><span class="chip-mini">border</span><span class="chip-mini">background</span></div>
+        <div class="muted small">on: company, features, features__keyword-magic-tool</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:#008ff8; color:#fff">primary</div>
+      <div class="swatch-meta">
+        <code>#008ff8</code>
+        <div class="muted">2 uses</div>
+        <div class="chips-row"><span class="chip-mini">background</span></div>
+        <div class="muted small">on: pricing</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:#000000; color:#fff">surface</div>
+      <div class="swatch-meta">
+        <code>#000000</code>
+        <div class="muted">13 uses</div>
+        <div class="chips-row"><span class="chip-mini">background</span><span class="chip-mini">text</span><span class="chip-mini">border</span></div>
+        <div class="muted small">on: home, pricing</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:#dceeeb; color:#181e15">surface</div>
+      <div class="swatch-meta">
+        <code>#dceeeb</code>
+        <div class="muted">11 uses</div>
+        <div class="chips-row"><span class="chip-mini">background</span></div>
+        <div class="muted small">on: company, home</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:#171a22; color:#fff">border</div>
+      <div class="swatch-meta">
+        <code>#171a22</code>
+        <div class="muted">271 uses</div>
+        <div class="chips-row"><span class="chip-mini">text</span><span class="chip-mini">border</span></div>
+        <div class="muted small">on: features, features__keyword-magic-tool, pricing</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:#333333; color:#fff">accent-1</div>
+      <div class="swatch-meta">
+        <code>#333333</code>
+        <div class="muted">30 uses</div>
+        <div class="chips-row"><span class="chip-mini">text</span><span class="chip-mini">border</span></div>
+        <div class="muted small">on: company, features, features__keyword-magic-tool</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="chip" style="background:#575c66; color:#fff">accent-2</div>
+      <div class="swatch-meta">
+        <code>#575c66</code>
+        <div class="muted">26 uses</div>
+        <div class="chips-row"><span class="chip-mini">text</span><span class="chip-mini">border</span></div>
+        <div class="muted small">on: features</div>
+      </div>
+    </div></div>
+  </section>
+
+  <section id="typography">
+    <h2>Typography <span class="badge">cross-page</span></h2>
+    
+    
+    <div class="spec-row">
+      <code class="spec-meta">H1 · Lazzer 700 / 84px</code>
+      <div class="spec" style="font-family:"Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size:84px; font-weight:600; line-height:1.1; letter-spacing:-0.02em;">Be found everywhere search happens</div>
+    </div>
+    <div class="spec-row">
+      <code class="spec-meta">H2 · Lazzer 700 / 42px</code>
+      <div class="spec" style="font-family:"Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size:42px; font-weight:600; line-height:1.1; letter-spacing:-0.02em;">Be found everywhere search happens</div>
+    </div>
+    <div class="spec-row">
+      <code class="spec-meta">H3 · Lazzer 700 / 46px</code>
+      <div class="spec" style="font-family:"Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size:46px; font-weight:600; line-height:1.1; letter-spacing:-0.02em;">Be found everywhere search happens</div>
+    </div>
+    <div class="spec-row">
+      <code class="spec-meta">H4 · Lazzer 700 / 46px</code>
+      <div class="spec" style="font-family:"Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size:46px; font-weight:600; line-height:1.1; letter-spacing:-0.02em;">Be found everywhere search happens</div>
+    </div>
+    <div class="spec-row">
+      <code class="spec-meta">H5 · Lazzer 700 / 28px</code>
+      <div class="spec" style="font-family:"Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; font-size:28px; font-weight:600; line-height:1.1; letter-spacing:-0.02em;">Be found everywhere search happens</div>
+    </div>
+    <div class="spec-row">
+      <code class="spec-meta">Body · Inter 400 / 16px / 1.5</code>
+      <div class="spec body-spec">The leading platform to grow and measure brand visibility across virtually every digital channel. Enter your website US Get insights</div>
+    </div>
+    <div class="audit-row"><span class="badge badge-warn">No modular scale</span> <span class="muted">observed sizes (px): [ratios] 1.826, 1, 1.095, 1.5</span></div>
+  
+  </section>
+
+  <section id="voice">
+    <h2>Voice <span class="badge">home-only</span> <span class="tag">tone: professional-warm</span></h2>
+    
+    <div class="voice-grid">
+      <div class="voice-card">
+        <div class="voice-label">Hero headline</div>
+        <div class="voice-text" style="font-family:"Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;">Be found everywhere search happens</div>
+      </div>
+      <div class="voice-card">
+        <div class="voice-label">Tagline</div>
+        <div class="voice-text">Semrush is the leading platform to grow and measure brand visibility across AI search, SEO, PPC, social, and more.</div>
+      </div>
+      <div class="voice-card">
+        <div class="voice-label">First paragraph</div>
+        <div class="voice-text">The leading platform to grow and measure brand visibility across virtually every digital channel. Enter your website US Get insights</div>
+      </div>
+    </div>
+    <h4>CTA frequency (top 8)</h4>
+    
+    <table class="cta-table">
+      <thead><tr><th>Label</th><th>Total</th><th>Pages</th><th>Examples</th></tr></thead>
+      <tbody><tr><td><span class="pill">Expand</span></td><td>9</td><td>1</td><td><code>home</code></td></tr><tr><td><span class="pill">Skip to content</span></td><td>5</td><td>5</td><td><code>company</code> <code>features</code> <code>features__keyword-magic-tool</code></td></tr><tr><td><span class="pill">Products</span></td><td>5</td><td>5</td><td><code>company</code> <code>features</code> <code>features__keyword-magic-tool</code></td></tr><tr><td><span class="pill">Resources</span></td><td>5</td><td>5</td><td><code>company</code> <code>features</code> <code>features__keyword-magic-tool</code></td></tr><tr><td><span class="pill">Sign Up</span></td><td>5</td><td>5</td><td><code>company</code> <code>features</code> <code>features__keyword-magic-tool</code></td></tr><tr><td><span class="pill">Start free trial</span></td><td>5</td><td>5</td><td><code>company</code> <code>features</code> <code>features__keyword-magic-tool</code></td></tr><tr><td><span class="pill">English</span></td><td>5</td><td>5</td><td><code>company</code> <code>features</code> <code>features__keyword-magic-tool</code></td></tr><tr><td><span class="pill">Allow all cookies</span></td><td>5</td><td>5</td><td><code>company</code> <code>features</code> <code>features__keyword-magic-tool</code></td></tr></tbody>
+    </table>
+    <h4>Repeated headings (≥2 pages)</h4>
+    <div class="head-grid"><div class="head-row"><span class="head-text">Start Here</span><span class="muted small">H3 × 5 on 5p</span></div><div class="head-row"><span class="head-text">Find the Right Tools</span><span class="muted small">H3 × 5 on 5p</span></div><div class="head-row"><span class="head-text">Platform</span><span class="muted small">H3 × 5 on 5p</span></div><div class="head-row"><span class="head-text">Top Apps</span><span class="muted small">H3 × 5 on 5p</span></div><div class="head-row"><span class="head-text">Grow with Semrush</span><span class="muted small">H3 × 5 on 5p</span></div><div class="head-row"><span class="head-text">Explore Free Tools</span><span class="muted small">H3 × 5 on 5p</span></div><div class="head-row"><span class="head-text">About Semrush</span><span class="muted small">H3 × 5 on 5p</span></div><div class="head-row"><span class="head-text">GET STARTED WITH SEMRUSH TODAY</span><span class="muted small">H2 × 5 on 5p</span></div><div class="head-row"><span class="head-text">About cookies on this site</span><span class="muted small">H2 × 5 on 5p</span></div><div class="head-row"><span class="head-text">HOW WE HELP MARKETERS WIN</span><span class="muted small">H2 × 2 on 2p</span></div><div class="head-row"><span class="head-text">FAQ for Customers: Adobe Acquires Semrush</span><span class="muted small">H3 × 2 on 2p</span></div><div class="head-row"><span class="head-text">AI PR</span><span class="muted small">H3 × 2 on 2p</span></div></div>
+    <h4>Tone metrics</h4>
+    
+    <div class="stats-row">
+      <div class="stat-box"><div class="stat-num">27%</div><div class="stat-label">Uppercase headings</div></div>
+      <div class="stat-box"><div class="stat-num">134</div><div class="stat-label">Distinct headings</div></div>
+      <div class="stat-box"><div class="stat-num">40</div><div class="stat-label">Distinct CTA labels</div></div>
+    </div>
+  </section>
+
+  <section id="tensions">
+    <h2>Tensions <span class="badge">synthesized</span></h2>
+    <div class="tensions-grid">
+    <article class="tension">
+      <div class="tension-head"><code class="tag">T-scale</code> <span class="badge">observed</span></div>
+      <h4>Type scale is ad-hoc</h4>
+      <div class="tension-body">84 → 46 → 46 → 42 → 28, no consistent ratio. Direct will need to decide whether the target adopts a modular scale.</div>
+      <footer class="tension-src">Source: <code>_brand-extraction.json § type.scaleAudit</code></footer>
+    </article>
+    <article class="tension">
+      <div class="tension-head"><code class="tag">T-radius-vocab</code> <span class="badge">observed</span></div>
+      <h4>Multiple small radii in use</h4>
+      <div class="tension-body">Radius vocabulary is fragmented: 10px (×25), 6px (×18), 12px (×11). Direct will need to pick a single small-radius value or accept the variance.</div>
+      <footer class="tension-src">Source: <code>_brand-extraction.json § motifs.borderRadius.occurrences</code></footer>
+    </article>
+    <article class="tension">
+      <div class="tension-head"><code class="tag">T-logo-variants</code> <span class="badge">observed</span></div>
+      <h4>Single logo variant captured</h4>
+      <div class="tension-body">Only one logo variant captured (inline-svg). The redesign will need a monochrome / inverted / SVG variant set; direct should plan that.</div>
+      <footer class="tension-src">Source: <code>_brand-extraction.json § logo</code></footer>
+    </article>
+    <article class="tension">
+      <div class="tension-head"><code class="tag">T-color-imbalance</code> <span class="badge">observed</span></div>
+      <h4>Color used in one context only</h4>
+      <div class="tension-body">#008ff8 (primary) appears as background only. Direct will need to decide: drop, expand, or keep as accent.</div>
+      <footer class="tension-src">Source: <code>_brand-extraction.json § palette</code></footer>
+    </article>
+    <article class="tension">
+      <div class="tension-head"><code class="tag">T-color-imbalance</code> <span class="badge">observed</span></div>
+      <h4>Color used in one context only</h4>
+      <div class="tension-body">#dceeeb (surface) appears as background only. Direct will need to decide: drop, expand, or keep as accent.</div>
+      <footer class="tension-src">Source: <code>_brand-extraction.json § palette</code></footer>
+    </article>
+    <article class="tension">
+      <div class="tension-head"><code class="tag">T-img-alt-empty</code> <span class="badge">observed</span></div>
+      <h4>Empty alt text widespread</h4>
+      <div class="tension-body">52% of images carry empty alt text (51/98). Accessibility issue and a content-sourcing decision for direct.</div>
+      <footer class="tension-src">Source: <code>aggregated pages/*.json § media.images[].alt</code></footer>
+    </article></div>
+  </section>
+
+  <section id="motifs">
+    <h2>Motifs <span class="badge">cross-page</span></h2>
+    <div class="motifs-row">
+    <div class="motif-card">
+      <div class="motif-shape" style="border-radius:100px; width:80px; height:80px; background:#008ff8;"></div>
+      <code>100px</code>
+      <div class="muted small">× 35</div>
+    </div>
+    <div class="motif-card">
+      <div class="motif-shape" style="border-radius:10px; width:80px; height:80px; background:#008ff8;"></div>
+      <code>10px</code>
+      <div class="muted small">× 25</div>
+    </div>
+    <div class="motif-card">
+      <div class="motif-shape" style="border-radius:6px; width:80px; height:80px; background:#008ff8;"></div>
+      <code>6px</code>
+      <div class="muted small">× 18</div>
+    </div>
+    <div class="motif-card">
+      <div class="motif-shape" style="border-radius:12px; width:80px; height:80px; background:#008ff8;"></div>
+      <code>12px</code>
+      <div class="muted small">× 11</div>
+    </div>
+    <div class="motif-card">
+      <div class="motif-shape" style="border-radius:20px; width:80px; height:80px; background:#008ff8;"></div>
+      <code>20px</code>
+      <div class="muted small">× 7</div>
+    </div>
+    <div class="motif-card">
+      <div class="motif-shape" style="border-radius:5px; width:80px; height:80px; background:#008ff8;"></div>
+      <code>5px</code>
+      <div class="muted small">× 4</div>
+    </div>
+    <div class="motif-card">
+      <div style="width:80px; height:80px; background:#fff; border-radius:8px; box-shadow:rgba(137, 141, 154, 0.3) 5px 5px 25px 0px;"></div>
+      <code>buttons</code>
+    </div>
+    <div class="motif-card">
+      <div style="width:80px; height:80px; background:#fff; border-radius:8px; box-shadow:rgba(0, 0, 0, 0.05) 0px 2px 12px 0px;"></div>
+      <code>buttons</code>
+    </div>
+    <div class="motif-card">
+      <div style="width:80px; height:80px; background:#fff; border-radius:8px; box-shadow:rgba(0, 0, 0, 0.05) 0px 4px 15px 0px inset;"></div>
+      <code>buttons</code>
+    </div></div>
+  </section>
+
+  <section id="components">
+    <h2>Components <span class="badge">cross-page</span></h2>
+    <ul class="comp-list"><li><strong>cards</strong> <span class="muted">×114 across 4 pages</span></li><li><strong>grids</strong> <span class="muted">×65 across 1 page</span></li><li><strong>carousels</strong> <span class="muted">×48 across 2 pages</span></li><li><strong>statRow</strong> <span class="muted">×46 across 3 pages</span></li><li><strong>testimonialCards</strong> <span class="muted">×45 across 2 pages</span></li><li><strong>ctaBand</strong> <span class="muted">×10 across 1 page</span></li><li><strong>iframes</strong> <span class="muted">×9 across 5 pages</span></li><li><strong>breadcrumbs</strong> <span class="muted">×6 across 1 page</span></li><li><strong>modals</strong> <span class="muted">×5 across 5 pages</span></li><li><strong>videos</strong> <span class="muted">×3 across 1 page</span></li><li><strong>tables</strong> <span class="muted">×2 across 2 pages</span></li><li><strong>logoStrip</strong> <span class="muted">×2 across 1 page</span></li><li><strong>timeline</strong> <span class="muted">×2 across 1 page</span></li><li><strong>tabs</strong> <span class="muted">×1 across 1 page</span></li></ul><h4>Observed patterns</h4><ul class="comp-list"><li><strong>card-grid</strong> <span class="muted">company: 3 cards</span></li><li><strong>social-proof-logos</strong> <span class="muted">company: logo strip detected</span></li><li><strong>stat-row</strong> <span class="muted">company: 1 stats</span></li><li><strong>testimonial-grid</strong> <span class="muted">home: 11 testimonials</span></li></ul>
+  </section>
+
+  
+  <section id="crosspromo">
+    <h2>Cross-promo reproduction <span class="badge">cross-page</span></h2>
+    <div class="crosspromo-tag">Reproduction · approximate</div>
+    <div class="crosspromo-block">
+      <h3 style="font-family:"Lazzer", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; color:#ffffff;">Start Here</h3>
+      <div class="crosspromo-tiles">
+        <div class="crosspromo-tile">Find the Right Tools</div><div class="crosspromo-tile">Platform</div><div class="crosspromo-tile">Top Apps</div><div class="crosspromo-tile">Grow with Semrush</div><div class="crosspromo-tile">Explore Free Tools</div><div class="crosspromo-tile">About Semrush</div>
+      </div>
+      <div class="muted" style="color:rgba(255,255,255,0.7); margin-top:16px;">Repeated on 5 of 5 extracted pages</div>
+    </div>
+  </section>
+  
+  <section id="syscomp">
+    <h2>System components <span class="badge">cross-page</span></h2>
+    <div class="syscomp-list">
+      
+        <div class="syscomp">
+          <header><strong>bg-uJ5l5X7IjaYbWFbuITdd3I1l5Wa5xX</strong> <code class="tag">background-motif</code> <span class="muted">×5 pages</span></header>
+          
+          
+          <div class="muted small">bg: <code>uJ5l5X7IjaYbWFbuITdd3I1l5Wa5xXQjy6p1tptYVu1su1luYVm13ngdy4oNJ3b6+bdxGIZf9AyTQKv797YAAAAASUVORK5CYII=</code></div>
+        </div>
+    </div>
+  </section>
+  
+  <section id="logo">
+    <h2>Logo &amp; favicons</h2>
+    <div class="logo-row">
+      <div class="logo-img"><img src="assets/logo.svg" alt="Semrush logo" style="max-height:64px; max-width:280px;" /></div>
+      <dl class="logo-meta">
+        <dt>Source</dt><dd><code>inline-svg</code></dd>
+        <dt>File</dt><dd>svg · 150×36 (intrinsic)</dd>
+        <dt>Variants captured</dt><dd>1 (primary)</dd>
+        <dt>Variants not captured</dt><dd>monochrome / inverted</dd>
+        <dt>Notes</dt><dd class="muted">Logo encoded as base64 SVG inside CSS background-image of a.srf-header__logo. v1 locator chain (img/inline-svg DOM walk) misses this — extracted via targeted Playwright probe.</dd>
+      </dl>
+    </div>
+  </section>
+  
+  <section id="spacing">
+    <h2>Spacing &amp; shape <span class="badge">cross-page</span></h2>
+    <div class="muted">Base unit: 8px · Container: 1280px</div>
+    <div class="space-row"><div class="space-bar"><div class="bar" style="height:8px"></div><code>0px</code></div><div class="space-bar"><div class="bar" style="height:15.5px"></div><code>4px</code></div><div class="space-bar"><div class="bar" style="height:17.375px"></div><code>5px</code></div><div class="space-bar"><div class="bar" style="height:21.125px"></div><code>7px</code></div><div class="space-bar"><div class="bar" style="height:23px"></div><code>8px</code></div><div class="space-bar"><div class="bar" style="height:26.75px"></div><code>10px</code></div><div class="space-bar"><div class="bar" style="height:30.5px"></div><code>12px</code></div><div class="space-bar"><div class="bar" style="height:39.875px"></div><code>17px</code></div><div class="space-bar"><div class="bar" style="height:53px"></div><code>24px</code></div><div class="space-bar"><div class="bar" style="height:58.625px"></div><code>27px</code></div><div class="space-bar"><div class="bar" style="height:60.5px"></div><code>28px</code></div><div class="space-bar"><div class="bar" style="height:68px"></div><code>32px</code></div></div>
+    <h4>Radii revisited</h4>
+    <div class="radii-row"><span class="pill" style="border:1px solid #171a22; background:#ffffff; color:#181e15; border-radius:100px;">100px</span><span class="pill" style="border:1px solid #171a22; background:#ffffff; color:#181e15; border-radius:10px;">10px</span><span class="pill" style="border:1px solid #171a22; background:#ffffff; color:#181e15; border-radius:6px;">6px</span><span class="pill" style="border:1px solid #171a22; background:#ffffff; color:#181e15; border-radius:12px;">12px</span><span class="pill" style="border:1px solid #171a22; background:#ffffff; color:#181e15; border-radius:20px;">20px</span><span class="pill" style="border:1px solid #171a22; background:#ffffff; color:#181e15; border-radius:5px;">5px</span></div>
+  </section>
+
+  <footer class="review-footer">
+    <p>This review was generated by stardust:extract from <code>stardust/current/_brand-extraction.json</code>, <code>stardust/current/pages/*.json</code>, and <code>stardust/current/_crawl-log.json</code>. Render in semrush's own captured colors and fonts.</p>
+    <p><strong>What's next:</strong> open <code>stardust/current/brand-review.html</code>, verify the extraction is faithful, then run <code>/stardust:direct</code> to resolve a redesign direction.</p>
+    <div class="legend">
+      <span class="badge">observed</span> <span class="badge">home-only</span> <span class="badge">cross-page</span> <span class="badge">inferred</span> <span class="badge">synthesized</span>
+    </div>
+  </footer>
+</main>
+</body>
+</html>
