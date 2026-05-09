@@ -131,6 +131,37 @@ Surfaced when authoring `stardust/target/_brand-extraction.json`:
 - **`data-items` semantics ambiguous.** The format spec doesn't distinguish "cards" from "content units" — when a section is a 4-card grid where each card has 3 content slots, is `data-items=4` or `data-items=12`? Author guessed; should be defined.
 - **Token contract `--max-width` is dual-mapped.** Maps to both `DESIGN.json.frontmatter.layout.max-content-width` and `extensions.tokenContract.mapping['--max-width']` with potentially different values. Spec should say which is canonical.
 
+### G30. `impeccable:adapt` is reference-only, not executive — major delegation gap
+
+- **What we hit:** Tried to mobile-adapt v3 via `impeccable:impeccable adapt <path> <description>`. The skill's `reference/adapt.md` is a thorough checklist (mobile breakpoints, tap targets, content strategy, container queries) but **produces nothing on its own**. The agent ended up doing the entire adaptation manually — authoring ~150 lines of `@media (max-width: 1023px)` CSS, a `@media (max-width: 479px)` phone-refinement block, JS viewport-gates, a mobile-nav-overlay (HTML + CSS + JS), and a `_provenance.adaptations[]` schema from scratch.
+- **Why it's a gap:** The Skill-tool contract for `impeccable:impeccable <subcommand>` implies subcommands execute. `adapt` doesn't. There's no signal up-front that this is a strategy doc rather than a tool. Other iteration commands (`bolder`, `quieter`, `polish`, `colorize`, `typeset`, `delight`, etc. — see `prototype/SKILL.md` § Invoking impeccable) may or may not be the same; we won't know until each is invoked.
+- **Proposed fix:** Either (a) `impeccable:impeccable <subcommand>` should be load-bearing executive — invoke the strategy and produce a diff/edit; or (b) the skill should clearly mark each sub-command as `mode: executive | reference` so the parent agent knows whether to drive the work itself. Currently the asymmetry is silent and only surfaces post-invocation. The behavioral inconsistency between `craft` (executive — wrote the v1/v2/v3 HTML directly) and `adapt` (non-executive — agent did the work) is the load-bearing surprise.
+
+### G31. `adapt` reference says nothing about scroll-pinned timelines / GSAP gating
+
+- **What we hit:** `reference/adapt.md` covers responsive breakpoints, tap targets, container queries, content strategy. Says nothing about how to mobile-handle GSAP/ScrollTrigger timelines, scrub-driven animations, or scroll-pinned sections. v3 has 7 motion patterns; mobile-adapting them required deciding for each: gate at JS init (matchMedia)? CSS-only collapse? ScrollTrigger.matchMedia()? Both?
+- **Proposed fix:** Add `reference/adapt.md` § Motion adaptation:
+  - Default: gate scroll-pinned timelines at init via `window.matchMedia('(min-width: 1024px)').matches` or `ScrollTrigger.matchMedia()`.
+  - Stories-style horizontal scrub → native `scroll-snap-type: x mandatory + overflow-x: auto` on mobile.
+  - Heavy GPU effects (`backdrop-filter: blur > 24px`, `conic-gradient` rotations, `mix-blend-mode: screen` over blurred surfaces) — disable on mobile.
+  - Lenis smooth-scroll → desktop-only by default; conflicts with iOS momentum and scroll-snap.
+
+### G32. Prototype contract should require a mobile-nav, not just desktop mega-nav
+
+- **What we hit:** v1, v2, v3 all wired the desktop mega-nav (`designs/hub/styles/mega-nav.css`, `mega-nav.js`) but none wired the mobile-nav-overlay (`designs/hub/styles/mobile-nav.css`, `mobile-nav.js`) — even though the source DS ships both. v3 was "feature-complete on desktop, no mobile nav at all." The mobile adapt had to author one from scratch.
+- **Why it's a gap:** Stardust prototypes get reviewed on desktop first; mobile-nav is silently absent. Migrate-stage may not catch it because the brand-extraction's `systemComponents[]` lists `global-nav` as a single entity without distinguishing desktop and mobile variants.
+- **Proposed fix:** Either (a) prototype contract requires mobile-nav whenever the source DS has one — flag at Phase 1 shape brief if the source has both `mega-nav.css` and `mobile-nav.css`; or (b) `extensions.systemComponents[]` should split into `systemComponents.desktop[]` and `.mobile[]` with explicit linkage so prototype renders both. Recommend (b) — keeps the source-DS structure honest in DESIGN.json.
+
+### G33. Lenis-on-mobile is a footgun nobody documented
+
+- **What we hit:** v3 wired Lenis smooth-scroll globally. On mobile, Lenis hijacks RAF and conflicts with iOS rubber-band momentum AND with `scroll-snap-type` controlling the M3 horizontal carousel. Default-gating Lenis to desktop is correct, but `adapt`'s reference, DESIGN.md, DESIGN.json `extensions.vendorDependencies`, and the source DS HANDOFF.md (which warns about `ScrollSmoother`) all say nothing about Lenis-on-mobile.
+- **Proposed fix:** Add to DESIGN.json `extensions.vendorDependencies[lenis]`: `"defaultPlatforms": ["desktop"]`, `"omitOn": "mobile / touch / scroll-snap-driven sections"`, `"reason": "Hijacks RAF; competes with iOS momentum and scroll-snap"`. Same warning treatment as ScrollSmoother gets in DESIGN.md.
+
+### G34 (minor). Token-swap-by-breakpoint needs per-headline width hints
+
+- **What we hit:** v3's mobile Title 1 (40px) needed `max-width: 12ch` so the verbatim hero "Be found everywhere search happens" fits at 320px without overflow. DESIGN.md/DESIGN.json's `typography.title-1` declares fontSize/lineHeight/letterSpacing per breakpoint but not max-width-per-line-length. Adapt had to discover the right value empirically.
+- **Proposed fix:** Add `typography.<role>.lineLengthHints: { mobile: "12ch", tablet: "18ch", desktop: "24ch" }` for headline tokens. Adopt-mode prototypes can pre-compute width caps; manual adapt-mode runs don't have to discover them.
+
 ### G25. DESIGN.json gradient + blend-mode catalogs missing — major content-extraction gap
 
 - **What we hit:** v3 needed gradients for hero ground, headline fill, light-leak conic, multiply-tint photo overlay. The Adobe DS source (bizpro-hub.html, hub/styles/) ships at least 5 distinct gradient declarations and uses `mix-blend-mode` in 3 places. None of these surface in `DESIGN.json#extensions.motifs.gradients[]` (empty) or any `mixBlendModes[]` field (doesn't exist). The inverse-extract pass at stage 1b captured palette stops in `colorMeta` but not the gradient *recipes* (stops + angles + blend modes) that ARE the visual signature.
